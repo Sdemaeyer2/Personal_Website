@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tine on Sven De Maeyer</title>
+    <link>/authors/tine/</link>
+    <description>Recent content in Tine on Sven De Maeyer</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    
+	    <atom:link href="/authors/tine/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>/authors/tine-van-daal/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/tine-van-daal/</guid>
+      <description>&lt;p&gt;Tine van Daal is a phd-student, who focusses on the cognitive load of comparing pairs of students work in the context of Comparative Judgement.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

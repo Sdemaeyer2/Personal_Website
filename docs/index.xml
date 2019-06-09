@@ -1,0 +1,2438 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sven De Maeyer</title>
+    <link>/</link>
+    <description>Recent content on Sven De Maeyer</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Example Page 1</title>
+      <link>/courses/example/example1/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      
+      <guid>/courses/example/example1/</guid>
+      <description>
+
+&lt;p&gt;In this tutorial, I&amp;rsquo;ll share my top 10 tips for getting started with Academic:&lt;/p&gt;
+
+&lt;h2 id=&#34;tip-1&#34;&gt;Tip 1&lt;/h2&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+
+&lt;h2 id=&#34;tip-2&#34;&gt;Tip 2&lt;/h2&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Example Page 2</title>
+      <link>/courses/example/example2/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      
+      <guid>/courses/example/example2/</guid>
+      <description>
+
+&lt;p&gt;Here are some more tips for getting started with Academic:&lt;/p&gt;
+
+&lt;h2 id=&#34;tip-3&#34;&gt;Tip 3&lt;/h2&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+
+&lt;h2 id=&#34;tip-4&#34;&gt;Tip 4&lt;/h2&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Example Talk</title>
+      <link>/talk/example/</link>
+      <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
+      
+      <guid>/talk/example/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Academic&amp;rsquo;s &lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Further talk details can easily be added to this page using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Display Jupyter Notebooks with Academic</title>
+      <link>/post/jupyter/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/jupyter/</guid>
+      <description>
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from IPython.core.display import Image
+Image(&#39;https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png&#39;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;./academic_0_0.png&#34; alt=&#34;png&#34; /&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;print(&amp;quot;Welcome to Academic!&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;Welcome to Academic!
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;install-python-and-jupyter&#34;&gt;Install Python and Jupyter&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.anaconda.com/distribution/#download-section&#34; target=&#34;_blank&#34;&gt;Install Anaconda&lt;/a&gt; which includes Python 3 and Jupyter notebook.&lt;/p&gt;
+
+&lt;p&gt;Otherwise, for advanced users, install Jupyter notebook with &lt;code&gt;pip3 install jupyter&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;create-a-new-blog-post-as-usual-https-sourcethemes-com-academic-docs-managing-content-create-a-blog-post&#34;&gt;Create a new blog post &lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-a-blog-post&#34; target=&#34;_blank&#34;&gt;as usual&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;Run the following commands in your Terminal, substituting &lt;code&gt;&amp;lt;MY_WEBSITE_FOLDER&amp;gt;&lt;/code&gt; and &lt;code&gt;my-post&lt;/code&gt; with the file path to your Academic website folder and a name for your blog post (without spaces), respectively:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cd &amp;lt;MY_WEBSITE_FOLDER&amp;gt;
+hugo new  --kind post post/my-post
+cd &amp;lt;MY_WEBSITE_FOLDER&amp;gt;/content/post/my-post/
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;create-or-upload-a-jupyter-notebook&#34;&gt;Create or upload a Jupyter notebook&lt;/h2&gt;
+
+&lt;p&gt;Run the following command to start Jupyter within your new blog post folder. Then create a new Jupyter notebook (&lt;em&gt;New &amp;gt; Python Notebook&lt;/em&gt;) or upload a notebook.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;jupyter notebook
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;convert-notebook-to-markdown&#34;&gt;Convert notebook to Markdown&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;jupyter nbconvert Untitled.ipynb --to markdown --NbConvertApp.output_files_dir=.
+
+# Copy the contents of Untitled.md and append it to index.md:
+cat Untitled.md | tee -a index.md
+
+# Remove the temporary file:
+rm Untitled.md
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;edit-your-post-metadata&#34;&gt;Edit your post metadata&lt;/h2&gt;
+
+&lt;p&gt;Open &lt;code&gt;index.md&lt;/code&gt; in your text editor and edit the title etc. in the &lt;a href=&#34;https://sourcethemes.com/academic/docs/front-matter/&#34; target=&#34;_blank&#34;&gt;front matter&lt;/a&gt; according to your preference.&lt;/p&gt;
+
+&lt;p&gt;To set a &lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#featured-image&#34; target=&#34;_blank&#34;&gt;featured image&lt;/a&gt;, place an image named &lt;code&gt;featured&lt;/code&gt; into your post&amp;rsquo;s folder.&lt;/p&gt;
+
+&lt;p&gt;For other tips, such as using math, see the guide on &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;writing content with Academic&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Slides</title>
+      <link>/slides/example/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/slides/example/</guid>
+      <description>
+
+&lt;h1 id=&#34;welcome-to-slides&#34;&gt;Welcome to Slides&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://sourcethemes.com/academic/&#34; target=&#34;_blank&#34;&gt;Academic&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Efficiently write slides in Markdown&lt;/li&gt;
+&lt;li&gt;3-in-1: Create, Present, and Publish your slides&lt;/li&gt;
+&lt;li&gt;Supports speaker notes&lt;/li&gt;
+&lt;li&gt;Mobile friendly slides&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;controls&#34;&gt;Controls&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Next: &lt;code&gt;Right Arrow&lt;/code&gt; or &lt;code&gt;Space&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Previous: &lt;code&gt;Left Arrow&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Start: &lt;code&gt;Home&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Finish: &lt;code&gt;End&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Overview: &lt;code&gt;Esc&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Speaker notes: &lt;code&gt;S&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Fullscreen: &lt;code&gt;F&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Zoom: &lt;code&gt;Alt + Click&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/hakimel/reveal.js#pdf-export&#34; target=&#34;_blank&#34;&gt;PDF Export&lt;/a&gt;: &lt;code&gt;E&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;code-highlighting&#34;&gt;Code Highlighting&lt;/h2&gt;
+
+&lt;p&gt;Inline code: &lt;code&gt;variable&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Code block:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;porridge = &amp;quot;blueberry&amp;quot;
+if porridge == &amp;quot;blueberry&amp;quot;:
+    print(&amp;quot;Eating...&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;math&#34;&gt;Math&lt;/h2&gt;
+
+&lt;p&gt;In-line math: $x + y = z$&lt;/p&gt;
+
+&lt;p&gt;Block math:&lt;/p&gt;
+
+&lt;p&gt;$$
+f\left( x \right) = \;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\left( {x + 4} \right)\left( {x + 1} \right)}}
+$$&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;fragments&#34;&gt;Fragments&lt;/h2&gt;
+
+&lt;p&gt;Make content appear incrementally&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;{{% fragment %}} One {{% /fragment %}}
+{{% fragment %}} **Two** {{% /fragment %}}
+{{% fragment %}} Three {{% /fragment %}}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
+   One
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+   &lt;strong&gt;Two&lt;/strong&gt;
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+   Three
+&lt;/span&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;A fragment can accept two optional parameters:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;class&lt;/code&gt;: use a custom style (requires definition in custom CSS)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;weight&lt;/code&gt;: sets the order in which a fragment appears&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;speaker-notes&#34;&gt;Speaker Notes&lt;/h2&gt;
+
+&lt;p&gt;Add speaker notes to your presentation&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{% speaker_note %}}
+- Only the speaker can read these notes
+- Press `S` key to view
+{{% /speaker_note %}}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Press the &lt;code&gt;S&lt;/code&gt; key to view the speaker notes!&lt;/p&gt;
+
+&lt;aside class=&#34;notes&#34;&gt;
+  &lt;ul&gt;
+&lt;li&gt;Only the speaker can read these notes&lt;/li&gt;
+&lt;li&gt;Press &lt;code&gt;S&lt;/code&gt; key to view&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/aside&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;black: Black background, white text, blue links (default)&lt;/li&gt;
+&lt;li&gt;white: White background, black text, blue links&lt;/li&gt;
+&lt;li&gt;league: Gray background, white text, blue links&lt;/li&gt;
+&lt;li&gt;beige: Beige background, dark text, brown links&lt;/li&gt;
+&lt;li&gt;sky: Blue background, thin dark text, blue links&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;ul&gt;
+&lt;li&gt;night: Black background, thick white text, orange links&lt;/li&gt;
+&lt;li&gt;serif: Cappuccino background, gray text, brown links&lt;/li&gt;
+&lt;li&gt;simple: White background, black text, blue links&lt;/li&gt;
+&lt;li&gt;solarized: Cream-colored background, dark green text, blue links&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;/img/boards.jpg&#34;
+  &gt;
+
+
+&lt;h2 id=&#34;custom-slide&#34;&gt;Custom Slide&lt;/h2&gt;
+
+&lt;p&gt;Customize the slide style and background&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{&amp;lt; slide background-image=&amp;quot;/img/boards.jpg&amp;quot; &amp;gt;}}
+{{&amp;lt; slide background-color=&amp;quot;#0000FF&amp;quot; &amp;gt;}}
+{{&amp;lt; slide class=&amp;quot;my-style&amp;quot; &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;custom-css-example&#34;&gt;Custom CSS Example&lt;/h2&gt;
+
+&lt;p&gt;Let&amp;rsquo;s make headers navy colored.&lt;/p&gt;
+
+&lt;p&gt;Create &lt;code&gt;assets/css/reveal_custom.css&lt;/code&gt; with:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;.reveal section h1,
+.reveal section h2,
+.reveal section h3 {
+  color: navy;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://discourse.gohugo.io&#34; target=&#34;_blank&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/&#34; target=&#34;_blank&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A meta-analysis on the reliability of comparative judgement</title>
+      <link>/publication/moto-c-irua-159139-verh-on/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-159139-verh-on/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Measuring pre-service teachers&#39; professional vision of inclusive classrooms : a video-based comparative judgement instrument</title>
+      <link>/publication/moto-c-irua-157526-kepp-meas/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-157526-kepp-meas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Validity of comparative judgement to assess academic writing : examining implications of its holistic character and building on a shared consensus</title>
+      <link>/publication/moto-c-irua-137270-van-vali/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-137270-van-vali/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Privacy Policy</title>
+      <link>/privacy/</link>
+      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
+      
+      <guid>/privacy/</guid>
+      <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A longitudinal study of learning conceptions on the transition between primary and secondary education</title>
+      <link>/publication/moto-c-irua-143079-robb-long/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-143079-robb-long/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An information system design theory for the comparative judgement of competences</title>
+      <link>/publication/moto-c-irua-150892-coen-an/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-150892-coen-an/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Applying criteria to examples or learning by comparison : effects on students&#39; evaluative judgment and performance in writing</title>
+      <link>/publication/moto-c-irua-154294-bouw-appl/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-154294-bouw-appl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Een comparatieve aanpak voor peer assessment : leren door te vergelijken</title>
+      <link>/publication/moto-c-irua-149795-bouw-comp/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-149795-bouw-comp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>How are learning strategies reflected in the eyes? Combining results from self-reports and eye-tracking</title>
+      <link>/publication/moto-c-irua-145583-catr-how/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-145583-catr-how/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linked to professional development : designing a network intervention to strengthen informal networks in a formal program</title>
+      <link>/publication/moto-c-irua-152842-van-link/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-152842-van-link/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Oranges and apples? Using comparative judgement for reliable briefing paper assessment in simulation games</title>
+      <link>/publication/moto-c-irua-150533-sett-oran/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-150533-sett-oran/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scale separation reliability : what does it mean in the context of comparative judgment?</title>
+      <link>/publication/moto-c-irua-147854-verh-scal/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-147854-verh-scal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>School self-evaluation : self-perception or self-deception? The impact of motivation and socially desirable responding on self-evaluation results</title>
+      <link>/publication/moto-c-irua-155542-fadd-scho/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-155542-fadd-scho/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Strengthening networks : a social network intervention among higher education teachers</title>
+      <link>/publication/moto-c-irua-144545-van-stre/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-144545-van-stre/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Understanding the influence of teachers&#39; cognitive and affective responses upon school inspection feedback acceptance</title>
+      <link>/publication/moto-c-irua-155449-quin-unde/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-155449-quin-unde/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cartografie en analyse van het onthaalonderwijs voor anderstalige nieuwkomers en OKAN-leerlingen : het onthaalonderwijs voor anderstalige nieuwkomers en OKAN-leerlingen in kaart brengen en kritisch analyseren</title>
+      <link>/publication/moto-c-irua-151059-puli-cart/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-151059-puli-cart/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Competenties kwaliteitsvol beoordelen met D-PAC</title>
+      <link>/publication/moto-c-irua-142364-van-comp/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-142364-van-comp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Delphi study on standardized systems to monitor student learning outcomes in Flanders : mechanisms for building trust and/or control?</title>
+      <link>/publication/moto-c-irua-144109-penn-delp/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-144109-penn-delp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Feedback opportunities of comparative judgement : an overview of possible features and acceptance at different user levels</title>
+      <link>/publication/moto-c-irua-143290-van-feed/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-143290-van-feed/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Feedback opportunities of comparative judgement : an overview of possible features and acceptance at different user levels</title>
+      <link>/publication/moto-c-irua-152125-van-feed/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-152125-van-feed/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hoe percipieren universitaire docenten hun onderwijscontext? De inzetbaarheid van de PTE als meetinstrument</title>
+      <link>/publication/moto-c-irua-152119-stes-hoe/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-152119-stes-hoe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>In-school and out-of-school multimodal writing as an L2 writing resource for beginner learners of Dutch</title>
+      <link>/publication/moto-c-irua-143283-vand-and/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-143283-vand-and/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Instruments for school self-evaluation: lost in translation: a study on respondents&#39; cognitive processing</title>
+      <link>/publication/moto-c-irua-146909-fadd-inst/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-146909-fadd-inst/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>School self-evaluation instruments and cognitive validity: do items capture what they intend to?</title>
+      <link>/publication/moto-c-irua-146908-fadd-scho/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-146908-fadd-scho/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Teksten beoordelen met criterialijsten of via paarsgewijze vergelijking : een afweging van betrouwbaarheid en tijdsinvestering</title>
+      <link>/publication/moto-c-irua-152120-coer-teks/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-152120-coer-teks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The complexity of assessing student work using comparative judgment : the moderating role of decision accuracy</title>
+      <link>/publication/moto-c-irua-145102-van-comp/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-145102-van-comp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The growth trend in learning strategies during the transition from secondary to higher education in Flanders</title>
+      <link>/publication/moto-c-irua-139922-coer-grow/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-139922-coer-grow/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>To what degree does the missing-data technique influence the estimated growth in learning strategies over time? A tutorial example of sensitivity analysis for longitudinal data</title>
+      <link>/publication/moto-c-irua-145423-coer-to/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-145423-coer-to/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zicht op leerwinst : scenario&#39;s voor gestandaardiseerd toetsen</title>
+      <link>/publication/moto-c-irua-140755-penn-zich/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-140755-penn-zich/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Academic: the website builder for Hugo</title>
+      <link>/post/getting-started/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/post/getting-started/</guid>
+      <description>
+
+&lt;p&gt;&lt;strong&gt;Create a free website with Academic using Markdown, Jupyter, or RStudio. Choose a beautiful color theme and build anything with the Page Builder - over 40 &lt;em&gt;widgets&lt;/em&gt;, &lt;em&gt;themes&lt;/em&gt;, and &lt;em&gt;language packs&lt;/em&gt; included!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34;&gt;Check out the latest &lt;strong&gt;demo&lt;/strong&gt;&lt;/a&gt; of what you&amp;rsquo;ll get in less than 10 minutes, or &lt;a href=&#34;https://sourcethemes.com/academic/#expo&#34; target=&#34;_blank&#34;&gt;view the &lt;strong&gt;showcase&lt;/strong&gt;&lt;/a&gt; of personal, project, and business sites.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#install&#34;&gt;&lt;strong&gt;Setup Academic&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/get-started/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Get Started&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/&#34; target=&#34;_blank&#34;&gt;View the documentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://discuss.gohugo.io/&#34; target=&#34;_blank&#34;&gt;Ask a question&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/gcushen/hugo-academic/issues&#34; target=&#34;_blank&#34;&gt;Request a feature or report a bug&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Updating? View the &lt;a href=&#34;https://sourcethemes.com/academic/docs/update/&#34; target=&#34;_blank&#34;&gt;Update Guide&lt;/a&gt; and &lt;a href=&#34;https://sourcethemes.com/academic/updates/&#34; target=&#34;_blank&#34;&gt;Release Notes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Support development of Academic:
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://paypal.me/cushen&#34; target=&#34;_blank&#34;&gt;Donate a coffee&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.patreon.com/cushen&#34; target=&#34;_blank&#34;&gt;Become a backer on Patreon&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.redbubble.com/people/neutreno/works/34387919-academic&#34; target=&#34;_blank&#34;&gt;Decorate your laptop or journal with an Academic sticker&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://academic.threadless.com/&#34; target=&#34;_blank&#34;&gt;Wear the T-shirt&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/gcushen/hugo-academic/&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/gcushen/hugo-academic/master/academic.png&#34; alt=&#34;Screenshot&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Key features:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Page builder&lt;/strong&gt; - Create &lt;em&gt;anything&lt;/em&gt; with &lt;a href=&#34;https://sourcethemes.com/academic/docs/page-builder/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;widgets&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;elements&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Edit any type of content&lt;/strong&gt; - Blog posts, publications, talks, slides, projects, and more!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Create content&lt;/strong&gt; in &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Markdown&lt;/strong&gt;&lt;/a&gt;, &lt;a href=&#34;https://sourcethemes.com/academic/docs/jupyter/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Jupyter&lt;/strong&gt;&lt;/a&gt;, or &lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-rstudio&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;RStudio&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Plugin System&lt;/strong&gt; - Fully customizable &lt;a href=&#34;https://sourcethemes.com/academic/themes/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;color&lt;/strong&gt; and &lt;strong&gt;font themes&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Display Code and Math&lt;/strong&gt; - Code highlighting and &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34;&gt;LaTeX math&lt;/a&gt; supported&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Integrations&lt;/strong&gt; - &lt;a href=&#34;https://analytics.google.com&#34; target=&#34;_blank&#34;&gt;Google Analytics&lt;/a&gt;, &lt;a href=&#34;https://disqus.com&#34; target=&#34;_blank&#34;&gt;Disqus commenting&lt;/a&gt;, Maps, Contact Forms, and more!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beautiful Site&lt;/strong&gt; - Simple and refreshing one page design&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Industry-Leading SEO&lt;/strong&gt; - Help get your website found on search engines and social media&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Media Galleries&lt;/strong&gt; - Display your images and videos with captions in a customizable gallery&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mobile Friendly&lt;/strong&gt; - Look amazing on every screen with a mobile friendly version of your site&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multi-language&lt;/strong&gt; - 15+ language packs including English, 中文, and Português&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multi-user&lt;/strong&gt; - Each author gets their own profile page&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Privacy Pack&lt;/strong&gt; - Assists with GDPR&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Stand Out&lt;/strong&gt; - Bring your site to life with animation, parallax backgrounds, and scroll effects&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;One-Click Deployment&lt;/strong&gt; - No servers. No databases. Only files.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;color-themes&#34;&gt;Color Themes&lt;/h2&gt;
+
+&lt;p&gt;Academic comes with &lt;strong&gt;day (light) and night (dark) mode&lt;/strong&gt; built-in. Click the sun/moon icon in the top right of the &lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34;&gt;Demo&lt;/a&gt; to see it in action!&lt;/p&gt;
+
+&lt;p&gt;Choose a stunning color and font theme for your site. Themes are fully customizable and include:&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+&lt;div class=&#34;gallery&#34;&gt;
+
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/post/getting-started/gallery/theme-1950s.png&#34; data-caption=&#34;1950s&#34;&gt;
+  &lt;img src=&#34;/post/getting-started/gallery/theme-1950s_huaf5482f8cea0c5a703a328640e3b7509_21614_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/post/getting-started/gallery/theme-apogee.png&#34; data-caption=&#34;Apogee&#34;&gt;
+  &lt;img src=&#34;/post/getting-started/gallery/theme-apogee_hu4b45d99db97150df01464c393bfd17d4_24119_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/post/getting-started/gallery/theme-coffee-playfair.png&#34; data-caption=&#34;Coffee theme with Playfair font&#34;&gt;
+  &lt;img src=&#34;/post/getting-started/gallery/theme-coffee-playfair_hu446a8f670cc5622adcc77b97ba95f6c5_22462_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/post/getting-started/gallery/theme-cupcake.png&#34; data-caption=&#34;Cupcake&#34;&gt;
+  &lt;img src=&#34;/post/getting-started/gallery/theme-cupcake_hueba8cfa8cfbc7543924fcbf387a99e92_23986_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/post/getting-started/gallery/theme-dark.png&#34; data-caption=&#34;Dark&#34;&gt;
+  &lt;img src=&#34;/post/getting-started/gallery/theme-dark_hu1e8601ecc47f58eada7743fdcd709d3d_21456_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/post/getting-started/gallery/theme-default.png&#34; data-caption=&#34;Default&#34;&gt;
+  &lt;img src=&#34;/post/getting-started/gallery/theme-default_huba6228b7bdf30e2f03f12ea91b2cba0d_21751_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/post/getting-started/gallery/theme-forest.png&#34; data-caption=&#34;Forest&#34;&gt;
+  &lt;img src=&#34;/post/getting-started/gallery/theme-forest_hu4f093a1c683134431456584193ea41ee_21797_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/post/getting-started/gallery/theme-ocean.png&#34; data-caption=&#34;Ocean&#34;&gt;
+  &lt;img src=&#34;/post/getting-started/gallery/theme-ocean_hu14831ccafc2219f30a7a096fa7617e01_21760_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+
+  
+&lt;/div&gt;
+
+&lt;h2 id=&#34;ecosystem&#34;&gt;Ecosystem&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/sourcethemes/academic-admin&#34; target=&#34;_blank&#34;&gt;Academic Admin&lt;/a&gt;:&lt;/strong&gt; An admin tool to import publications from BibTeX or import assets for an offline site&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/sourcethemes/academic-scripts&#34; target=&#34;_blank&#34;&gt;Academic Scripts&lt;/a&gt;:&lt;/strong&gt; Scripts to help migrate content to new versions of Academic&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;install&#34;&gt;Install&lt;/h2&gt;
+
+&lt;p&gt;You can choose from one of the following four methods to install:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-web-browser&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;one-click install using your web browser (recommended)&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-git&#34; target=&#34;_blank&#34;&gt;install on your computer using &lt;strong&gt;Git&lt;/strong&gt; with the Command Prompt/Terminal app&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-zip&#34; target=&#34;_blank&#34;&gt;install on your computer by downloading the &lt;strong&gt;ZIP files&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-rstudio&#34; target=&#34;_blank&#34;&gt;install on your computer with &lt;strong&gt;RStudio&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Then &lt;a href=&#34;https://sourcethemes.com/academic/docs/get-started/&#34; target=&#34;_blank&#34;&gt;personalize and deploy your new site&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;updating&#34;&gt;Updating&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/update/&#34; target=&#34;_blank&#34;&gt;View the Update Guide&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Feel free to &lt;em&gt;star&lt;/em&gt; the project on &lt;a href=&#34;https://github.com/gcushen/hugo-academic/&#34; target=&#34;_blank&#34;&gt;Github&lt;/a&gt; to help keep track of &lt;a href=&#34;https://sourcethemes.com/academic/updates&#34; target=&#34;_blank&#34;&gt;updates&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+
+&lt;p&gt;Copyright 2016-present &lt;a href=&#34;https://georgecushen.com&#34; target=&#34;_blank&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Released under the &lt;a href=&#34;https://github.com/gcushen/hugo-academic/blob/master/LICENSE.md&#34; target=&#34;_blank&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A comparison of maternal and child language in normally hearing and children with cochlear implants</title>
+      <link>/publication/moto-c-irua-139046-vano-comp/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-139046-vano-comp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Comparative judgement as a promising alternative to score competences</title>
+      <link>/publication/moto-c-irua-134801-lest-comp/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-134801-lest-comp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>De impact van behoefteondersteuning op de studiemotivatie : een kwantitatief onderzoek bij twee opleidingsonderdelen in de opleiding ergotherapie</title>
+      <link>/publication/moto-c-irua-140140-vant-impa/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-140140-vant-impa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Effects and side effects of Flemish school inspection</title>
+      <link>/publication/moto-c-irua-129774-penn-effe/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-129774-penn-effe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Enquiry into the side effects of school inspection in a low-stakes inspection context</title>
+      <link>/publication/moto-c-irua-129775-penn-enqu/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-129775-penn-enqu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Evaluation of entrepreneurial competence through scaled behavioural indicators : validation of an instrument</title>
+      <link>/publication/moto-c-irua-136743-sche-eval/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-136743-sche-eval/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Explaining effects and side effects of school inspections : a path analysis</title>
+      <link>/publication/moto-c-irua-127631-penn-expl/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-127631-penn-expl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hearing impairment and vowel production : a comparison between normally hearing, hearing-aided and cochlear implanted Dutch Children</title>
+      <link>/publication/moto-c-irua-129626-verh-hear/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-129626-verh-hear/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Invloeden van leerconcepties op het doorstroompatroon van leerlingen in de eerste twee jaren van het voortgezet onderwijs</title>
+      <link>/publication/moto-c-irua-135526-robb-invl/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-135526-robb-invl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mapping processing strategies in learning from expository tekst : an exploratory eye tracking study followed by a cued recall</title>
+      <link>/publication/moto-c-irua-130710-catr-mapp/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-130710-catr-mapp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The quality of high school students&#39; problem solving from an expertise development perspective</title>
+      <link>/publication/moto-c-irua-133381-elvi-qual/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-133381-elvi-qual/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hello R Markdown</title>
+      <link>/post/2015-07-23-r-rmarkdown/</link>
+      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      
+      <guid>/post/2015-07-23-r-rmarkdown/</guid>
+      <description>
+
+
+&lt;div id=&#34;r-markdown&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;R Markdown&lt;/h1&gt;
+&lt;p&gt;This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see &lt;a href=&#34;http://rmarkdown.rstudio.com&#34; class=&#34;uri&#34;&gt;http://rmarkdown.rstudio.com&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You can embed an R code chunk like this:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;summary(cars)
+##      speed           dist       
+##  Min.   : 4.0   Min.   :  2.00  
+##  1st Qu.:12.0   1st Qu.: 26.00  
+##  Median :15.0   Median : 36.00  
+##  Mean   :15.4   Mean   : 42.98  
+##  3rd Qu.:19.0   3rd Qu.: 56.00  
+##  Max.   :25.0   Max.   :120.00
+fit &amp;lt;- lm(dist ~ speed, data = cars)
+fit
+## 
+## Call:
+## lm(formula = dist ~ speed, data = cars)
+## 
+## Coefficients:
+## (Intercept)        speed  
+##     -17.579        3.932&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;including-plots&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Including Plots&lt;/h1&gt;
+&lt;p&gt;You can also embed plots. See Figure &lt;a href=&#34;#fig:pie&#34;&gt;1&lt;/a&gt; for example:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;par(mar = c(0, 1, 0, 1))
+pie(
+  c(280, 60, 20),
+  c(&amp;#39;Sky&amp;#39;, &amp;#39;Sunny side of pyramid&amp;#39;, &amp;#39;Shady side of pyramid&amp;#39;),
+  col = c(&amp;#39;#0292D8&amp;#39;, &amp;#39;#F7EA39&amp;#39;, &amp;#39;#C4B632&amp;#39;),
+  init.angle = -50, border = NA
+)&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:pie&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png&#34; alt=&#34;A fancy pie chart.&#34; width=&#34;672&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 1: A fancy pie chart.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A longitudinal study on boys and girls career aspirations and interest in technology</title>
+      <link>/publication/moto-c-irua-126567-ardi-long/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-126567-ardi-long/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Accounting for complexity : structural equation modelling (SEM) in HRD research</title>
+      <link>/publication/moto-c-irua-126752-acco/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-126752-acco/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Comparative judgment within online assessment : exploring students feedback reactions</title>
+      <link>/publication/moto-c-irua-130157-mort-comp/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-130157-mort-comp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Competenties kwaliteitsvol beoordelen : brengt een comparatieve aanpak soelaas?</title>
+      <link>/publication/moto-c-irua-128392-lest-comp/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-128392-lest-comp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Het effect van schoolcultuur op het verloop van zelfevaluaties: een padmodel vanuit lerarenperspectief</title>
+      <link>/publication/moto-c-irua-126075-vanh-effe/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-126075-vanh-effe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Interaction patterns of mothers of children with different degrees of hearing : normally hearing children and congenitally hearing-impaired children with a cochlear implant</title>
+      <link>/publication/moto-c-irua-123675-vano-inte/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-123675-vano-inte/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Know-who? Linking facultys networks to stages of instructional development</title>
+      <link>/publication/moto-c-irua-124241-van-link/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-124241-van-link/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Methodological challenges in research on student learning</title>
+      <link>/publication/moto-c-irua-125645-donc-meth/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-125645-donc-meth/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Predictive validity of the learning conception questionnaire in primary education</title>
+      <link>/publication/moto-c-irua-129917-robb-pred/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-129917-robb-pred/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Students attitudes towards technology</title>
+      <link>/publication/moto-c-irua-123042-ardi-stud/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-123042-ardi-stud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Television series inside the EFL classroom : bridging the gap between teaching and learning informal language through subtitles</title>
+      <link>/publication/moto-c-irua-128850-dani-tele/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-128850-dani-tele/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The effect of classroom activities on students&#39; interest and career aspirations towards technology</title>
+      <link>/publication/moto-c-irua-129382-ardi-effe/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-129382-ardi-effe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/project/dpac-project/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/project/dpac-project/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.d-pac.be/english/&#34; target=&#34;_blank&#34;&gt;Project website&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The Digital Platform for the Assessment of Competences (D-Pac) is an innovative tool for assessing a wide range of competences, based on the method of Comparative Judgement. It can be used within a variety of contexts (e.g., for writing ability, self-reflection, and problem-solving) and for different purposes (e.g., for formative evaluation, peer assessment, research, selection, etc.).&lt;/p&gt;
+
+&lt;p&gt;Comparative Judgement  is based on Thurstone’s Law of Comparative Judgement. This law stipulates that people are better and more reliable in comparing two things than in assigning an absolute score to (only) one thing.&lt;/p&gt;
+
+&lt;p&gt;D-PAC was a four year IWT-SBO funded research project. Project partners were University of Antwerp,
+Ghent University and iMinds (now: imec). During this project, the merits of comparative judgement
+for the assessment of competencies were investigated. Research provided detailed insights into the
+reliability, validity and efficiency of the method. Moreover, feedback opportunities towards assessees
+and organisations were explored. In total, the award-winning D-PAC project will result in four doctoral
+dissertations.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/project/valies-project/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/project/valies-project/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;http://www.edo-valies.be/&#34; target=&#34;_blank&#34;&gt;Project website&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;We zetten binnen VALIES sterk in op onderzoek dat zal bijdragen aan het ontwikkelen van effectieve EDO praktijken in scholen. Daartoe hebben we vijf onderzoekslijnen. Elk van de vijf doctoraatstudenten stelt haar of zijn lijn hier kort voor.&lt;/p&gt;
+
+&lt;h3 id=&#34;lijn-1-het-grote-edo-doel-actiecompetentie&#34;&gt;Lijn 1 – Het grote EDO doel : actiecompetentie&lt;/h3&gt;
+
+&lt;p&gt;Onderzoekster : Wanda Sass&lt;/p&gt;
+
+&lt;p&gt;In deze onderzoekslijn wordt het begrip actiecompetentie verder onderzocht. We zien actiecompetentie als het geheel van drie onderdelen: (1) de wil om een actief engagement aan te gaan voor duurzaamheid, (2) kennis van (eigen) actiemogelijkheden, en (3) het vertrouwen in de eigen kunde om actie te ondernemen. Ik werk hiervoor een vernieuw conceptueel kader uit en ook diverse meetinstrumenten.&lt;/p&gt;
+
+&lt;h3 id=&#34;lijn-2-professionele-ontwikkeling-van-schoolteams&#34;&gt;Lijn 2 – Professionele ontwikkeling van schoolteams&lt;/h3&gt;
+
+&lt;p&gt;Onderzoekster : Kirsten Bonte&lt;/p&gt;
+
+&lt;p&gt;De onderzoekslijn brengt het EDO professionaliseringstraject van leerkrachten in kaart. We onderzoeken hoe de persoonlijke overtuigingen van leerkrachten m.b.t.  leergemeenschap van invloed zijn op hun leergedragingen. Ook gaan we na wat de effecten zijn van het professionaliseringstraject op de EDO competenties van leerkrachten en op het EDO materiaal dat ze ontwerpen om te gebruiken in de klas.&lt;/p&gt;
+
+&lt;h3 id=&#34;lijn-3-effecten-van-edo-op-leerlingen&#34;&gt;Lijn 3 – Effecten van EDO op leerlingen&lt;/h3&gt;
+
+&lt;p&gt;Onderzoekster : Eleni Sinakou&lt;/p&gt;
+
+&lt;p&gt;In deze onderzoekslijn verkennen we de effecten van het EDO professionaliseringstraject op leerkrachten en op leerlingen. Het traject heeft als doel om de leraren te ondersteunen in het opzetten van onderwijsarrangementen in het kader voor Educatie voor Duurzame Ontwikkeling. We bestuderen ook of en hoe deze praktijken bij kunnen dragen aan de actiecompetentie van leerlingen.&lt;/p&gt;
+
+&lt;h3 id=&#34;lijn-4-edo-schoolcultuur-en-beleid&#34;&gt;Lijn 4 – EDO schoolcultuur en –beleid&lt;/h3&gt;
+
+&lt;p&gt;Onderzoeker : Dries Verhelst&lt;/p&gt;
+
+&lt;p&gt;Geen twee scholen zijn dezelfde, en het binnenbrengen van innovaties (zoals Educatie voor Duurzame Ontwikkeling) in het onderwijs hangt sterk samen met de aard van de school. In deze onderzoekslijn bestuderen we de schoolcultuur en de schoolse beleidsvoering rond EDO. Ook de impact van cultuur en beleid op het al dan niet succesvol implementeren van EDO hoort daarbij.&lt;/p&gt;
+
+&lt;h3 id=&#34;lijn-5-edo-buiten-de-schoolmuren&#34;&gt;Lijn 5 – EDO buiten de schoolmuren&lt;/h3&gt;
+
+&lt;p&gt;Onderzoek(st)er : De aanwerving loopt 🙂&lt;/p&gt;
+
+&lt;p&gt;Kinderen brengen een belangrijk deel van hun tijd door op school. Ze brengen echter ook een belangrijk deel van hun tijd niet op school door. Deze onderzoekslijn wil vat krijgen op het samenspel tussen de thuissituatie en de schoolse context als het aankomt op de duurzaamheidsattitudes van leerlingen. Daarnaast verkennen we ook of en in welke mate EDO op school via de leerlingen kan doorsijpelen tot in het gezin.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Exploring and explaining the effects of being inspected</title>
+      <link>/publication/moto-c-irua-117862-penn-expl/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-117862-penn-expl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The effect of team feedback and guided reflexivity on team performance change</title>
+      <link>/publication/moto-c-irua-119002-gabe-effe/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-119002-gabe-effe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The impact of personality, goal orientation and self-efficacy on participation of high school teachers in learning activities in the workplace</title>
+      <link>/publication/moto-c-irua-108045-van-impa/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-108045-van-impa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Understanding differences in student learning and academic achievement in first year higher education : an integrated research perspective</title>
+      <link>/publication/moto-c-irua-109704-donc-unde/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-109704-donc-unde/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vowel pronunciation in open syllables in spontaneously spoken standard Dutch : exploring a phonological constraint in a listening task</title>
+      <link>/publication/moto-c-irua-118862-kloo-vowe/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-118862-kloo-vowe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Analysing change in learning strategies over time : a comparison of three statistical techniques</title>
+      <link>/publication/moto-c-irua-104878-coer-anal/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-104878-coer-anal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Asking for help : a relational perspective on help seeking in the workplace.</title>
+      <link>/publication/moto-c-irua-108044-van-aski/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-108044-van-aski/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Comparing three statistical techniques in analyzing change in learning strategies over time</title>
+      <link>/publication/moto-c-irua-105517-coer-comp/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-105517-coer-comp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>De relatie tussen persoonlijkheid, motivatie en het informeel werkplekleren van Vlaamse leerkrachten secundair onderwijs</title>
+      <link>/publication/moto-c-irua-109376-van-rela/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-109376-van-rela/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Differential use of learning strategies in first-year higher education : the impact of personality, academic motivation, and teaching strategies</title>
+      <link>/publication/moto-c-irua-107548-donc-diff/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-107548-donc-diff/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Effects of teachers&#39; instructional development on students&#39; study approaches in higher education</title>
+      <link>/publication/moto-c-irua-88751-stes-effe/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-88751-stes-effe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Examining the cross-cultural sensitivity of the revised two-factor study process questionnaire (R-SPQ-2F) and validation of a Dutch version</title>
+      <link>/publication/moto-c-irua-104870-stes-exam/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-104870-stes-exam/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Infrequent word classes in the speech of two-to seven-year-old children with cochlear implants and their normally hearing peers : a longitudinal study of adjective use</title>
+      <link>/publication/moto-c-irua-105070-trib-infr/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-105070-trib-infr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kritische succesfactoren van werkplekleren : een onderzoek binnen de individuele beroepsopleiding in de onderneming</title>
+      <link>/publication/moto-c-irua-106962-albr-krit/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-106962-albr-krit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Maatschappelijk aanzien van onderwijsvormen : feit of mythe?</title>
+      <link>/publication/moto-c-irua-112339-van-maat/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-112339-van-maat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modeling change in learning strategies throughout higher education : a multi-indicator latent growth perspective</title>
+      <link>/publication/moto-c-irua-108947-coer-mode/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-108947-coer-mode/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reconstructing the pupils attitude towards technology-survey</title>
+      <link>/publication/moto-c-irua-105639-ardi-reco/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-105639-ardi-reco/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The relation between order of acquisition, segmental frequency and function : the case of word-initial consonants in Dutch</title>
+      <link>/publication/moto-c-irua-100272-van-rela/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-100272-van-rela/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The socio-emotional guidance questionnaire (SEG-Q) : construct validity and invariance across teacher groups</title>
+      <link>/publication/moto-c-irua-106246-jaco-guid/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-106246-jaco-guid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bivariate en multivariate statistiek met R : een open leerpakket</title>
+      <link>/publication/moto-c-irua-96433-de-biva/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-96433-de-biva/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>De duur van de svarabhaktivocaal in het Standaardnederlands : een pioniersstudie</title>
+      <link>/publication/moto-c-irua-97664-kloo-duur/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-97664-kloo-duur/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Generalizability of text quality scores</title>
+      <link>/publication/moto-c-irua-105071-van-gene/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-105071-van-gene/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Instructional development for teachers in higher education : effects on students&#39; learning outcomes</title>
+      <link>/publication/moto-c-irua-91328-stes-inst/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-91328-stes-inst/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Instructional development for teachers in higher education : effects on students&#39; perceptions of the teaching-learning environment</title>
+      <link>/publication/moto-c-irua-89226-stes-inst/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-89226-stes-inst/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Longitudinal measurement invariance of Likert-type learning strategy scales : are we using the same ruler at each wave?</title>
+      <link>/publication/moto-c-irua-99495-coer-long/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-99495-coer-long/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modeling the evolution in learning strategies: a multi-indicator latent growth analysis</title>
+      <link>/publication/moto-c-irua-97679-coer-mode/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-97679-coer-mode/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reconstructing the pupils attitude towards technology-survey</title>
+      <link>/publication/moto-c-irua-108112-ardi-reco/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-108112-ardi-reco/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The interrelations between motivational, cognitive, and metacognitive aspects of student learning : a person-oriented perspective</title>
+      <link>/publication/moto-c-irua-97678-vant-inte/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-97678-vant-inte/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Betere taalvaardigheid door intensieve begeleiding? Een effectonderzoek van het begeleidingstraject &#39;Rand- en Taalgrensgemeenten in de brede rand rond Brussel&#39;. Eindrapport</title>
+      <link>/publication/moto-c-irua-86948-verb-bete/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-86948-verb-bete/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Coordinating sentence composition with error correction : a multilevel analysis</title>
+      <link>/publication/moto-c-irua-86817-leij-coor/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-86817-leij-coor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Het nieuwe leerzorgkader in de praktijk getest</title>
+      <link>/publication/moto-c-irua-87542-wils-nieu/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-87542-wils-nieu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hoe behoeftegericht werken NT2-lesgevers? Een onderzoek naar de onderwijsaanpak bij VDAB en de CVO&#39;s</title>
+      <link>/publication/moto-c-irua-88187-lepp-hoe/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-88187-lepp-hoe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning conceptions and final school results in primary education</title>
+      <link>/publication/moto-c-irua-92293-robb-lear/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-92293-robb-lear/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The development of learning strategies in higher education : a multi-level study</title>
+      <link>/publication/moto-c-irua-91598-vant-deve/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-91598-vant-deve/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The evolution in learning patterns during higher education : a multi-indicator latent growth model</title>
+      <link>/publication/moto-c-irua-92291-coer-evol/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-92291-coer-evol/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Univariate statistiek voor menswetenschappen : een open leerpakket</title>
+      <link>/publication/moto-c-irua-90919-de-univ/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-90919-de-univ/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Variation in the conduct and the quality of self-evaluations : a multi-level path analysis</title>
+      <link>/publication/moto-c-irua-83775-vanh-vari/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-83775-vanh-vari/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Approaches tot teaching in higher education: validation of a dutch version of the approaches to teaching inventory</title>
+      <link>/publication/moto-c-irua-81308-stes-appr/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-81308-stes-appr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>De ontwikkeling van leerconcepties op de drempel tussen primair en voortgezet onderwijs</title>
+      <link>/publication/moto-c-irua-83339-robb-ontw/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-83339-robb-ontw/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>De participatiebarometer: ontwikkeling van een instrumentarium voor het meten van leerkracht- en ouderparticipatie</title>
+      <link>/publication/moto-c-irua-82150-van-ontw/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-82150-van-ontw/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Do schools make a difference in their students&#39; environmental attitudes and awareness? Evidence from PISA 2006</title>
+      <link>/publication/moto-c-irua-81931-coer-do/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-81931-coer-do/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Effectiveness criteria in school effectiveness studies: further research on the choice for a multivariate model</title>
+      <link>/publication/moto-c-irua-80690-de-effe/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-80690-de-effe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exploring patterns in learning and motivation: combining a variable oriented and a person oriented approach. Fourth International Conference on Self-determination theory</title>
+      <link>/publication/moto-c-irua-82473-vant-expl/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-82473-vant-expl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Het nieuwe leerzorgkader in de praktijk getest</title>
+      <link>/publication/moto-c-irua-87540-lebe-nieu/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-87540-lebe-nieu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Identifying special educational needs: putting a new framework for graded learning support to the test</title>
+      <link>/publication/moto-c-irua-84820-lebe-iden/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-84820-lebe-iden/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Identifying subgroups of students with different learning patterns: combining an exploratory and model-based approach</title>
+      <link>/publication/moto-c-irua-83337-vant-iden/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-83337-vant-iden/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Longitudinale factorstabiliteit van leerstrategieen in het hoger onderwijs</title>
+      <link>/publication/moto-c-irua-83338-coer-long/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-83338-coer-long/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ontwikkelingsdoelen en eindtermen: hoe gaan scholen er mee om?</title>
+      <link>/publication/moto-c-irua-82710-van-ontw/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-82710-van-ontw/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Participatie geevalueerd: evaluatie van het participatiedecreet in het Vlaams onderwijs</title>
+      <link>/publication/moto-c-irua-83236-van-part/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-83236-van-part/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>School effectiveness research on the counseling project &#39;Communities along the language Border and in the Suburbs of Brussels&#39;</title>
+      <link>/publication/moto-c-irua-81893-verb-scho/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-81893-verb-scho/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Science teaching methods and scientific literacy: what can we learn from PISA 2006?</title>
+      <link>/publication/moto-c-irua-84327-ardi-scie/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-84327-ardi-scie/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The impact of teachers on young children&#39;s speaking abilities</title>
+      <link>/publication/moto-c-irua-81892-de-impa/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-81892-de-impa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The impact of teaching approaches on students approaches to learning in higher education</title>
+      <link>/publication/moto-c-irua-82467-donc-impa/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-82467-donc-impa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Written narations by 8- to 10-year-old Turkish pupils in flemish primary education: a follow-up of seven text features</title>
+      <link>/publication/moto-c-irua-80792-verh-writ/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-80792-verh-writ/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Attitudes towards school self-evaluation</title>
+      <link>/publication/moto-c-irua-75814-vanh-atti/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-75814-vanh-atti/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Betere taalvaardigheid door intensieve begeleiding? Een effectonderzoek van het begeleidingstraject &#39;Rand- en taalgrensgemeenten en gemeenten uit de Brede Rand Rond Brussel&#39;: tussentijds rapport</title>
+      <link>/publication/moto-c-irua-74059-de-bete/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-74059-de-bete/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>De eindtermen Frans: tevredenheid en gebruik in beeld</title>
+      <link>/publication/moto-c-irua-74434-simo-eind/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-74434-simo-eind/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>De praktijktest in het kader van leerzorg: een nieuwe bril voor Harry Potter?</title>
+      <link>/publication/moto-c-irua-74628-lebe-prak/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-74628-lebe-prak/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Do Turkish girls outperform Flemish boys? What do their teachers expect? What do their texts tell?</title>
+      <link>/publication/moto-c-irua-77981-verh-do/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-77981-verh-do/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Effects of teaching approaches on students&#39; learning approaches in higher education: a multilevel study</title>
+      <link>/publication/moto-c-irua-78727-donc-effe/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-78727-donc-effe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Identifying special needs in Flanders (BE): putting a new learning support framework to the test: abstractbook 15th EUSUHM Congress Youth Health Care in Europe &#34;Guaranteeing Equal Access to Care for All Young People&#34;, 23-25 September, 2009, Leiden</title>
+      <link>/publication/moto-c-irua-78717-lebe-iden/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-78717-lebe-iden/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Instructional development for teachers in higher education: effects on student&#39;s study approaches and learning outcomes</title>
+      <link>/publication/moto-c-irua-77982-stes-inst/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-77982-stes-inst/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Leerzorg in de praktijk getest</title>
+      <link>/publication/moto-c-irua-77191-wils-leer/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-77191-wils-leer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ontwikkelen en valideren van een instaptoets voor de cursus Maatschappelijke Orientatie: eindrapport</title>
+      <link>/publication/moto-c-irua-81895-de-ontw/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-81895-de-ontw/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Over kleine en grote vrede in het onderwijs</title>
+      <link>/publication/moto-c-irua-87130-kava-over/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-87130-kava-over/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stimulating environmental awareness and attitudes in students: do schools make a difference?</title>
+      <link>/publication/moto-c-irua-77471-van-stim/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-77471-van-stim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Teachers beliefs meet learner variables in written narratives of young second language learners</title>
+      <link>/publication/moto-c-irua-77983-verh-teac/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-77983-verh-teac/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The impact of instructional development on students&#39; perceptions: a quasi-experimental study with a multi-level and pre-test/post-test design</title>
+      <link>/publication/moto-c-irua-77984-stes-impa/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-77984-stes-impa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Valideringsonderzoek naar de stabiliteit van de leerconceptievragenlijst</title>
+      <link>/publication/moto-c-irua-76785-robb-vali/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-76785-robb-vali/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Welke leerlingen leren het meest bij over DNA? Effecten van een interventie rond kennisconstructie en schooltaal bij anderstalige leerlingen in groep 8 van vijf zwarte basisscholen</title>
+      <link>/publication/moto-c-irua-77979-de-welk/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-77979-de-welk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A report on minor and major peace : peace education in primary and secondary schools in Flanders</title>
+      <link>/publication/moto-c-irua-87118-kava-repo/</link>
+      <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-87118-kava-repo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Attitudes towards school self evaluation: a descriptive and explanatory study</title>
+      <link>/publication/moto-c-irua-72872-vanh-atti/</link>
+      <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-72872-vanh-atti/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Attitudes towards school self evaluation: linking the individual view to the school context</title>
+      <link>/publication/moto-c-irua-72869-vanh-atti/</link>
+      <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-72869-vanh-atti/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>De houding ten aanzien van schoolzelfevaluatie</title>
+      <link>/publication/moto-c-irua-72954-vanh-houd/</link>
+      <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-72954-vanh-houd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>De invloed van opvattingen op de tevredenheid en het gebruik van het kerncurriculum als richtlijn voor het didactisch handelen bij Vlaamse leerkrachten basisonderwijs</title>
+      <link>/publication/moto-c-irua-69596-hott-invl/</link>
+      <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-69596-hott-invl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Do schools make a difference in environmental awareness and attitudes? Evidence from the PISA 2006 data</title>
+      <link>/publication/moto-c-irua-70751-coer-do/</link>
+      <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-70751-coer-do/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Docentenprofessionalisering in het hoger onderwijs: stand van zaken en toekomstperspectieven</title>
+      <link>/publication/moto-c-irua-71753-stes-doce/</link>
+      <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-71753-stes-doce/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Een Nederlandstalige versie van de ATI: een valide instrument om onderwijsaanpak van docenten in het hoger onderwijs te meten?</title>
+      <link>/publication/moto-c-irua-68186-stes-nede/</link>
+      <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-68186-stes-nede/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Een open klasklimaat als &#39;blikopener&#39; : onderzoek naar Dewey&#39;s theorie over democratische scholen op bais van de IEA CES data</title>
+      <link>/publication/moto-c-irua-87128-de-open/</link>
+      <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-87128-de-open/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Evaluatie van het functioneren van de lokale overlegplatforms als beleidsinstrument voor gelijke onderwijskansen</title>
+      <link>/publication/moto-c-irua-71440-van-eval/</link>
+      <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-71440-van-eval/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Evaluation and participation in secondary education: designing and validating a self-evaluation instrument for teachers to solicit feedback from pupils</title>
+      <link>/publication/moto-c-irua-70732-van-eval/</link>
+      <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-70732-van-eval/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Evidence regarding the impact of teacher training on student learning</title>
+      <link>/publication/moto-c-irua-74919-stes-evid/</link>
+      <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-74919-stes-evid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Het effect van docentenprofessionalisering op studentpercepties van onderwijs: een Multi-level analyse</title>
+      <link>/publication/moto-c-irua-70323-stes-effe/</link>
+      <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-70323-stes-effe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Invloed van docentenprofessionalisering op het leergedrag en de leerresultaten van studenten</title>
+      <link>/publication/moto-c-irua-70322-stes-invl/</link>
+      <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-70322-stes-invl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Invloed van onderwijsopvattingen en -strategieen op het leren van studenten</title>
+      <link>/publication/moto-c-irua-69092-donc-invl/</link>
+      <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-69092-donc-invl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Onderzoek praktijktest in het kader van leerzorg</title>
+      <link>/publication/moto-c-irua-72381-lebe-onde/</link>
+      <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-72381-lebe-onde/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Over kleine en grote vrede : vredesopvoeding in het basis- en secundair onderwijs in Vlaanderen</title>
+      <link>/publication/moto-c-irua-87156-kava-over/</link>
+      <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-87156-kava-over/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Policy-making capacity at Flemish schools</title>
+      <link>/publication/moto-c-irua-70604-mahi-capa/</link>
+      <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-70604-mahi-capa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Students&#39; study approaches: a study into the validity and reliability of a Dutch version of the R-SPQ-2F</title>
+      <link>/publication/moto-c-irua-74917-stes-stud/</link>
+      <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-74917-stes-stud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vroegtijdig doorstromen naar het 1ste leerjaar B: een op- of afrit?</title>
+      <link>/publication/moto-c-irua-71523-jans-vroe/</link>
+      <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-71523-jans-vroe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An _open classroom climate as a window on the world : evidence for Deweyian perspective on citizenshipeducation from the CIVED-data</title>
+      <link>/publication/moto-c-irua-87150-kava-clas/</link>
+      <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-87150-kava-clas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An open classroom climate as a window on the world : evidence for Deweyian perspective on citizenshipeducation from the CIVED-data</title>
+      <link>/publication/moto-c-irua-87149-kava-open/</link>
+      <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-87149-kava-open/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Beleidseffectiviteit als motor voor kwaliteitsvolle zelfevaluaties: empirische evidentie uit het Vlaamse gelijkeonderwijskansenbeleid</title>
+      <link>/publication/moto-c-irua-62063-van-bele/</link>
+      <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-62063-van-bele/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>De onderwijsaanpak van docenten: een studie naar de validiteit en betrouwbaarheid van een Nederlandstalige versie van de ATI</title>
+      <link>/publication/moto-c-irua-64169-stes-onde/</link>
+      <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-64169-stes-onde/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>De perceptie van eindtermen en ontwikkelingsdoelen in het basisonderwijs bij leerkrachten en directies</title>
+      <link>/publication/moto-c-irua-73081-de-perc/</link>
+      <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-73081-de-perc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Educational leadership and pupil achievement: the choice of a valid conceptual model to test effects in school effectiveness research</title>
+      <link>/publication/moto-c-irua-63995-de-educ/</link>
+      <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-63995-de-educ/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Een aangepast vervolgtraject voor de ex-OKAN&#39;er: een onderzoek naar behoefte, ontwikkelingsproces en effect van een tweede jaar OKAN: eindrapport</title>
+      <link>/publication/moto-c-irua-74066-ryme-aang/</link>
+      <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-74066-ryme-aang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Methodologie en evaluatie: conferentieverslag Onderwijs Research Dagen 2007, Groningen</title>
+      <link>/publication/moto-c-irua-77978-stes-meth/</link>
+      <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-77978-stes-meth/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Openleerpakket beschrijvende statistiek: principes en toepassingen met SPSS en rekenbladen</title>
+      <link>/publication/moto-c-irua-65048-de-open/</link>
+      <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-65048-de-open/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Teachers&#39; conceptions of learning and teaching and their effect on student learning</title>
+      <link>/publication/moto-c-irua-65521-donc-conc/</link>
+      <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-65521-donc-conc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The impact of teacher beliefs on student learning in higher education: a multilevel analysis</title>
+      <link>/publication/moto-c-irua-65519-donc-impa/</link>
+      <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-65519-donc-impa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Building an integrated measurement system for the effectiveness of corporate training programmes: a research project in the banking industry</title>
+      <link>/publication/moto-c-irua-60107-gijb-buil/</link>
+      <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-60107-gijb-buil/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>De invloed van leerstijlkenmerken op leerprestaties en hun rol binnen schooleffectiviteitsonderzoek</title>
+      <link>/publication/moto-c-irua-57801-de-invl/</link>
+      <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-57801-de-invl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>De perceptie van eindtermen en ontwikkelingsdoelen in het basisonderwijs bij leerkrachten en directies</title>
+      <link>/publication/moto-c-irua-63122-de-perc/</link>
+      <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-63122-de-perc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Het voorspellen van de kwaliteit van zelfevaluaties: een structural equation benadering</title>
+      <link>/publication/moto-c-irua-57811-vanh-voor/</link>
+      <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-57811-vanh-voor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Onderwijskundig leiderschap conceptueel verkend</title>
+      <link>/publication/moto-c-irua-57808-ryme-onde/</link>
+      <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-57808-ryme-onde/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The influence of learning styles on pupil achievement and the role of these learning styles in research on school efectiveness</title>
+      <link>/publication/moto-c-irua-62544-de-infl/</link>
+      <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-62544-de-infl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Writing ability of abilities?</title>
+      <link>/publication/moto-c-irua-74068-ryme-writ/</link>
+      <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-74068-ryme-writ/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>De vijfpuntenschaal in onderwijsonderzoek: de regel, maar ook in regel?</title>
+      <link>/publication/moto-c-irua-53578-de-vijf/</link>
+      <pubDate>Sat, 01 Jan 2005 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-53578-de-vijf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Studieloopbanen in het kunstgericht onderwijs: in-, door-, en uitstroom in het secundair en hoger onderwijs</title>
+      <link>/publication/moto-c-irua-53948-van-stud/</link>
+      <pubDate>Sat, 01 Jan 2005 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-53948-van-stud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wat leert effectieve scholenonderzoek ons over de technische en beroepssecundaire scholen in Vlaanderen?</title>
+      <link>/publication/moto-c-irua-55110-ryme-wat/</link>
+      <pubDate>Sat, 01 Jan 2005 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-55110-ryme-wat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exploring the relationship between student teachers&#39; regulation and preferences of learning environments</title>
+      <link>/publication/moto-c-irua-48647-donc-expl/</link>
+      <pubDate>Thu, 01 Jan 2004 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-48647-donc-expl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multivariate multilevel models in school effectiveness research</title>
+      <link>/publication/moto-c-irua-44002-de-mult/</link>
+      <pubDate>Thu, 01 Jan 2004 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-44002-de-mult/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Onderzoek naar kenmerken van effectieve scholen</title>
+      <link>/publication/moto-c-irua-81897-de-onde/</link>
+      <pubDate>Thu, 01 Jan 2004 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-81897-de-onde/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Onderzoek naar kenmerken van effectieve scholen: kritische factoren in een onderzoek naar schooleffectiviteit in het technisch en beroepssecundair onderwijs in Vlaanderen</title>
+      <link>/publication/moto-c-irua-55112-de-onde/</link>
+      <pubDate>Thu, 01 Jan 2004 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-55112-de-onde/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Schooleffectiviteit in het Vlaamse technisch en beroepssecundair onderwijs: een multivariate multilevelanalyse</title>
+      <link>/publication/moto-c-irua-63013-ryme-scho/</link>
+      <pubDate>Thu, 01 Jan 2004 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-63013-ryme-scho/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Effectieve scholen in het technisch en beroepsonderwijs</title>
+      <link>/publication/moto-c-irua-41241-de-effe/</link>
+      <pubDate>Wed, 01 Jan 2003 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-41241-de-effe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Effectiviteit van TSO- en BSO-scholen</title>
+      <link>/publication/moto-c-irua-43259-de-effe/</link>
+      <pubDate>Wed, 01 Jan 2003 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-43259-de-effe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning styles as an outcome of school effectiveness in technical and vocational secondary education</title>
+      <link>/publication/moto-c-irua-44003-de-lear/</link>
+      <pubDate>Wed, 01 Jan 2003 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-44003-de-lear/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Leerstijlen als outputvariabele in onderzoek naar schooleffectiviteit in het technisch en beroepssecundair onderwijs</title>
+      <link>/publication/moto-c-irua-42982-de-leer/</link>
+      <pubDate>Wed, 01 Jan 2003 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-42982-de-leer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Effectieve scholen in het technisch en beroepssecundair onderwijs</title>
+      <link>/publication/moto-c-irua-46936-ryme-effe/</link>
+      <pubDate>Tue, 01 Jan 2002 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-46936-ryme-effe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Evaluatie-onderzoek van een innovatieproject voor zelfverantwoordelijk leren</title>
+      <link>/publication/moto-c-irua-39090-de-van/</link>
+      <pubDate>Tue, 01 Jan 2002 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-39090-de-van/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>How an instrument for measuring learning styles can be used to evaluate an innovative policy</title>
+      <link>/publication/moto-c-irua-39095-de-how/</link>
+      <pubDate>Tue, 01 Jan 2002 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-39095-de-how/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Arbeidsverdeling bij samenwonende koppels in Belgie: diversiteit en emancipatie</title>
+      <link>/publication/moto-c-irua-29564-jaco-arbe/</link>
+      <pubDate>Sat, 01 Jan 2000 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-29564-jaco-arbe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Het ILS-instrument voor leerstijlen: een methodologische kanttekening</title>
+      <link>/publication/moto-c-irua-32757-van-voor/</link>
+      <pubDate>Sat, 01 Jan 2000 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-32757-van-voor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Family formation and the division of labour in Belgian couple households: how a qualitative research proposal was grounded in the analysis of paneldata</title>
+      <link>/publication/moto-c-irua-33096-jaco-fami/</link>
+      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-33096-jaco-fami/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/project/potential-project/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/project/potential-project/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.potentialproject.be/&#34; target=&#34;_blank&#34;&gt;Project website&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Schools and teachers around the world are facing a growing diversity and increasing complexity in the classroom (Banks et al., 2007). In the past, pupils’ assignments to classrooms and schools have often fostered segregation rather than encouraged inclusion. Today, we see a tendency towards more inclusive learning environments (cf. amongst others, the UN Convention of 2006, ratified by Belgium in 2009). However, this poses challenges to the professional development of (pre-service) teachers and teams. Consequently, the main objective of the project ‘POTENTIAL - Power to Teach All’, is to develop the competences of (pre-service) teachers and school teams to create inclusive learning environments.&lt;/p&gt;
+
+&lt;p&gt;In the spectrum of competences to create inclusive learning environments, two major objectives are distinguished:&lt;/p&gt;
+
+&lt;p&gt;(A) appreciating and exploiting diversity in the classroom;&lt;/p&gt;
+
+&lt;p&gt;Applying an intersectional perspective to education, reveals the fact that diversity is an inherent part of every classroom (Van Avermaet &amp;amp; Sierens, 2010). That is, every classroom consists of a diverse group of students, with regard to such characteristics as gender, age, socio-economic position, language, sexual orientation, religious beliefs, (dis)abilities, ethnic and cultural  background, … In order for teachers to create maximal learning opportunities for each student, certain skills and attitudes are necessary. First, in order to create a positive classroom environment, teacher attitudes should be appreciative, considering the diversity present not as a barrier to teaching and learning, but as an opportunity. Second, didactical skills and knowhow to create a learning environment suited to the needs of every student, are crucial in creating inclusive learning environments.&lt;/p&gt;
+
+&lt;p&gt;(B) realizing collaborative teaming in the school.&lt;/p&gt;
+
+&lt;p&gt;Creating inclusive learning environments assumes that no individual or isolated teacher can expect to have all the knowledge required to meet the needs of all students in the classroom. Equitable learning environments require support for all different participants and a shared responsibility towards these participants (Killorana et al., 2014). Therefore, competences to realize collaborative teaming are necessary in order to successfully create inclusive learning environments (Hunt et al., 2003).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/project/timss-project/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/project/timss-project/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.uantwerpen.be/nl/projecten/timss-2019/&#34; target=&#34;_blank&#34;&gt;Project Website&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;In Flanders TIMSS 2019 is executed by research group EduBROn and research Centre Quest at the Arteveldehogeschool. This research project is commissioned by the Dept. of Education and Training of the Flemish Government.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

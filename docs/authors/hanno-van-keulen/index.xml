@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hanno van Keulen on Sven De Maeyer</title>
+    <link>/authors/hanno-van-keulen/</link>
+    <description>Recent content in Hanno van Keulen on Sven De Maeyer</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 01 Jan 2015 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="/authors/hanno-van-keulen/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Students attitudes towards technology</title>
+      <link>/publication/moto-c-irua-123042-ardi-stud/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-123042-ardi-stud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reconstructing the pupils attitude towards technology-survey</title>
+      <link>/publication/moto-c-irua-108112-ardi-reco/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-108112-ardi-reco/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
