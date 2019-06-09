@@ -26,7 +26,7 @@ url_video: ""
 ---
 
 {{% alert note %}}
-You can download the pdf here: [Bayesian_intro_Sven.pdf](~/talk/example/Bayesian_intro.Sven.pdf).
+You can download the pdf here: [Bayesian_intro_Sven.pdf](Bayesian_intro_Sven.pdf).
 {{% /alert %}}
 
 The majority of research relies on statistical analyses that are in general grounded within Null-Hypothesis Significance Testing (NHST). But NHST has it's 'downsides'. First of all, NHST tests a 'null-hypothesis' rather than the real research hypothesis we're interested in. And secondly, NHST makes use of *imaginary* samples (the sampling distribution). Finally, NHST doesn't quantify the uncertianty of parameters. 
