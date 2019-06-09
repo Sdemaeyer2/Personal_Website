@@ -1,0 +1,13 @@
+---
+title: "Interaction patterns of mothers of children with different degrees of hearing : normally hearing children and congenitally hearing-impaired children with a cochlear implant"
+date: 2015-01-01
+publishDate: 2019-06-09T06:44:47.507354Z
+authors: ["Liesbeth Vanormelingen", "Sven De Maeyer", "Steven Gillis"]
+publication_types: ["2"]
+abstract: "Objectives This study targets to analyse motherchild interactions in two groups of children with different hearing levels: normally hearing children (NH) and congenitally hearing-impaired children with a cochlear implant (CI). Mothers of hearing-impaired children are shown to use less speech in interactions with their children than mothers of normally hearing children. We aim to investigate whether this observation also holds for mothers of CI children. Methods Transcriptions of spontaneous conversations of ten CI children and ten NH children were analysed. We examined whether mothers responded to their children's utterances and whether they repeated or incorporated them in their own follow-up. Conversations were analysed in two consecutive stages, namely a prelexical stage and a lexical one. Results Mothers of CI children responded significantly more often to their children's utterances in both the prelexical and lexical stage. They also incorporated their children's utterances more often, however this was only significant in the lexical stage. The type of child utterance was an important trigger for the amount of mothers responses. All mothers responded significantly more often to lexical utterances in the lexical stage. In the prelexical stage, however, precanonical utterances received the same amount of responses as canonical babbles. Nevertheless, all mothers incorporated canonical babbles more often than precanonical vocalisations in the prelexical stage and lexical utterances more often in the lexical stage. Conclusions First, mothers of CI children are more responsive to their children's utterances suggesting that they are aware of their children's hearing status. Second, type of child utterance is an important trigger for both mothers response level and mothers type of response in the prelexical and lexical stage."
+featured: false
+publication: "*International journal of pediatric otorhinolaryngology*"
+url_pdf: "https://hdl.handle.net/10067/1236750151162165141"
+doi: "10.1016/J.IJPORL.2015.01.020"
+---
+

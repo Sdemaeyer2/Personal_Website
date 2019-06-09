@@ -1,0 +1,13 @@
+---
+title: "To what degree does the missing-data technique influence the estimated growth in learning strategies over time? A tutorial example of sensitivity analysis for longitudinal data"
+date: 2017-01-01
+publishDate: 2019-06-09T06:44:47.557016Z
+authors: ["Liesje Coertjens", "Vincent Donche", "Sven De Maeyer", "Gert Vanthournout", "Peter Van Petegem"]
+publication_types: ["2"]
+abstract: "Longitudinal data is almost always burdened with missing data. However, in educational and psychological research, there is a large discrepancy between methodological suggestions and research practice. The former suggests applying sensitivity analysis in order to the robustness of the results in terms of varying assumptions regarding the mechanism generating the missing data. However, in research practice, participants with missing data are usually discarded by relying on listwise deletion. To help bridge the gap between methodological recommendations and applied research in the educational and psychological domain, this study provides a tutorial example of sensitivity analysis for latent growth analysis. The example data concern students changes in learning strategies during higher education. One cohort of students in a Belgian university college was asked to complete the Inventory of Learning StylesShort Version, in three measurement waves. A substantial number of students did not participate on each occasion. Change over time in student learning strategies was assessed using eight missing data techniques, which assume different mechanisms for missingness. The results indicated that, for some learning strategy subscales, growth estimates differed between the models. Guidelines in terms of reporting the results from sensitivity analysis are synthesised and applied to the results from the tutorial example."
+featured: false
+publication: "*PLoS ONE*"
+url_pdf: "https://hdl.handle.net/10067/1454230151162165141"
+doi: "10.1371/JOURNAL.PONE.0182615"
+---
+

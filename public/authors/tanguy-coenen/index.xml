@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tanguy Coenen on Sven De Maeyer</title>
+    <link>/authors/tanguy-coenen/</link>
+    <description>Recent content in Tanguy Coenen on Sven De Maeyer</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="/authors/tanguy-coenen/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>An information system design theory for the comparative judgement of competences</title>
+      <link>/publication/moto-c-irua-150892-coen-an/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-150892-coen-an/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Competenties kwaliteitsvol beoordelen : brengt een comparatieve aanpak soelaas?</title>
+      <link>/publication/moto-c-irua-128392-lest-comp/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/moto-c-irua-128392-lest-comp/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
