@@ -1,32 +1,24 @@
 ---
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac
-  convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac
-  faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien
-  eu, pulvinar tempor diam.
+abstract: Recently I held a talk on Bayesian anlaysis and how to simply run them in R, making use of the `brms` package. Hereby attached the pdf (in Dutch). 
 all_day: false
 authors: []
-date: "2030-06-01T13:00:00Z"
-date_end: "2030-06-01T15:00:00Z"
-event: Academic Theme Conference
-event_url: https://example.org
-featured: false
+date: "2019-05-14T10:00:00Z"
+date_end: "2019-05-14T12:00:00Z"
+event: EduBROn Lunch Seminar
+event_url: 
+featured: true
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
+  caption: ""
   focal_point: Right
 links:
-- icon: twitter
-  icon_pack: fab
-  name: Follow
-  url: https://twitter.com/georgecushen
-location: London, United Kingdom
+location: Antwerp, Belgium
 math: true
 projects:
-- internal-project
-publishDate: "2017-01-01T00:00:00Z"
-slides: example
-summary: An example talk using Academic's Markdown slides feature.
-tags: []
-title: Example Talk
+publishDate: "2019-06-09T00:00:00Z"
+slides: 
+summary: A pdf of a presentation on Bayesian analyses in R.
+tags: [Bayesian]
+title: Introduction to Bayesian analysis with R
 url_code: ""
 url_pdf: ""
 url_slides: ""
@@ -34,13 +26,9 @@ url_video: ""
 ---
 
 {{% alert note %}}
-Click on the **Slides** button above to view the built-in slides feature.
+You can download the pdf here: [Bayesian_intro_Sven.pdf](~/talk/example/Bayesian_intro.Sven.pdf).
 {{% /alert %}}
 
-Slides can be added in a few ways:
+The majority of research relies on statistical analyses that are in general grounded within Null-Hypothesis Significance Testing (NHST). But NHST has it's 'downsides'. First of all, NHST tests a 'null-hypothesis' rather than the real research hypothesis we're interested in. And secondly, NHST makes use of *imaginary* samples (the sampling distribution). Finally, NHST doesn't quantify the uncertianty of parameters. 
 
-- **Create** slides using Academic's [*Slides*](https://sourcethemes.com/academic/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
-- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
-- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://sourcethemes.com/academic/docs/writing-markdown-latex/).
-
-Further talk details can easily be added to this page using *Markdown* and $\rm \LaTeX$ math code.
+The framework of Bayesian analysis is a tool that can overcome these flaws of NHST. In this talk I introduced the basic idea of Bayesian anlysis, the way Markov Chain Monte Carlo works (conceptually) and how to implement it in R making use of the `brms` package to compile code for Stan (an mcmc sampler in C++). The talk is a gentle introduction. 
