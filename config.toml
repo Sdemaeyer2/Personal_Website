@@ -21,7 +21,6 @@ googleAnalytics = ""
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""
 
-publishDir = "docs"
 
 ############################
 ## Advanced options below ##
