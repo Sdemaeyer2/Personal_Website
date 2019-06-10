@@ -12,26 +12,6 @@
     
     
     <item>
-      <title></title>
-      <link>/authors/admin/</link>
-      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/authors/admin/</guid>
-      <description>&lt;p&gt;Sven De Maeyer is a professor of educational measurement at the Univerity of Antwerp. He has expertise in statistical modelling, with an emphasis on mixed effects (aka multilevel) modelling, longitudinal data analyses and psychometric models. His research mainly focusses on assessment in both education and vocational contexts, with a strong focus on judgement and rater-effects and the merits and pitfalls of comparative judgement.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/authors/tine-van-daal/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/authors/tine-van-daal/</guid>
-      <description>&lt;p&gt;Tine van Daal is a phd-student, who focusses on the cognitive load of comparing pairs of students work in the context of Comparative Judgement.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Els Consuegra</title>
       <link>/authors/els-consuegra/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
@@ -118,15 +98,6 @@
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>/authors/vincent-donche/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/authors/amy-quintelier/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/authors/amy-quintelier/</guid>
       <description></description>
     </item>
     
@@ -1293,6 +1264,15 @@
     
     <item>
       <title></title>
+      <link>/authors/amy-quintelier/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/amy-quintelier/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>/authors/catherine-meulemans/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -1320,11 +1300,31 @@
     
     <item>
       <title></title>
+      <link>/authors/tine-van-daal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/tine-van-daal/</guid>
+      <description>&lt;p&gt;Tine van Daal is a phd-student, who focusses on the cognitive load of comparing pairs of students work in the context of Comparative Judgement.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>/authors/wanda-sass/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/authors/wanda-sass/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/authors/admin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/admin/</guid>
+      <description>&lt;p&gt;Sven De Maeyer is a professor of educational measurement at the Univerity of Antwerp. He has expertise in statistical modelling, with an emphasis on mixed effects (aka multilevel) modelling, longitudinal data analyses and psychometric models. His research mainly focusses on assessment in both education and vocational contexts, with a strong focus on judgement and rater-effects and the merits and pitfalls of comparative judgement.&lt;/p&gt;
+</description>
     </item>
     
     <item>

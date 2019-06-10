@@ -18,20 +18,17 @@
   url = "#people"
   weight = 30
 
+
 [[main]]
-  name = "Alumni"
-  url = "#pastphd"
+  name = "Talks"
+  url = "talk/"
   weight = 40
+
 
 [[main]]
   name = "Publications"
   url = "#featured"
   weight = 50
-
-[[main]]
-  name = "Teaching"
-  url = "courses/"
-  weight = 60
 
 [[main]]
   name = "Contact"
