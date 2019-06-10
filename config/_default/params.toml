@@ -50,7 +50,7 @@ time_format = "3:04 PM"
 ############################
 
 # Enter contact details (optional). To hide a field, clear it to "".
-email = "sven.demaeyerATuantwerpen.be"
+email = "sven.demaeyer@uantwerpen.be"
 phone = "00 32 3 2654932"
 address = "Department of Education and Training Sciences - Building De Meerminne - Office M239 - Sint-Jacobsstraat 2, 2000 Antwerp, Belgium"
 
