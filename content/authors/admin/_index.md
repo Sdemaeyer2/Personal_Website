@@ -26,11 +26,11 @@ interests:
 name: Sven De Maeyer
 organizations:
 - name: University of Antwerp
-  url: "www.uantwerpen.be"
+  url: "https://www.uantwerpen.be"
 - name: dept. of Education and Training Sciences
   url: "https://www.uantwerpen.be/en/about-uantwerp/faculties/faculty-of-social-sciences/organisation/departments/training-and-education/"
 - name: EduBROn
-  url: "www.uantwerpen.be/Edubron"
+  url: "https://www.uantwerpen.be/Edubron"
 role: Professor of Educational Measurement
 social:
 - icon: envelope
