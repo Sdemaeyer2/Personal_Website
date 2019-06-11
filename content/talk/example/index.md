@@ -1,5 +1,5 @@
 ---
-abstract: Recently I held a talk on Bayesian anlaysis and how to simply run them in R, making use of the `brms` package. Hereby attached the pdf (in Dutch). 
+abstract: Recently I held a talk on Bayesian analysis and how to simply run them in R, making use of the `brms` package. Hereby attached the pdf (in Dutch). 
 all_day: false
 authors: []
 date: "2019-05-14T10:00:00Z"
