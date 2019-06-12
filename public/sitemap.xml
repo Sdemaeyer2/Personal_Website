@@ -19,30 +19,95 @@
   
   <url>
     <loc>/tags/bayesian/</loc>
-    <lastmod>2019-06-11T09:22:20+02:00</lastmod>
+    <lastmod>2019-06-11T09:35:00+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/talk/example/</loc>
-    <lastmod>2019-06-11T09:22:20+02:00</lastmod>
+    <lastmod>2019-06-11T09:35:00+02:00</lastmod>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2019-06-11T09:22:20+02:00</lastmod>
+    <lastmod>2019-06-11T09:35:00+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2019-06-11T09:22:20+02:00</lastmod>
+    <lastmod>2019-06-11T09:35:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/publication_types/2/</loc>
+    <lastmod>2019-06-09T11:57:34+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/amelie-vrijdags/</loc>
+    <lastmod>2019-03-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/anneleen-mortier/</loc>
+    <lastmod>2019-06-09T11:57:34+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/authors/</loc>
     <lastmod>2019-06-10T16:05:31+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/publication/gedrag_en_organisatie_2019/</loc>
+    <lastmod>2019-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/ellen-volckaert/</loc>
+    <lastmod>2019-03-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/liesje-coertjens/</loc>
+    <lastmod>2019-06-09T11:57:34+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/peter-vlerick/</loc>
+    <lastmod>2019-06-09T11:57:34+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
+    <lastmod>2019-06-09T11:57:34+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/renske-bouwer/</loc>
+    <lastmod>2019-06-09T11:57:34+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/roos-van-gasse/</loc>
+    <lastmod>2019-06-09T11:57:34+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/sven-de-maeyer/</loc>
+    <lastmod>2019-06-09T11:57:34+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -63,12 +128,6 @@
   </url>
   
   <url>
-    <loc>/publication_types/2/</loc>
-    <lastmod>2019-06-09T11:57:34+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/publication/moto-c-irua-159139-verh-on/</loc>
     <lastmod>2019-06-09T11:57:34+02:00</lastmod>
   </url>
@@ -81,12 +140,6 @@
   
   <url>
     <loc>/authors/karolien-keppens/</loc>
-    <lastmod>2019-06-09T11:57:34+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/authors/liesje-coertjens/</loc>
     <lastmod>2019-06-09T11:57:34+02:00</lastmod>
     <priority>0</priority>
   </url>
@@ -109,18 +162,6 @@
   </url>
   
   <url>
-    <loc>/publication_types/</loc>
-    <lastmod>2019-06-09T11:57:34+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/authors/renske-bouwer/</loc>
-    <lastmod>2019-06-09T11:57:34+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/authors/ruben-vanderlinde/</loc>
     <lastmod>2019-06-09T11:57:34+02:00</lastmod>
     <priority>0</priority>
@@ -128,12 +169,6 @@
   
   <url>
     <loc>/authors/san-verhavert/</loc>
-    <lastmod>2019-06-09T11:57:34+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/authors/sven-de-maeyer/</loc>
     <lastmod>2019-06-09T11:57:34+02:00</lastmod>
     <priority>0</priority>
   </url>
@@ -250,12 +285,6 @@
   </url>
   
   <url>
-    <loc>/authors/peter-vlerick/</loc>
-    <lastmod>2019-06-09T11:57:34+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/authors/pierpaolo-settembri/</loc>
     <lastmod>2019-06-09T11:57:34+02:00</lastmod>
     <priority>0</priority>
@@ -275,12 +304,6 @@
   
   <url>
     <loc>/authors/pieter-jan-bonne/</loc>
-    <lastmod>2019-06-09T11:57:34+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/authors/roos-van-gasse/</loc>
     <lastmod>2019-06-09T11:57:34+02:00</lastmod>
     <priority>0</priority>
   </url>
@@ -337,12 +360,6 @@
   
   <url>
     <loc>/authors/ann-stes/</loc>
-    <lastmod>2019-06-09T11:57:34+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/authors/anneleen-mortier/</loc>
     <lastmod>2019-06-09T11:57:34+02:00</lastmod>
     <priority>0</priority>
   </url>
