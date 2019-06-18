@@ -30,18 +30,77 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2019-06-12T10:23:30+02:00</lastmod>
+    <lastmod>2019-06-13T18:41:17+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2019-06-11T09:35:00+02:00</lastmod>
+    <lastmod>2019-06-13T18:41:17+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/publication_types/2/</loc>
+    <lastmod>2019-06-12T10:23:30+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/</loc>
+    <lastmod>2019-06-12T10:23:30+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/publication/emerald_jpcc2019/</loc>
+    <lastmod>2019-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/jan-vanhoof/</loc>
+    <lastmod>2019-06-09T11:57:34+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/marije-lesterhuis/</loc>
+    <lastmod>2019-06-09T11:57:34+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/peter-van-petegem/</loc>
+    <lastmod>2019-06-09T11:57:34+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
+    <lastmod>2019-06-12T10:23:30+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/renske-bouwer/</loc>
+    <lastmod>2019-06-12T10:23:30+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/roos-van-gasse/</loc>
+    <lastmod>2019-06-12T10:23:30+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/san-verhavert/</loc>
+    <lastmod>2019-06-09T11:57:34+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/sven-de-maeyer/</loc>
     <lastmod>2019-06-12T10:23:30+02:00</lastmod>
     <priority>0</priority>
   </url>
@@ -54,12 +113,6 @@
   
   <url>
     <loc>/authors/anneleen-mortier/</loc>
-    <lastmod>2019-06-12T10:23:30+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/authors/</loc>
     <lastmod>2019-06-12T10:23:30+02:00</lastmod>
     <priority>0</priority>
   </url>
@@ -83,30 +136,6 @@
   
   <url>
     <loc>/authors/peter-vlerick/</loc>
-    <lastmod>2019-06-12T10:23:30+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/publication_types/</loc>
-    <lastmod>2019-06-12T10:23:30+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/authors/renske-bouwer/</loc>
-    <lastmod>2019-06-12T10:23:30+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/authors/roos-van-gasse/</loc>
-    <lastmod>2019-06-12T10:23:30+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/authors/sven-de-maeyer/</loc>
     <lastmod>2019-06-12T10:23:30+02:00</lastmod>
     <priority>0</priority>
   </url>
@@ -151,24 +180,12 @@
   </url>
   
   <url>
-    <loc>/authors/marije-lesterhuis/</loc>
-    <lastmod>2019-06-09T11:57:34+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/publication/moto-c-irua-157526-kepp-meas/</loc>
     <lastmod>2019-06-09T11:57:34+02:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/ruben-vanderlinde/</loc>
-    <lastmod>2019-06-09T11:57:34+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/authors/san-verhavert/</loc>
     <lastmod>2019-06-09T11:57:34+02:00</lastmod>
     <priority>0</priority>
   </url>
@@ -239,12 +256,6 @@
   </url>
   
   <url>
-    <loc>/authors/jan-vanhoof/</loc>
-    <lastmod>2019-06-09T11:57:34+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/authors/jerich-faddar/</loc>
     <lastmod>2019-06-09T11:57:34+02:00</lastmod>
     <priority>0</priority>
@@ -276,12 +287,6 @@
   <url>
     <loc>/publication/moto-c-irua-150533-sett-oran/</loc>
     <lastmod>2019-06-09T11:57:34+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/peter-van-petegem/</loc>
-    <lastmod>2019-06-09T11:57:34+02:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -806,7 +811,7 @@
   
   <url>
     <loc>/project/lift-project/</loc>
-    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2019-06-13T18:41:17+02:00</lastmod>
   </url>
   
   <url>
@@ -851,31 +856,31 @@
   
   <url>
     <loc>/tags/inputlog/</loc>
-    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2019-06-13T18:41:17+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/intervention-research/</loc>
-    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2019-06-13T18:41:17+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/process-feedback/</loc>
-    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2019-06-13T18:41:17+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/project/</loc>
-    <lastmod>2019-06-09T08:33:21+02:00</lastmod>
+    <lastmod>2019-06-13T18:41:17+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/secondary-education/</loc>
-    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2019-06-13T18:41:17+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -907,13 +912,13 @@
   
   <url>
     <loc>/tags/writing-research/</loc>
-    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2019-06-13T18:41:17+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/writing-ability/</loc>
-    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2019-06-13T18:41:17+02:00</lastmod>
     <priority>0</priority>
   </url>
   
