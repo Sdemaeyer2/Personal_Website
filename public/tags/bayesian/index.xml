@@ -20,7 +20,7 @@
       <description>
 
 
-&lt;p&gt;If you get confronted with colleagues that apply Bayesian analyses you’ll notice that they use a specific vocabulary: “prior distribution”, “posterior distribution”, “Highest Probability Density Intervals”, “MCMC”,… But what’s the meaning of these terms? And how to make sense out of all these Bayesian mishmash? After some reading around (and learning of course) I started to get a first understanding of some key concepts. And now I want to share my insights with you.&lt;/p&gt;
+&lt;p&gt;If you get confronted with colleagues that apply Bayesian analyses you’ll notice that they use a specific vocabulary: “prior distribution”, “posterior distribution”, “Highest Probability Density Intervals”, “MCMC”,… But what’s the meaning of these words? And how to make sense out of all these Bayesian mishmash? After some reading around (and learning of course) I started to get a first understanding of some key concepts. And now I want to share my insights with you.&lt;/p&gt;
 &lt;p&gt;In this post I’ll try to explain the basics and explain &lt;strong&gt;5 key concepts&lt;/strong&gt;. But before that, a short sidestep on the goal of stats (because sometimes we seem to forget).&lt;/p&gt;
 &lt;div id=&#34;stats-why&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Stats? Why?&lt;/h1&gt;
