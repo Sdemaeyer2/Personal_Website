@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>5 terms of Bayesian Stats you should understand</title>
+      <title>4 words of Bayesian Stats you should understand</title>
       <link>/post/how-to-understand-bayesian-analyses/</link>
       <pubDate>Sun, 07 Jul 2019 00:00:00 +0000</pubDate>
       
@@ -21,7 +21,7 @@
 
 
 &lt;p&gt;If you get confronted with colleagues that apply Bayesian analyses you’ll notice that they use a specific vocabulary: “prior distribution”, “posterior distribution”, “Highest Probability Density Intervals”, “MCMC”,… But what’s the meaning of these words? And how to make sense out of all these Bayesian mishmash? After some reading around (and learning of course) I started to get a first understanding of some key concepts. And now I want to share my insights with you.&lt;/p&gt;
-&lt;p&gt;In this post I’ll try to explain the basics and explain &lt;strong&gt;5 key concepts&lt;/strong&gt;. But before that, a short sidestep on the goal of stats (because sometimes we seem to forget).&lt;/p&gt;
+&lt;p&gt;In this post I’ll try to explain the basics and explain &lt;strong&gt;4 key concepts&lt;/strong&gt;. But before that, a short sidestep on the goal of stats (because sometimes we seem to forget).&lt;/p&gt;
 &lt;div id=&#34;stats-why&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Stats? Why?&lt;/h1&gt;
 &lt;p&gt;To put it simple: stats help us to model reality in numbers and assist us in getting better insight in the world. Let’s say we have a major concern on the rise of &lt;em&gt;vampires&lt;/em&gt; in Europe &lt;a href=&#34;#fn1&#34; class=&#34;footnoteRef&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;. Rumours are getting spread saying that the almost 20% of the Europeans is actually a vampire, but nobody really has a good idea on the number of vampires. The major question then is: how many vampires are out there? This is a statistical question that can be approached by a pretty simple &lt;em&gt;model&lt;/em&gt;: the proportion of vampires among the whole population of Europeans. This model only contains one unknown value: the actual proportion of vampires. This unknown value is what we often call &lt;em&gt;a parameter&lt;/em&gt;. We can calculate the exact proportion in the exceptional case that we can test every single one of the whole European population. But that’s utopia. In research most of the time we make use of samples (we test a random choosen number of European citizens) and we do not calculate the exact parameter value. We &lt;em&gt;estimate&lt;/em&gt; the parameter value. Statistics help us to estimate parameter values. But it does even more. Good statistics also &lt;em&gt;quantifies the (un)certainty&lt;/em&gt; on our parameter estimate(s)! If we apply this to our question concerning the proportion of vampires, we want statistics to help us quantify how certain we are about different proportions of vampires as the true proportion in the population.&lt;/p&gt;
@@ -58,7 +58,7 @@
 &lt;pre&gt;&lt;code&gt;##         5%        95% 
 ## 0.07535876 0.14763525&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Concerning the proportion of vampires our posterior learns us that the 90% most plausible proportions of vampires are situated between 7.5% and 14.7%. Notice that the 20% vampires in Europe, the number being mentioned in some rumours is not within this interval. As usual, do not always take rumours too seriously.&lt;/p&gt;
-&lt;p&gt;Still two concept to go: MCMC and Bayesian Theorem. Let’s start with the latter as untill now we didn’t explain how we could update our priors to result in posteriors. The core of this proces is the Bayesian Theorem.&lt;/p&gt;
+&lt;p&gt;Still one concept to go: MCMC. But before we can do this we should dive into the Bayesian Theorem as untill now we didn’t explain how we can update our priors to result in posteriors. The core of this proces is the Bayesian Theorem.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;bayesian-theorem&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Bayesian Theorem&lt;/h1&gt;

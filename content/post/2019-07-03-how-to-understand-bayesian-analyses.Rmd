@@ -1,5 +1,5 @@
 ---
-title: 5 terms of Bayesian Stats you should understand
+title: 4 words of Bayesian Stats you should understand
 author: Sven De Maeyer
 date: '2019-07-07'
 slug: how-to-understand-bayesian-analyses
@@ -27,7 +27,7 @@ library(tidyverse)
 
 If you get confronted with colleagues that apply Bayesian analyses you'll notice that they use a specific vocabulary: "prior distribution", "posterior distribution", "Highest Probability Density Intervals", "MCMC",... But what's the meaning of these words? And how to make sense out of all these Bayesian mishmash? After some reading around (and learning of course) I started to get a first understanding of some key concepts. And now I want to share my insights with you.
 
-In this post I'll try to explain the basics and explain **5 key concepts**. But before that, a short sidestep on the goal of stats (because sometimes we seem to forget).
+In this post I'll try to explain the basics and explain **4 key concepts**. But before that, a short sidestep on the goal of stats (because sometimes we seem to forget).
 
 # Stats? Why? 
 
@@ -191,7 +191,7 @@ quantile(Vamp_Posterior$Vamp_Posterior,c(0.05, 0.95))
 
 Concerning the proportion of vampires our posterior learns us that the 90% most plausible proportions of vampires are situated between 7.5% and 14.7%. Notice that the 20% vampires in Europe, the number being mentioned in some rumours is not within this interval. As usual, do not always take rumours too seriously. 
 
-Still two concept to go: MCMC and Bayesian Theorem. Let's start with the latter as untill now we didn't explain how we could update our priors to result in posteriors. The  core of this proces is the Bayesian Theorem. 
+Still one concept to go: MCMC. But before we can do this we should dive into the Bayesian Theorem as untill now we didn't explain how we can update our priors to result in posteriors. The core of this proces is the Bayesian Theorem. 
 
 # Bayesian Theorem
 

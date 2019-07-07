@@ -126,13 +126,13 @@
   
   <meta property="og:site_name" content="Sven De Maeyer">
   <meta property="og:url" content="/post/how-to-understand-bayesian-analyses/">
-  <meta property="og:title" content="5 terms of Bayesian Stats you should understand | Sven De Maeyer">
+  <meta property="og:title" content="4 words of Bayesian Stats you should understand | Sven De Maeyer">
   <meta property="og:description" content="If you get confronted with colleagues that apply Bayesian analyses you’ll notice that they use a specific vocabulary: “prior distribution”, “posterior distribution”, “Highest Probability Density Intervals”, “MCMC”,… But what’s the meaning of these words? And how to make sense out of all these Bayesian mishmash? After some reading around (and learning of course) I started to get a first understanding of some key concepts. And now I want to share my insights with you."><meta property="og:image" content="/img/icon-192.png">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2019-07-07T00:00:00&#43;00:00">
   
-  <meta property="article:modified_time" content="2019-07-07T21:58:21&#43;02:00">
+  <meta property="article:modified_time" content="2019-07-07T22:12:42&#43;02:00">
   
 
   
@@ -144,7 +144,7 @@
 
 
 
-  <title>5 terms of Bayesian Stats you should understand | Sven De Maeyer</title>
+  <title>4 words of Bayesian Stats you should understand | Sven De Maeyer</title>
 
 </head>
 
@@ -437,7 +437,7 @@
   
   
 <div class="article-container pt-3">
-  <h1 itemprop="name">5 terms of Bayesian Stats you should understand</h1>
+  <h1 itemprop="name">4 words of Bayesian Stats you should understand</h1>
 
   
 
@@ -447,7 +447,7 @@
 
 
 <meta content="2019-07-07 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-<meta content="2019-07-07 21:58:21 &#43;0200 CEST" itemprop="dateModified">
+<meta content="2019-07-07 22:12:42 &#43;0200 CEST" itemprop="dateModified">
 
 <div class="article-metadata">
 
@@ -492,7 +492,7 @@
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=5%20terms%20of%20Bayesian%20Stats%20you%20should%20understand&amp;url=%2fpost%2fhow-to-understand-bayesian-analyses%2f"
+         href="https://twitter.com/intent/tweet?text=4%20words%20of%20Bayesian%20Stats%20you%20should%20understand&amp;url=%2fpost%2fhow-to-understand-bayesian-analyses%2f"
          target="_blank" rel="noopener">
         <i class="fab fa-twitter"></i>
       </a>
@@ -506,21 +506,21 @@
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fpost%2fhow-to-understand-bayesian-analyses%2f&amp;title=5%20terms%20of%20Bayesian%20Stats%20you%20should%20understand"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fpost%2fhow-to-understand-bayesian-analyses%2f&amp;title=4%20words%20of%20Bayesian%20Stats%20you%20should%20understand"
          target="_blank" rel="noopener">
         <i class="fab fa-linkedin-in"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=%2fpost%2fhow-to-understand-bayesian-analyses%2f&amp;title=5%20terms%20of%20Bayesian%20Stats%20you%20should%20understand"
+         href="http://service.weibo.com/share/share.php?url=%2fpost%2fhow-to-understand-bayesian-analyses%2f&amp;title=4%20words%20of%20Bayesian%20Stats%20you%20should%20understand"
          target="_blank" rel="noopener">
         <i class="fab fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=5%20terms%20of%20Bayesian%20Stats%20you%20should%20understand&amp;body=%2fpost%2fhow-to-understand-bayesian-analyses%2f">
+         href="mailto:?subject=4%20words%20of%20Bayesian%20Stats%20you%20should%20understand&amp;body=%2fpost%2fhow-to-understand-bayesian-analyses%2f">
         <i class="fas fa-envelope"></i>
       </a>
     </li>
@@ -559,7 +559,7 @@
 
 
 <p>If you get confronted with colleagues that apply Bayesian analyses you’ll notice that they use a specific vocabulary: “prior distribution”, “posterior distribution”, “Highest Probability Density Intervals”, “MCMC”,… But what’s the meaning of these words? And how to make sense out of all these Bayesian mishmash? After some reading around (and learning of course) I started to get a first understanding of some key concepts. And now I want to share my insights with you.</p>
-<p>In this post I’ll try to explain the basics and explain <strong>5 key concepts</strong>. But before that, a short sidestep on the goal of stats (because sometimes we seem to forget).</p>
+<p>In this post I’ll try to explain the basics and explain <strong>4 key concepts</strong>. But before that, a short sidestep on the goal of stats (because sometimes we seem to forget).</p>
 <div id="stats-why" class="section level1">
 <h1>Stats? Why?</h1>
 <p>To put it simple: stats help us to model reality in numbers and assist us in getting better insight in the world. Let’s say we have a major concern on the rise of <em>vampires</em> in Europe <a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a>. Rumours are getting spread saying that the almost 20% of the Europeans is actually a vampire, but nobody really has a good idea on the number of vampires. The major question then is: how many vampires are out there? This is a statistical question that can be approached by a pretty simple <em>model</em>: the proportion of vampires among the whole population of Europeans. This model only contains one unknown value: the actual proportion of vampires. This unknown value is what we often call <em>a parameter</em>. We can calculate the exact proportion in the exceptional case that we can test every single one of the whole European population. But that’s utopia. In research most of the time we make use of samples (we test a random choosen number of European citizens) and we do not calculate the exact parameter value. We <em>estimate</em> the parameter value. Statistics help us to estimate parameter values. But it does even more. Good statistics also <em>quantifies the (un)certainty</em> on our parameter estimate(s)! If we apply this to our question concerning the proportion of vampires, we want statistics to help us quantify how certain we are about different proportions of vampires as the true proportion in the population.</p>
@@ -596,7 +596,7 @@
 <pre><code>##         5%        95% 
 ## 0.07535876 0.14763525</code></pre>
 <p>Concerning the proportion of vampires our posterior learns us that the 90% most plausible proportions of vampires are situated between 7.5% and 14.7%. Notice that the 20% vampires in Europe, the number being mentioned in some rumours is not within this interval. As usual, do not always take rumours too seriously.</p>
-<p>Still two concept to go: MCMC and Bayesian Theorem. Let’s start with the latter as untill now we didn’t explain how we could update our priors to result in posteriors. The core of this proces is the Bayesian Theorem.</p>
+<p>Still one concept to go: MCMC. But before we can do this we should dive into the Bayesian Theorem as untill now we didn’t explain how we can update our priors to result in posteriors. The core of this proces is the Bayesian Theorem.</p>
 </div>
 <div id="bayesian-theorem" class="section level1">
 <h1>Bayesian Theorem</h1>
