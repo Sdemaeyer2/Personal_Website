@@ -18,79 +18,108 @@
   </url>
   
   <url>
-    <loc>/publication_types/2/</loc>
-    <lastmod>2019-06-24T00:00:00+00:00</lastmod>
+    <loc>/post/how-to-understand-bayesian-analyses/</loc>
+    <lastmod>2019-07-07T22:29:21+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/bayesian/</loc>
+    <lastmod>2019-07-07T22:29:21+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/authors/</loc>
-    <lastmod>2019-06-24T00:00:00+00:00</lastmod>
+    <loc>/tags/bayesian/</loc>
+    <lastmod>2019-07-07T22:29:21+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/authors/gert-rijlaarsdam/</loc>
-    <lastmod>2019-06-24T00:00:00+00:00</lastmod>
+    <loc>/categories/</loc>
+    <lastmod>2019-07-07T22:29:21+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/authors/marloes-schrijvers/</loc>
-    <lastmod>2019-06-24T00:00:00+00:00</lastmod>
+    <loc>/categories/r/</loc>
+    <lastmod>2019-07-07T22:29:21+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/authors/olivia-fialho/</loc>
-    <lastmod>2019-06-24T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/publication_types/</loc>
-    <lastmod>2019-06-24T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/authors/sven-de-maeyer/</loc>
-    <lastmod>2019-06-24T00:00:00+00:00</lastmod>
+    <loc>/categories/statistics/</loc>
+    <lastmod>2019-07-07T22:29:21+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2019-06-24T00:00:00+00:00</lastmod>
+    <lastmod>2019-07-07T22:29:21+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2019-07-07T22:29:21+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/publication_types/2/</loc>
+    <lastmod>2019-06-23T21:24:03+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/</loc>
+    <lastmod>2019-06-23T21:24:03+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/gert-rijlaarsdam/</loc>
+    <lastmod>2019-06-23T21:24:03+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/marloes-schrijvers/</loc>
+    <lastmod>2019-06-23T21:24:03+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/olivia-fialho/</loc>
+    <lastmod>2019-06-23T21:24:03+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
+    <lastmod>2019-06-23T21:24:03+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/sven-de-maeyer/</loc>
+    <lastmod>2019-06-23T21:24:03+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/authors/tanja-janssen/</loc>
-    <lastmod>2019-06-24T00:00:00+00:00</lastmod>
+    <lastmod>2019-06-23T21:24:03+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/publication/learning_and_instruction2019_schrijvers/</loc>
-    <lastmod>2019-06-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/bayesian/</loc>
-    <lastmod>2019-06-11T09:35:00+02:00</lastmod>
-    <priority>0</priority>
+    <lastmod>2019-06-23T21:24:03+02:00</lastmod>
   </url>
   
   <url>
     <loc>/talk/example/</loc>
     <lastmod>2019-06-11T09:35:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2019-06-13T18:41:17+02:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -167,11 +196,6 @@
     <loc>/authors/peter-vlerick/</loc>
     <lastmod>2019-06-12T10:23:30+02:00</lastmod>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/post/jupyter/</loc>
-    <lastmod>2019-06-09T08:33:21+02:00</lastmod>
   </url>
   
   <url>
@@ -541,17 +565,6 @@
   </url>
   
   <url>
-    <loc>/tags/academic/</loc>
-    <lastmod>2019-06-09T08:33:21+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/post/getting-started/</loc>
-    <lastmod>2019-06-09T08:33:21+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/publication/moto-c-irua-139046-vano-comp/</loc>
     <lastmod>2019-06-09T11:57:34+02:00</lastmod>
   </url>
@@ -681,41 +694,6 @@
   <url>
     <loc>/authors/wouter-schelfhout/</loc>
     <lastmod>2019-06-09T11:57:34+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/</loc>
-    <lastmod>2019-06-09T08:33:21+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/post/2015-07-23-r-rmarkdown/</loc>
-    <lastmod>2019-06-09T08:33:21+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/r/</loc>
-    <lastmod>2019-06-09T08:33:21+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/r-markdown/</loc>
-    <lastmod>2019-06-09T08:33:21+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/plot/</loc>
-    <lastmod>2019-06-09T08:33:21+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/regression/</loc>
-    <lastmod>2019-06-09T08:33:21+02:00</lastmod>
     <priority>0</priority>
   </url>
   
