@@ -1,5 +1,5 @@
 ---
-title: 4 words of Bayesian Stats you should understand
+title: 4 Bayesian Stats words you may want to understand
 author: Sven De Maeyer
 date: '2019-07-07'
 slug: how-to-understand-bayesian-analyses
