@@ -53,4 +53,4 @@ user_groups:
 
 ---
 
-Sven De Maeyer is a professor of educational measurement at the Univerity of Antwerp. He has expertise in statistical modelling, with an emphasis on mixed effects (aka multilevel) modelling, longitudinal data analyses and psychometric models. His research mainly focusses on assessment in both education and vocational contexts, with a strong focus on judgement and rater-effects and the merits and pitfalls of comparative judgement. 
+Sven De Maeyer is a professor of educational measurement at the University of Antwerp. He has expertise in statistical modelling, with an emphasis on mixed effects (aka multilevel) modelling, longitudinal data analyses and psychometric models. His research mainly focusses on assessment in both education and vocational contexts, with a strong focus on judgement and rater-effects and the merits and pitfalls of comparative judgement. 
