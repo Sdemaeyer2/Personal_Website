@@ -18,6 +18,53 @@
   </url>
   
   <url>
+    <loc>/project/bofmarijn-project/</loc>
+    <lastmod>2019-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/eye-tracking/</loc>
+    <lastmod>2019-10-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/flipped-classroom/</loc>
+    <lastmod>2019-10-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/project/</loc>
+    <lastmod>2019-10-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2019-10-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2019-10-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/ua-bof/</loc>
+    <lastmod>2019-10-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/video-learning/</loc>
+    <lastmod>2019-10-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/publication_types/2/</loc>
     <lastmod>2019-07-25T08:56:18+02:00</lastmod>
     <priority>0</priority>
@@ -25,7 +72,7 @@
   
   <url>
     <loc>/authors/</loc>
-    <lastmod>2019-07-25T08:56:18+02:00</lastmod>
+    <lastmod>2019-07-25T09:00:32+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -77,12 +124,6 @@
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2019-07-25T08:56:18+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/post/how-to-understand-bayesian-analyses/</loc>
     <lastmod>2019-07-07T22:24:57+02:00</lastmod>
   </url>
@@ -118,9 +159,8 @@
   </url>
   
   <url>
-    <loc>/tags/</loc>
-    <lastmod>2019-07-07T22:24:57+02:00</lastmod>
-    <priority>0</priority>
+    <loc>/post/how-to-understand-bayesian-analyses/</loc>
+    <lastmod>2019-07-03T22:29:21+02:00</lastmod>
   </url>
   
   <url>
@@ -910,12 +950,6 @@
   
   <url>
     <loc>/tags/process-feedback/</loc>
-    <lastmod>2019-06-13T18:41:17+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/project/</loc>
     <lastmod>2019-06-13T18:41:17+02:00</lastmod>
     <priority>0</priority>
   </url>
@@ -2027,7 +2061,7 @@
   
   <url>
     <loc>/authors/admin/</loc>
-    <lastmod>2019-06-10T16:05:31+02:00</lastmod>
+    <lastmod>2019-07-25T09:00:32+02:00</lastmod>
   </url>
   
   <url>
