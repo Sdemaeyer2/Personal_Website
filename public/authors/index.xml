@@ -201,6 +201,16 @@
     </item>
     
     <item>
+      <title></title>
+      <link>/authors/tine-van-daal/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/tine-van-daal/</guid>
+      <description>&lt;p&gt;Tine van Daal is a phd-student, who focusses on the cognitive load of comparing pairs of students work in the context of Comparative Judgement.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Els Consuegra</title>
       <link>/authors/els-consuegra/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
@@ -242,6 +252,15 @@
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>/authors/vincent-donche/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/authors/amy-quintelier/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/amy-quintelier/</guid>
       <description></description>
     </item>
     
@@ -1345,15 +1364,6 @@
     
     <item>
       <title></title>
-      <link>/authors/amy-quintelier/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/authors/amy-quintelier/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
       <link>/authors/catherine-meulemans/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -1381,12 +1391,11 @@
     
     <item>
       <title></title>
-      <link>/authors/tine-van-daal/</link>
+      <link>/authors/marijn-gijsen/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/authors/tine-van-daal/</guid>
-      <description>&lt;p&gt;Tine van Daal is a phd-student, who focusses on the cognitive load of comparing pairs of students work in the context of Comparative Judgement.&lt;/p&gt;
-</description>
+      <guid>/authors/marijn-gijsen/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -1441,6 +1450,15 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/authors/lies/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Marijn</title>
+      <link>/authors/marijn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/marijn/</guid>
       <description></description>
     </item>
     

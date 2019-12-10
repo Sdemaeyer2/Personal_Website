@@ -1,0 +1,974 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.3.1">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Sven De Maeyer">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="When researchers commonly apply statistical hypothesis testing they rely heavily on the fameous p-values. These p-values have the following meaning: how big is the probability that I would encounter my data given that the null-hypothesis is true . So, actually, these statistical routines inform us on the null-hypothesis (which in most cases is simply the hypothesis that there is no effect or no difference at all). Many scholars have started to critizise this p-value oriented approach leading and discussing the risks and flaws of using p-values.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/post/compare-models/">
+
+  
+
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Playfair+Display:400,700|Fauna+One">
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.min.756df19289bd3457c61bacda78340198.css">
+
+  
+
+  
+  
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-141768779-1', 'auto');
+      
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="//www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
+  
+
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="/post/compare-models/">
+
+  
+  
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="twitter:site" content="@svawa">
+  <meta property="twitter:creator" content="@svawa">
+  
+  <meta property="og:site_name" content="Sven De Maeyer">
+  <meta property="og:url" content="/post/compare-models/">
+  <meta property="og:title" content="To model is to compare | Sven De Maeyer">
+  <meta property="og:description" content="When researchers commonly apply statistical hypothesis testing they rely heavily on the fameous p-values. These p-values have the following meaning: how big is the probability that I would encounter my data given that the null-hypothesis is true . So, actually, these statistical routines inform us on the null-hypothesis (which in most cases is simply the hypothesis that there is no effect or no difference at all). Many scholars have started to critizise this p-value oriented approach leading and discussing the risks and flaws of using p-values."><meta property="og:image" content="/img/icon-192.png">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2019-12-09T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2019-12-09T15:34:00&#43;01:00">
+  
+
+  
+
+
+  
+
+
+
+
+
+  <title>To model is to compare | Sven De Maeyer</title>
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/"><img src="/img/edubronlogo.png" alt="Sven De Maeyer"></a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav ml-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link  active" href="/post"><span>Posts</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#projects"><span>Projects</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#people"><span>Team</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/talk/"><span>Talks</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#featured"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+  <article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name">To model is to compare</h1>
+
+  
+  <p class="page-subtitle">A short tutorial on a modelbased inference approach using R</p>
+  
+
+  
+    
+
+
+
+<meta content="2019-12-09 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2019-12-09 15:34:00 &#43;0100 CET" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/sven-de-maeyer-tine-van-daal/">Sven De Maeyer &amp; Tine van Daal</a></span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Last updated on
+      
+    
+    <time>Dec 9, 2019</time>
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    11 min read
+  </span>
+  
+
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder"></i>
+    <a href="/categories/r/">R</a>, <a href="/categories/statistics/">Statistics</a></span>
+  
+
+  
+    
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=To%20model%20is%20to%20compare&amp;url=%2fpost%2fcompare-models%2f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=%2fpost%2fcompare-models%2f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fpost%2fcompare-models%2f&amp;title=To%20model%20is%20to%20compare"
+         target="_blank" rel="noopener">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=%2fpost%2fcompare-models%2f&amp;title=To%20model%20is%20to%20compare"
+         target="_blank" rel="noopener">
+        <i class="fab fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=To%20model%20is%20to%20compare&amp;body=%2fpost%2fcompare-models%2f">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+
+<p>When researchers commonly apply statistical hypothesis testing they rely heavily on the fameous p-values. These p-values have the following meaning: <em>how big is the probability that I would encounter my data given that the null-hypothesis is true</em> . So, actually, these statistical routines inform us on the null-hypothesis (which in most cases is simply the hypothesis that there is no effect or no difference at all). Many scholars have started to critizise this p-value oriented approach leading and discussing the risks and flaws of using p-values. It has even brought the American Statistical Association to the point that they published a statement on p-values (<a href="https://amstat.tandfonline.com/doi/full/10.1080/00031305.2016.1154108#.Xe5xppNKh26">see article</a>).</p>
+<p>To criticize things is one thing. Providing solutions is something different. One of the upcoming alternatives is the idea of <strong>modelbased inference</strong> or <strong>model selection</strong>. The basic idea behind this approach is that a researcher translates alternative hypotheses in different statistical models. Based on measures coming from <em>information theory</em> we then can express the probability of each of the different alternative models. Also, the evidence coming from different models can be combined to make inferences.</p>
+<p>In this post we will give a short demo of how we can use such an approach. We will use this approach to inform us on who is right in a discussion that got out of hand. The discussion was on basketball at the kitchen table of a certain family. More specificall it was on whether Kobe Bryant was the most consistent shotter ever in the NBA. And one of the arguments was that his shotsucces was not that much influenced by many factors. So, which factors had an influence on Kobe Bryant’s shot succes? Let’s find out. Here we go with our <em>statistical story</em>. We do our demonstration in R, making use of the <code>AICcmodavg</code> package.</p>
+<hr />
+<div id="the-story-of-kobe-bryant" class="section level2">
+<h2>The story of Kobe Bryant</h2>
+<p><em>Data-analyses is big business in the NBA. In each team there is at least one data-analysist who gathers data during games and makes predictions based on the data. One of the things documented in datasets is the position from where a player takes a shot and whether the shot was a succes or not…</em></p>
+<div class="figure">
+<img src="/img/nba.jpg" />
+
+</div>
+<p>For our example we have data on each shot that Kobe Bryant took in his NBA-career. The data can be downloaded here (<a href="/post/KobeBryant.RData">download the data</a>).</p>
+<p>The variable <strong>‘Scored’</strong> registers whether the shot was succesfull or not. A simple table shows the numbers…</p>
+<pre class="r"><code># Scored (0 = missed, 1 = scored)
+table(KobeBryant$Scored)</code></pre>
+<pre><code>## 
+##     0     1 
+## 14232 11465</code></pre>
+<p>Besides that variable, we also have the following variables:</p>
+<ul>
+<li>distance to the ring (<strong>‘Distance_in_m’</strong>);</li>
+<li>the quarter in which the shot was thrown (5 dummy variables: <strong>‘Q1’</strong>, <strong>‘Q2’</strong>, <strong>‘Q3’</strong>, <strong>‘Q4’</strong>, <strong>‘Extra’</strong>);</li>
+<li>the number of seconds on the shotclock (<strong>‘Shot_clock’</strong>);</li>
+<li>and a dummy variable for shots taken in the final 5 minutes of the game (<strong>‘Last_minutes’</strong>).</li>
+</ul>
+<p>The structure of the data looks like this:</p>
+<pre class="r"><code>str(KobeBryant[, c(&quot;Distance_in_m&quot;,
+                 &quot;Q1&quot;, &quot;Q2&quot;, &quot;Q3&quot;, &quot;Q4&quot;, &quot;Extra&quot;,
+                 &quot;Shot_clock&quot;,
+                 &quot;Last_minutes&quot;)])</code></pre>
+<pre><code>## &#39;data.frame&#39;:    30697 obs. of  8 variables:
+##  $ Distance_in_m: num  5.49 4.57 4.88 6.71 0 ...
+##  $ Q1           : num  1 1 1 1 0 0 0 0 0 0 ...
+##  $ Q2           : num  0 0 0 0 1 0 0 0 0 0 ...
+##  $ Q3           : num  0 0 0 0 0 1 1 1 1 1 ...
+##  $ Q4           : num  0 0 0 0 0 0 0 0 0 0 ...
+##  $ Extra        : num  0 0 0 0 0 0 0 0 0 0 ...
+##  $ Shot_clock   : int  27 22 45 52 19 32 52 5 12 36 ...
+##  $ Last_minutes : num  0 0 0 0 0 0 0 0 0 0 ...</code></pre>
+<p>Which of these variables can predict shot accuracy?</p>
+</div>
+<div id="the-experts-ideas" class="section level2">
+<h2>The experts’ ideas</h2>
+<p>We have 4 candidate explanatory variables.</p>
+<p><em>How to decide which variables to include in our model?</em></p>
+<p>Well, let’s consult the consultants (or the experts according to themselves), the two kids of the family and the mother.</p>
+<p>As one can expect, their opions are somewhat divergent:</p>
+<ul>
+<li>N. (‘basketball hater’) thinks that only distance to the ring is important.<br />
+</li>
+<li>T. (‘old school basketball playster’) thinks that besides distance to the ring also the number of seconds on the shot clock and the quarter in which the shot is fired, are important factors.<br />
+</li>
+<li>W. (‘Kobe Bryant-fan’) thinks that Kobe scores more in the final 5 minutes, no matter how far he is from the ring. Under stressfull situations Kobe was at his best, according to him.</li>
+</ul>
+<p><em>These expert hypotheses can be translated in the following statistical models:</em></p>
+<hr />
+<table style="width:96%;">
+<colgroup>
+<col width="20%" />
+<col width="75%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="center"><strong>Expert</strong></th>
+<th align="left"><strong>Model</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">N.</td>
+<td align="left"><span class="math inline">\(Logit(Scored = 1) = \beta_{0} + \beta_{1}*D\)</span></td>
+</tr>
+<tr class="even">
+<td align="center">T.</td>
+<td align="left"><span class="math inline">\(Logit(Scored = 1) = \beta_{0} + \beta_{1}*D + \beta_{2}*SC + \beta_{3}*Q2 + \beta_{4}*Q3 + \beta_{5}*Q4 + \beta_{6}*Extra\)</span></td>
+</tr>
+<tr class="odd">
+<td align="center">W.</td>
+<td align="left"><span class="math inline">\(Logit(Scored = 1) = \beta_{0} + \beta_{1}*D + \beta_{1}*LM\)</span></td>
+</tr>
+</tbody>
+</table>
+<p><em>D = Distance_in_m ; SC = Shot_clock ; LM = Last_minutes</em></p>
+<hr />
+<p>These models are so-called <em>logistic models</em> where we predict shotsucces (a categorical variable with two categories).</p>
+<p>Let’s estimate each candidate model with <code>glm()</code>.</p>
+<pre class="r"><code>Model_N  &lt;- glm(Scored ~ Distance_in_m, 
+                   data = KobeBryant,  family=binomial())
+Model_T  &lt;- glm(Scored ~ Distance_in_m + Q2 + Q3 + Q4 + Extra, 
+                   data = KobeBryant,  family=binomial())
+Model_W &lt;- glm(Scored ~ Distance_in_m + Last_minutes,
+                   data = KobeBryant,  family=binomial())</code></pre>
+</div>
+<div id="modelbased-inference-in-action" class="section level2">
+<h2>Modelbased inference in action</h2>
+<p>Now we can introduce the idea of <em>Model-based inference</em>. At the core of this method there is the key idea that there is no such thing as the perfect model. But some models are better approaches of reality than other models. So instead of searching for the one single best model, we want to evaluate the alternative models on their performance.</p>
+<p>To evaluate the models, we can make use of different measures, but the most frequently used is the AIC. For our demo we rely on this AIC measure. But be aware that in certain situations AIC can be a sub-optimal choice (see <span class="citation">Symonds and Moussalli (<a href="#ref-symonds2011brief">2011</a>)</span>).</p>
+<p>The AIC can be best defined as:</p>
+<blockquote>
+<p>“… a numerical value by which to rank competing models in terms of information loss in approximating the unknowable truth” (<span class="citation">Symonds and Moussalli (<a href="#ref-symonds2011brief">2011</a>)</span>)</p>
+</blockquote>
+<p>In R we can make use of the <code>aictab( )</code> function from the <code>AICcmodavg</code> package. The input for this function is a list of estimated models. Let’s apply it:</p>
+<pre class="r"><code># install.packages(&quot;AICcmodavg&quot;, dependencies = T)
+
+library(AICcmodavg)
+
+Candidate_models &lt;- list(Model_N = Model_N, Model_T = Model_T, Model_W = Model_W)
+AICTAB &lt;- aictab(Candidate_models, second.ord = F, sort = T)
+AICTAB</code></pre>
+<pre><code>## 
+## Model selection based on AIC:
+## 
+##         K      AIC Delta_AIC AICWt Cum.Wt        LL
+## Model_W 3 34283.98      0.00  0.83   0.83 -17138.99
+## Model_T 6 34287.17      3.19  0.17   1.00 -17137.58
+## Model_N 2 34298.86     14.88  0.00   1.00 -17147.43</code></pre>
+<p>The table ranks the models from best to worst approximations of “the truth”. And the lower the AIC the better the model. So, in our case the Model of W (effect of <strong>Distance_in_m</strong> and <strong>Last_minutes</strong>) is ranked as best model. The second best model is the model of T (effect of <strong>Distance_in_m</strong>, and the dummy-variables <strong>Q2</strong> - <strong>Q4</strong> &amp; <strong>Extra</strong>), a model that contains more predictors (see column <code>K</code> in our table that prints the number of parameters including the intercept). Model N is ranked as poorest model.</p>
+<p>The column <code>Delta_AIC</code> gives us the distance in AIC between each model and the best ranked model respectively. So Model T’s AIC is 3.19 higher than Model W. The model of N results in an AIC that is 14.88 higher than the best ranked model (Model W).</p>
+<p>If we look at the column <code>LL</code> we get the <em>log-likelihoods</em> for each model. Model T (the more complex model) has a higher LL than the model of W. This would favour the model of T. But, as Model W is more pasimonious it gets a lower AIC (where a correction is made on the number of parameters).</p>
+<p>Another piece of information in our table is called the <em>Akaike Weight</em> (column <code>AICwt</code>). A simple interpretation of this weight is as follows. Model W, the best ranked model, has a <code>AICwt</code> of 0.83. This indicates that this Model W has a 83% probability of being the best approximating model given the set of canditate models. Model T has a lower probability of being the best approximating model: only 16.8% (<code>AICwt</code> = 0.168). The model of N has a very low probability of being the best approximating model (only 0.04%).</p>
+<p>If we take all the information in our table into account, we could conclude that both models Model W and Model T are the two best models in our set of models, with Model W being the best approximating model. The evidence for a model that states that only distance to the ring is an important determinator for shot succes (Model N) is very low, so we can almast certainly conclude that distance isn’t all that matters.</p>
+<p>But, can we really reject this model? Are there any guidelines? How to decide on which models to further use in our analyses to interpret the results? Should we choose one single model and continue our inferences based on that single model? There is no single answer to these questions, but, as <span class="citation">Symonds and Moussalli (<a href="#ref-symonds2011brief">2011</a>)</span> state:</p>
+<blockquote>
+<p>“as a coarse guide, models with <span class="math inline">\(\Delta_i\)</span> values less than 2 are considered to be essentially as good as the best model, and models with <span class="math inline">\(\Delta_i\)</span> up to 6 should probably not be discounted (<span class="citation">Richards (<a href="#ref-richards2005">2005</a>)</span>). Above this, model rejection might be considered, and certainly models with <span class="math inline">\(\Delta_i\)</span> values greater than 10 are sufficiently poorer than the best AIC model as to be considered implausible (<span class="citation">Burnham and Anderson (<a href="#ref-burnham_anderson2002">2002</a>)</span>).”</p>
+</blockquote>
+<p>In this quote <span class="math inline">\(\Delta_i\)</span> refers to the column <code>Delta_AIC</code> in our table. Applying this coarse guide, we can conclude that we can only reject the model of N and that Model T should not be discounted.</p>
+<p>Now that we know who’s expert at the kitchen table, we still do not know how e.g. distance influenced the shot succes of Kobe Bryant. It is a great thing that we have two possible models, but from which model do we need to extract our information to learn more about the influence of distance to the ring?</p>
+<p>In the modelbased inference approach this is tackled by taking into account the relevant information from the different models. This is done by averaging the relevant parameter estimates, after weighting them according to Akaike’s weight for the models. Sounds a bit puzzling? In practice it is not that difficult. Here is the command we can use in R:</p>
+<pre class="r"><code>modavg(cand.set = Candidate_models, second.ord = F, parm = &quot;Distance_in_m&quot;)</code></pre>
+<pre><code>## 
+## Multimodel inference on &quot;Distance_in_m&quot; based on AIC
+## 
+## AIC table used to obtain model-averaged estimate:
+## 
+##         K      AIC Delta_AIC AICWt Estimate SE
+## Model_N 2 34298.86     14.88  0.00    -0.14  0
+## Model_T 6 34287.17      3.19  0.17    -0.14  0
+## Model_W 3 34283.98      0.00  0.83    -0.14  0
+## 
+## Model-averaged estimate: -0.14 
+## Unconditional SE: 0 
+## 95% Unconditional confidence interval: -0.15, -0.13</code></pre>
+<p>The column <code>Estimate</code> contains the estimate of the effect of <strong>Distance_in_m</strong> in each model where this variable is added. In each model the estimate is similar (-0.14). The <code>Model-averaged estimate</code> is also -0.14. To calculate this average estimate, Model_W is given the highest weight (=0.83) and Model_N the lowest (<span class="math inline">\(\approx 0.00\)</span>). The 95% confidence interval is also a ‘weighted version’, indicating in our case that we are pretty shure that distance towards the ring had a negative impact on the probability to succesfully throw the ball in the ring, even for a top-player like Kobe Bryant.</p>
+<p>To get an idea of how shot succes is influenced by distance, we can plot our estimated model, making use of the <code>plot_model</code> command from the package <code>sjPlot</code>.</p>
+<pre class="r"><code>library(sjPlot)
+Plot_probs &lt;- plot_model(Model_W,
+                type      = c(&quot;eff&quot;),
+                terms     = c(&quot;Distance_in_m&quot;),
+                axis.title = c(&quot;Distance&quot;, &quot;Predicted probablity of succes&quot;),
+                title = &quot;Relation between distance to the ring and shot succes&quot;)
+
+Plot_probs</code></pre>
+<p><img src="/post/2019-12-09-logisitscheregressie_files/figure-html/unnamed-chunk-7-1.png" width="672" height="80%" /></p>
+<p>Seems that Kobe Bryant’s shots were quite accurate!</p>
+</div>
+<div id="to-conlcude" class="section level2">
+<h2>To conlcude</h2>
+<p>The typical null-hypothesis significance testing is under pressure. One of the upcoming alternatives is making use of <strong>modelbased inference</strong>. We hope you get a rough idea about how this approach can be applied. More in-depth reading is of course welcome. The references added in this post can help. A great read as well is Chapter 6 in THE book you must read on statistics: <span class="citation">McElreath (<a href="#ref-mcelreath2018statistical">2018</a>)</span>. This book is also nicely ‘recoded’ making use of modern packages in R in the following book: <a href="https://bookdown.org/connect/#/apps/1850/access">Statistical Rethink Recoded</a>.</p>
+<p>Have fun while leaRning!</p>
+</div>
+<div id="references" class="section level1 unnumbered">
+<h1>References</h1>
+<div id="refs" class="references">
+<div id="ref-burnham_anderson2002">
+<p>Burnham, KP, and DR Anderson. 2002. <em>Model Selection and Multimodel Inference</em>. 2nd ed. New York: Springer.</p>
+</div>
+<div id="ref-mcelreath2018statistical">
+<p>McElreath, Richard. 2018. <em>Statistical Rethinking: A Bayesian Course with Examples in R and Stan</em>. Chapman; Hall/CRC.</p>
+</div>
+<div id="ref-richards2005">
+<p>Richards, SA. 2005. “Testing Ecological Theory Using the Informationtheoretic Approach: Examples and Cautionary Results.” <em>Ecology</em> 86: 2805–14.</p>
+</div>
+<div id="ref-symonds2011brief">
+<p>Symonds, Matthew RE, and Adnan Moussalli. 2011. “A Brief Guide to Model Selection, Multimodel Inference and Model Averaging in Behavioural Ecology Using Akaike’s Information Criterion.” <em>Behav Ecol Sociobiol</em> 65: 13–21.</p>
+</div>
+</div>
+</div>
+
+    </div>
+
+    
+
+
+
+    
+      
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+
+
+  
+  
+  
+  
+  <div class="media author-card" itemscope itemtype="http://schema.org/Person">
+    
+
+    <div class="media-body">
+      <h5 class="card-title" itemprop="name"><a href="/authors/sven-de-maeyer-tine-van-daal/"></a></h5>
+      
+      
+      <ul class="network-icon" aria-hidden="true">
+        
+      </ul>
+    </div>
+  </div>
+
+
+
+      
+      
+    
+
+    
+
+    
+
+
+  </div>
+</article>
+
+      
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.3394a224b26ce58ff36f44c54743e0ab.js"></script>
+
+    
+
+
+
+
+
+
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+  <p class="powered-by">
+    <a href="/privacy/">Privacy Policy</a>
+  </p>
+  
+
+  <p class="powered-by">
+    
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" id="back_to_top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

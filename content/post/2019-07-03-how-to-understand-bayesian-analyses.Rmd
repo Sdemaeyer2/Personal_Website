@@ -36,7 +36,7 @@ To put it simple: stats help us to model reality in numbers and assist us in get
 This brings us to our two first concepts from Bayesian analysis: priors and posteriors.
 
 # Priors and posteriors
-
+ 
 Bayesian statistics calls the quantification of uncertainty on parameter estimates <u>**priors**</u> and <u>**posteriors**</u>. So both concepts refer to some kind of probability. 
 
 Lets start with the prior. 
@@ -225,7 +225,7 @@ The take-away message is that this MCMC sampling is a more efficient way to samp
 
 # to end...
 
-I hope you have some first impressions or ideas about the meaning of these 5 key concepts in Bayesian analysis. Of course, it is way more complex than described in this blog. If you are triggered to learn more consider following sources (among the many out there).
+I hope you have some first impressions or ideas about the meaning of these key concepts in Bayesian analysis. Of course, it is way more complex than described in this blog. If you are triggered to learn more consider following sources (among the many out there).
 
 ## Some url's 
 
