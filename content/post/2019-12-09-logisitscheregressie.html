@@ -25,15 +25,16 @@ link-citations: true
 
 <p>When researchers commonly apply statistical hypothesis testing they rely heavily on the fameous p-values. These p-values have the following meaning: <em>how big is the probability that I would encounter my data given that the null-hypothesis is true</em> . So, actually, these statistical routines inform us on the null-hypothesis (which in most cases is simply the hypothesis that there is no effect or no difference at all). Many scholars have started to critizise this p-value oriented approach leading and discussing the risks and flaws of using p-values. It has even brought the American Statistical Association to the point that they published a statement on p-values (<a href="https://amstat.tandfonline.com/doi/full/10.1080/00031305.2016.1154108#.Xe5xppNKh26">see article</a>).</p>
 <p>To criticize things is one thing. Providing solutions is something different. One of the upcoming alternatives is the idea of <strong>modelbased inference</strong> or <strong>model selection</strong>. The basic idea behind this approach is that a researcher translates alternative hypotheses in different statistical models. Based on measures coming from <em>information theory</em> we then can express the probability of each of the different alternative models. Also, the evidence coming from different models can be combined to make inferences.</p>
-<p>In this post we will give a short demo of how we can use such an approach. We will use this approach to inform us on who is right in a discussion that got out of hand. The discussion was on basketball at the kitchen table of a certain family. More specificall it was on whether Kobe Bryant was the most consistent shotter ever in the NBA. And one of the arguments was that his shotsucces was not that much influenced by many factors. So, which factors had an influence on Kobe Bryant’s shot succes? Let’s find out. Here we go with our <em>statistical story</em>. We do our demonstration in R, making use of the <code>AICcmodavg</code> package.</p>
+<p>In this post we will give a short demo of how we can use such an approach. We will use this approach to inform us on who is right in a discussion that got out of hand…</p>
 <hr />
 <div id="the-story-of-kobe-bryant" class="section level2">
 <h2>The story of Kobe Bryant</h2>
-<p><em>Data-analyses is big business in the NBA. In each team there is at least one data-analysist who gathers data during games and makes predictions based on the data. One of the things documented in datasets is the position from where a player takes a shot and whether the shot was a succes or not…</em></p>
+<p><em>The discussion was on basketball and it happened at the kitchen table of “a certain family”. More specifically, the discussion was on whether Kobe Bryant was one of the most consistent shotters ever in the NBA. One of the arguments was that his shotsucces was nearly influenced by any extraneous factor. But, which factors had an influence on Kobe Bryant’s shot succes? Let’s find out. Here we go with our </em>statistical story<em>. We do our demonstration in R, making use of the <code>AICcmodavg</code> package.</em></p>
 <div class="figure">
 <img src="/img/nba.jpg" />
 
 </div>
+<p>Data-analyses is big business in the NBA. In each team there is at least one data-analysist gathering data during games to make predictions. One of the things documented in datasets is the position from where a player takes a shot and whether the shot was a succes or not…</p>
 <p>For our example we have data on each shot that Kobe Bryant took in his NBA-career. The data can be downloaded here (<a href="/post/KobeBryant.RData">download the data</a>).</p>
 <p>The variable <strong>‘Scored’</strong> registers whether the shot was succesfull or not. A simple table shows the numbers…</p>
 <pre class="r"><code># Scored (0 = missed, 1 = scored)
@@ -169,8 +170,8 @@ AICTAB</code></pre>
 <p>To get an idea of how shot succes is influenced by distance, we can plot our estimated model, making use of the <code>plot_model</code> command from the package <code>sjPlot</code>.</p>
 <pre class="r"><code>library(sjPlot)
 Plot_probs &lt;- plot_model(Model_W,
-                type      = c(&quot;eff&quot;),
-                terms     = c(&quot;Distance_in_m&quot;),
+                type      = c(&quot;pred&quot;),
+                terms     = c(&quot;Distance_in_m [all]&quot;),
                 axis.title = c(&quot;Distance&quot;, &quot;Predicted probablity of succes&quot;),
                 title = &quot;Relation between distance to the ring and shot succes&quot;)
 
@@ -180,7 +181,7 @@ Plot_probs</code></pre>
 </div>
 <div id="to-conlcude" class="section level2">
 <h2>To conlcude</h2>
-<p>The typical null-hypothesis significance testing is under pressure. One of the upcoming alternatives is making use of <strong>modelbased inference</strong>. We hope you get a rough idea about how this approach can be applied. More in-depth reading is of course welcome. The references added in this post can help. A great read as well is Chapter 6 in THE book you must read on statistics: <span class="citation">McElreath (<a href="#ref-mcelreath2018statistical">2018</a>)</span>. This book is also nicely ‘recoded’ making use of modern packages in R in the following book: <a href="https://bookdown.org/connect/#/apps/1850/access">Statistical Rethink Recoded</a>.</p>
+<p>The typical null-hypothesis significance testing is under pressure. One of the upcoming alternatives is making use of <strong>modelbased inference</strong>. We hope you get a rough idea about how this approach can be applied. More in-depth reading is of course welcome. The references added in this post can help. A great read as well is Chapter 6 in THE book you must read on statistics: <span class="citation">McElreath (<a href="#ref-mcelreath2018statistical">2018</a>)</span>. This book is also nicely ‘recoded’ making use of modern packages in R in the following book: <a href="https://bookdown.org/connect/#/apps/1850/access">Statistical Rethinking Recoded</a>.</p>
 <p>Have fun while leaRning!</p>
 </div>
 <div id="references" class="section level1 unnumbered">
