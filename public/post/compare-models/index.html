@@ -28,7 +28,7 @@
   
     
   
-  <meta name="description" content="When researchers commonly apply statistical hypothesis testing they rely heavily on the fameous p-values. These p-values have the following meaning: how big is the probability that I would encounter my data given that the null-hypothesis is true . So, actually, these statistical routines inform us on the null-hypothesis (which in most cases is simply the hypothesis that there is no effect or no difference at all). Many scholars have started to critizise this p-value oriented approach leading and discussing the risks and flaws of using p-values.">
+  <meta name="description" content="When researchers commonly apply statistical hypothesis testing they rely heavily on the fameous p-values. These p-values have the following meaning: how big is the probability that I would encounter my data given that the null-hypothesis is true . So, actually, these statistical routines inform us on the null-hypothesis (which in most cases is simply the hypothesis that there is no effect or no difference at all). Many scholars have started to critizise this p-value oriented approach, discussing it’s risks and flaws.">
 
   
   <link rel="alternate" hreflang="en-us" href="/post/compare-models/">
@@ -127,12 +127,12 @@
   <meta property="og:site_name" content="Sven De Maeyer">
   <meta property="og:url" content="/post/compare-models/">
   <meta property="og:title" content="To model is to compare | Sven De Maeyer">
-  <meta property="og:description" content="When researchers commonly apply statistical hypothesis testing they rely heavily on the fameous p-values. These p-values have the following meaning: how big is the probability that I would encounter my data given that the null-hypothesis is true . So, actually, these statistical routines inform us on the null-hypothesis (which in most cases is simply the hypothesis that there is no effect or no difference at all). Many scholars have started to critizise this p-value oriented approach leading and discussing the risks and flaws of using p-values."><meta property="og:image" content="/img/icon-192.png">
+  <meta property="og:description" content="When researchers commonly apply statistical hypothesis testing they rely heavily on the fameous p-values. These p-values have the following meaning: how big is the probability that I would encounter my data given that the null-hypothesis is true . So, actually, these statistical routines inform us on the null-hypothesis (which in most cases is simply the hypothesis that there is no effect or no difference at all). Many scholars have started to critizise this p-value oriented approach, discussing it’s risks and flaws."><meta property="og:image" content="/img/icon-192.png">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2019-12-09T00:00:00&#43;00:00">
   
-  <meta property="article:modified_time" content="2019-12-10T13:52:40&#43;01:00">
+  <meta property="article:modified_time" content="2019-12-13T15:57:55&#43;01:00">
   
 
   
@@ -449,7 +449,7 @@
 
 
 <meta content="2019-12-09 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-<meta content="2019-12-10 13:52:40 &#43;0100 CET" itemprop="dateModified">
+<meta content="2019-12-13 15:57:55 &#43;0100 CET" itemprop="dateModified">
 
 <div class="article-metadata">
 
@@ -476,7 +476,7 @@
           Last updated on
       
     
-    <time>Dec 10, 2019</time>
+    <time>Dec 13, 2019</time>
   </span>
   
 
@@ -572,7 +572,8 @@
       
 
 
-<p>When researchers commonly apply statistical hypothesis testing they rely heavily on the fameous p-values. These p-values have the following meaning: <em>how big is the probability that I would encounter my data given that the null-hypothesis is true</em> . So, actually, these statistical routines inform us on the null-hypothesis (which in most cases is simply the hypothesis that there is no effect or no difference at all). Many scholars have started to critizise this p-value oriented approach leading and discussing the risks and flaws of using p-values. It has even brought the American Statistical Association to the point that they published a statement on p-values (<a href="https://amstat.tandfonline.com/doi/full/10.1080/00031305.2016.1154108#.Xe5xppNKh26">see article</a>).</p>
+<p>When researchers commonly apply statistical hypothesis testing they rely heavily on the fameous p-values. These p-values have the following meaning: <em>how big is the probability that I would encounter my data given that the null-hypothesis is true</em> . So, actually, these statistical routines inform us on the null-hypothesis (which in most cases is simply the hypothesis that there is no effect or no difference at all). Many scholars have started to critizise this p-value oriented approach, discussing it’s risks and flaws. It has even brought the American Statistical Association to the point that they published a statement on p-values (<a href="https://amstat.tandfonline.com/doi/full/10.1080/00031305.2016.1154108#.Xe5xppNKh26">see article</a>).</p>
+<p>One critique that is expressed, refers to the goal of “good science”. According to <span class="citation">K. P. Burnham, Anderson, and Huyvaert (<a href="#ref-Burnham_etal2010">2011</a>)</span> good scientist “make a major effort to think hard about the science question and then define several plausible alternative hypotheses”. When we rely only on p-values we are actually defining two hypotheses: the null hypothesis (which in many cases doesn’t make sense anyway) and the alternative hypothesis. A better approach would be to formulate a set of alternative ‘working hypotheses’ and evaluate them.</p>
 <p>To criticize things is one thing. Providing solutions is something different. One of the upcoming alternatives is the idea of <strong>modelbased inference</strong> or <strong>model selection</strong>. The basic idea behind this approach is that a researcher translates alternative hypotheses in different statistical models. Based on measures coming from <em>information theory</em> we then can express the probability of each of the different alternative models. Also, the evidence coming from different models can be combined to make inferences.</p>
 <p>In this post we will give a short demo of how we can use such an approach. We will use this approach to inform us on who is right in a discussion that got out of hand…</p>
 <hr />
@@ -696,7 +697,7 @@ AICTAB</code></pre>
 <p>If we take all the information in our table into account, we could conclude that both models Model W and Model T are the two best models in our set of models, with Model W being the best approximating model. The evidence for a model that states that only distance to the ring is an important determinator for shot succes (Model N) is very low, so we can almast certainly conclude that distance isn’t all that matters.</p>
 <p>But, can we really reject this model? Are there any guidelines? How to decide on which models to further use in our analyses to interpret the results? Should we choose one single model and continue our inferences based on that single model? There is no single answer to these questions, but, as <span class="citation">Symonds and Moussalli (<a href="#ref-symonds2011brief">2011</a>)</span> state:</p>
 <blockquote>
-<p>“as a coarse guide, models with <span class="math inline">\(\Delta_i\)</span> values less than 2 are considered to be essentially as good as the best model, and models with <span class="math inline">\(\Delta_i\)</span> up to 6 should probably not be discounted (<span class="citation">Richards (<a href="#ref-richards2005">2005</a>)</span>). Above this, model rejection might be considered, and certainly models with <span class="math inline">\(\Delta_i\)</span> values greater than 10 are sufficiently poorer than the best AIC model as to be considered implausible (<span class="citation">Burnham and Anderson (<a href="#ref-burnham_anderson2002">2002</a>)</span>).”</p>
+<p>“as a coarse guide, models with <span class="math inline">\(\Delta_i\)</span> values less than 2 are considered to be essentially as good as the best model, and models with <span class="math inline">\(\Delta_i\)</span> up to 6 should probably not be discounted (<span class="citation">Richards (<a href="#ref-richards2005">2005</a>)</span>). Above this, model rejection might be considered, and certainly models with <span class="math inline">\(\Delta_i\)</span> values greater than 10 are sufficiently poorer than the best AIC model as to be considered implausible (<span class="citation">K. Burnham and Anderson (<a href="#ref-burnham_anderson2002">2002</a>)</span>).”</p>
 </blockquote>
 <p>In this quote <span class="math inline">\(\Delta_i\)</span> refers to the column <code>Delta_AIC</code> in our table. Applying this coarse guide, we can conclude that we can only reject the model of N and that Model T should not be discounted.</p>
 <p>Now that we know who’s expert at the kitchen table, we still do not know how e.g. distance influenced the shot succes of Kobe Bryant. It is a great thing that we have two possible models, but from which model do we need to extract our information to learn more about the influence of distance to the ring?</p>
@@ -736,6 +737,9 @@ Plot_probs</code></pre>
 <div id="references" class="section level1 unnumbered">
 <h1>References</h1>
 <div id="refs" class="references">
+<div id="ref-Burnham_etal2010">
+<p>Burnham, Kenneth P., David R. Anderson, and Kathryn P. Huyvaert. 2011. “AIC Model Selection and Multimodel Inference in Behavioral Ecology: Some Background, Observations, and Comparisons.” <em>Behavioral Ecology and Sociobiology</em> 65 (1): 23–35.</p>
+</div>
 <div id="ref-burnham_anderson2002">
 <p>Burnham, KP, and DR Anderson. 2002. <em>Model Selection and Multimodel Inference</em>. 2nd ed. New York: Springer.</p>
 </div>
