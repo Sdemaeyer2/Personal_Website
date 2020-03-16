@@ -58,3 +58,7 @@ These phd-students graduated
 
 - Anca-Daniela Frumuselu *Subtitled television series inside the EFL classroom: long-term effects upon colloquial language learning and oral production* (05/02/2016)
 
+- Jan Ardies *Students' attitudes towards technology. A cross-sectional and longitudinal study in secondary education.* (22/05/2015)
+
+- Maarten Penninckx  *Inspecting School Inspections* (03/04/2015)
+
