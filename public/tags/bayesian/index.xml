@@ -115,14 +115,8 @@
       <pubDate>Tue, 14 May 2019 10:00:00 +0000</pubDate>
       
       <guid>/talk/example/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    You can download the pdf here: &lt;a href=&#34;Bayesian_intro_Sven.pdf&#34; target=&#34;_blank&#34;&gt;Bayesian_intro_Sven.pdf&lt;/a&gt;.
-  &lt;/div&gt;
-&lt;/div&gt;
-
+      <description>&lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;The majority of research relies on statistical analyses that are in general grounded within Null-Hypothesis Significance Testing (NHST). But NHST has it&amp;rsquo;s &amp;lsquo;downsides&amp;rsquo;. First of all, NHST tests a &amp;lsquo;null-hypothesis&amp;rsquo; rather than the real research hypothesis we&amp;rsquo;re interested in. And secondly, NHST makes use of &lt;em&gt;imaginary&lt;/em&gt; samples (the sampling distribution). Finally, NHST doesn&amp;rsquo;t quantify the uncertianty of parameters.&lt;/p&gt;
-
 &lt;p&gt;The framework of Bayesian analysis is a tool that can overcome these flaws of NHST. In this talk I introduced the basic idea of Bayesian analysis, the way Markov Chain Monte Carlo works (conceptually) and how to implement it in R making use of the &lt;code&gt;brms&lt;/code&gt; package to compile code for Stan (an mcmc sampler in C++). The talk is a gentle introduction (in Dutch).&lt;/p&gt;
 </description>
     </item>
