@@ -1,14 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Sven De Maeyer</title>
+    <title>Wanda Sass on Sven De Maeyer</title>
     <link>/authors/wanda-sass/</link>
-    <description>Recent content on Sven De Maeyer</description>
+    <description>Recent content in Wanda Sass on Sven De Maeyer</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
+    <lastBuildDate>Thu, 28 May 2020 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="/authors/wanda-sass/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Redefining action competence: the case of sustainable development</title>
+      <link>/publication/jee_2020_wanda/</link>
+      <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/jee_2020_wanda/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
