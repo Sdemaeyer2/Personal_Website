@@ -46,6 +46,8 @@ subtitle = ""
 
 These phd-students graduated
 
+- Amy Quintelier *School Inspection Feedback: Unravelling Determinants and Consequences of Teachers’ Feedback Acceptance* (03/06/2020)
+
 - San Verhavert *Beyond a Mere Rank Order. The Method, the Reliability and the Efficiency of Comparative Judgment* (03/12/2018)
 
 - Marije Lesterhuis *The validity of comparative judgement for assessing text quality: An assessor's perspective* (28/09/2018)
