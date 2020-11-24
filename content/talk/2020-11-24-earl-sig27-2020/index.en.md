@@ -1,5 +1,5 @@
 ---
-title: "Earl_Sig27_2020"
+title: "Modelling eye-tracking data in comparative judgement"
 author: "Sven De maeyer"
 date: '2020-11-24'
 authors: [Sven De Maeyer, Marije Lesterhuis, Marijn Gijsen]
@@ -27,4 +27,4 @@ url_slides: https://earlisig27-2020-sdemaeyer.netlify.app/#1
 url_video: null
 ---
 
-First line of tet
+Als we de eye-tracker gebruiken om oogbewegingen te registreren terwijl beoordelaars twee teksten vergelijken, worden we geconfronteerd met de vraag hoe we de resulterende data statistisch kunnen modelleren. In deze presentatie hebben we het meerbepaald over het modelleren van 'Gaze event durations'. We tonen de meerwaarde aan van een *finite mixture model* en presenteren de resultaten van analyses waarbij we gebruik maken van bayesiaanse schattingen. 

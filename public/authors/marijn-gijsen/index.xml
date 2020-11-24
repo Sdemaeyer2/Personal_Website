@@ -12,12 +12,12 @@
     
     
     <item>
-      <title>Earl_Sig27_2020</title>
+      <title>Modelling eye-tracking data in comparative judgement</title>
       <link>/talk/2020-11-24-earl-sig27-2020/</link>
       <pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>/talk/2020-11-24-earl-sig27-2020/</guid>
-      <description>&lt;p&gt;First line of tet&lt;/p&gt;
+      <description>&lt;p&gt;Als we de eye-tracker gebruiken om oogbewegingen te registreren terwijl beoordelaars twee teksten vergelijken, worden we geconfronteerd met de vraag hoe we de resulterende data statistisch kunnen modelleren. In deze presentatie hebben we het meerbepaald over het modelleren van &amp;lsquo;Gaze event durations&amp;rsquo;. We tonen de meerwaarde aan van een &lt;em&gt;finite mixture model&lt;/em&gt; en presenteren de resultaten van analyses waarbij we gebruik maken van bayesiaanse schattingen.&lt;/p&gt;
 </description>
     </item>
     
