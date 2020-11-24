@@ -19,27 +19,52 @@
   
   <url>
     <loc>/authors/</loc>
-    <lastmod>2020-11-24T14:18:30+01:00</lastmod>
+    <lastmod>2020-11-24T14:52:40+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/bayesian/</loc>
+    <lastmod>2020-11-24T14:52:40+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/bayesian-analysis/</loc>
+    <lastmod>2020-11-24T14:52:40+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/comparative-judgement/</loc>
+    <lastmod>2020-11-24T14:52:40+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/finite-mixture-models/</loc>
+    <lastmod>2020-11-24T14:52:40+01:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/marije-lesterhuis/</loc>
-    <lastmod>2020-11-24T14:18:30+01:00</lastmod>
+    <lastmod>2020-11-24T14:52:40+01:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/marijn-gijsen/</loc>
-    <lastmod>2020-11-24T14:18:30+01:00</lastmod>
+    <lastmod>2020-11-24T14:52:40+01:00</lastmod>
   </url>
   
   <url>
     <loc>/talk/2020-11-24-earl-sig27-2020/</loc>
-    <lastmod>2020-11-24T14:18:30+01:00</lastmod>
+    <lastmod>2020-11-24T14:52:40+01:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/sven-de-maeyer/</loc>
-    <lastmod>2020-11-24T14:18:30+01:00</lastmod>
+    <lastmod>2020-11-24T14:52:40+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-11-24T14:52:40+01:00</lastmod>
   </url>
   
   <url>
@@ -163,11 +188,6 @@
   </url>
   
   <url>
-    <loc>/tags/</loc>
-    <lastmod>2020-11-24T14:18:30+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tags/ua-bof/</loc>
     <lastmod>2019-09-18T19:02:54+02:00</lastmod>
   </url>
@@ -209,11 +229,6 @@
   
   <url>
     <loc>/post/how-to-understand-bayesian-analyses/</loc>
-    <lastmod>2020-11-24T14:18:30+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/bayesian/</loc>
     <lastmod>2020-11-24T14:18:30+01:00</lastmod>
   </url>
   
@@ -875,11 +890,6 @@
   <url>
     <loc>/authors/c.-gabelica/</loc>
     <lastmod>2019-06-09T11:57:34+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/comparative-judgement/</loc>
-    <lastmod>2019-06-09T08:33:21+02:00</lastmod>
   </url>
   
   <url>

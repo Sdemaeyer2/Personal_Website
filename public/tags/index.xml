@@ -6,10 +6,46 @@
     <description>Recent content in Tags on Sven De Maeyer</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2020 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Bayesian</title>
+      <link>/tags/bayesian/</link>
+      <pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/bayesian/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bayesian analysis</title>
+      <link>/tags/bayesian-analysis/</link>
+      <pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/bayesian-analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Comparative Judgement</title>
+      <link>/tags/comparative-judgement/</link>
+      <pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/comparative-judgement/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>finite mixture models</title>
+      <link>/tags/finite-mixture-models/</link>
+      <pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/finite-mixture-models/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Eye-tracking</title>
@@ -44,24 +80,6 @@
       <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
       
       <guid>/tags/video-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Bayesian</title>
-      <link>/tags/bayesian/</link>
-      <pubDate>Sun, 07 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/bayesian/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Comparative Judgement</title>
-      <link>/tags/comparative-judgement/</link>
-      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/comparative-judgement/</guid>
       <description></description>
     </item>
     
