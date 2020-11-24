@@ -18,53 +18,68 @@
   </url>
   
   <url>
-    <loc>/publication_types/2/</loc>
-    <lastmod>2020-11-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/eed_2020_wanda/</loc>
-    <lastmod>2020-11-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/amy-quintelier/</loc>
-    <lastmod>2020-11-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/authors/</loc>
-    <lastmod>2020-11-10T00:00:00+00:00</lastmod>
+    <lastmod>2020-11-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/jelle-boeve-de-pauw/</loc>
-    <lastmod>2020-11-10T00:00:00+00:00</lastmod>
+    <loc>/talk/2020-11-24-earl-sig27-2020/</loc>
+    <lastmod>2020-11-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/niklas-gericke/</loc>
-    <lastmod>2020-11-10T00:00:00+00:00</lastmod>
+    <loc>/authors/marije-lesterhuis/</loc>
+    <lastmod>2020-11-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/peter-van-petegem/</loc>
-    <lastmod>2020-11-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication_types/</loc>
-    <lastmod>2020-11-10T00:00:00+00:00</lastmod>
+    <loc>/authors/marijn-gijsen/</loc>
+    <lastmod>2020-11-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/sven-de-maeyer/</loc>
-    <lastmod>2020-11-10T00:00:00+00:00</lastmod>
+    <lastmod>2020-11-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/2/</loc>
+    <lastmod>2020-11-10T09:32:09+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/eed_2020_wanda/</loc>
+    <lastmod>2020-11-10T09:32:09+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/amy-quintelier/</loc>
+    <lastmod>2020-11-10T09:32:09+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/jelle-boeve-de-pauw/</loc>
+    <lastmod>2020-11-10T09:32:09+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/niklas-gericke/</loc>
+    <lastmod>2020-11-10T09:32:09+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/peter-van-petegem/</loc>
+    <lastmod>2020-11-10T09:32:09+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
+    <lastmod>2020-11-10T09:32:09+01:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/wanda-sass/</loc>
-    <lastmod>2020-11-10T00:00:00+00:00</lastmod>
+    <lastmod>2020-11-10T09:32:09+01:00</lastmod>
   </url>
   
   <url>
@@ -243,11 +258,6 @@
   </url>
   
   <url>
-    <loc>/authors/marije-lesterhuis/</loc>
-    <lastmod>2019-06-18T11:28:26+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/authors/renske-bouwer/</loc>
     <lastmod>2019-06-18T11:28:26+02:00</lastmod>
   </url>
@@ -345,16 +355,6 @@
   <url>
     <loc>/authors/vincent-donche/</loc>
     <lastmod>2019-06-09T11:57:34+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/privacy/</loc>
-    <lastmod>2019-06-09T08:33:21+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2019-06-09T08:33:21+02:00</lastmod>
   </url>
   
   <url>
@@ -2004,6 +2004,11 @@
   
   <url>
     <loc>/tags/social-network-analysis/</loc>
+    <lastmod>2019-06-09T08:33:21+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
     <lastmod>2019-06-09T08:33:21+02:00</lastmod>
   </url>
   

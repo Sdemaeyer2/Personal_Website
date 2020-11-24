@@ -21,13 +21,15 @@ image:
 projects: []
 ---
 
+<link href="/rmarkdown-libs/anchor-sections/anchor-sections.css" rel="stylesheet" />
+<script src="/rmarkdown-libs/anchor-sections/anchor-sections.js"></script>
 
 
-<p>If you get confronted with colleagues that apply Bayesian analyses you’ll notice that they use a specific vocabulary: “prior distribution”, “posterior distribution”, “Highest Probability Density Intervals”, “MCMC”,… But what’s the meaning of these words? And how to make sense out of all these Bayesian mishmash? After some reading around (and learning of course) I started to get a first understanding of some key concepts. And now I want to share my insights with you.</p>
-<p>In this post I’ll try to explain the basics and explain <strong>4 key concepts</strong>. But before that, a short sidestep on the goal of stats (because sometimes we seem to forget).</p>
+<p>If you get confronted with colleagues that apply Bayesian analyses you'll notice that they use a specific vocabulary: &quot;prior distribution&quot;, &quot;posterior distribution&quot;, &quot;Highest Probability Density Intervals&quot;, &quot;MCMC&quot;,... But what's the meaning of these words? And how to make sense out of all these Bayesian mishmash? After some reading around (and learning of course) I started to get a first understanding of some key concepts. And now I want to share my insights with you.</p>
+<p>In this post I'll try to explain the basics and explain <strong>4 key concepts</strong>. But before that, a short sidestep on the goal of stats (because sometimes we seem to forget).</p>
 <div id="stats-why" class="section level1">
 <h1>Stats? Why?</h1>
-<p>To put it simple: stats help us to model reality in numbers and assist us in getting better insight in the world. Let’s say we have a major concern on the rise of <em>vampires</em> in Europe <a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a>. Rumours are getting spread saying that the almost 20% of the Europeans is actually a vampire, but nobody really has a good idea on the number of vampires. The major question then is: how many vampires are out there? This is a statistical question that can be approached by a pretty simple <em>model</em>: the proportion of vampires among the whole population of Europeans. This model only contains one unknown value: the actual proportion of vampires. This unknown value is what we often call <em>a parameter</em>. We can calculate the exact proportion in the exceptional case that we can test every single one of the whole European population. But that’s utopia. In research most of the time we make use of samples (we test a random choosen number of European citizens) and we do not calculate the exact parameter value. We <em>estimate</em> the parameter value. Statistics help us to estimate parameter values. But it does even more. Good statistics also <em>quantifies the (un)certainty</em> on our parameter estimate(s)! If we apply this to our question concerning the proportion of vampires, we want statistics to help us quantify how certain we are about different proportions of vampires as the true proportion in the population.</p>
+<p>To put it simple: stats help us to model reality in numbers and assist us in getting better insight in the world. Let's say we have a major concern on the rise of <em>vampires</em> in Europe <a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a>. Rumours are getting spread saying that the almost 20% of the Europeans is actually a vampire, but nobody really has a good idea on the number of vampires. The major question then is: how many vampires are out there? This is a statistical question that can be approached by a pretty simple <em>model</em>: the proportion of vampires among the whole population of Europeans. This model only contains one unknown value: the actual proportion of vampires. This unknown value is what we often call <em>a parameter</em>. We can calculate the exact proportion in the exceptional case that we can test every single one of the whole European population. But that's utopia. In research most of the time we make use of samples (we test a random choosen number of European citizens) and we do not calculate the exact parameter value. We <em>estimate</em> the parameter value. Statistics help us to estimate parameter values. But it does even more. Good statistics also <em>quantifies the (un)certainty</em> on our parameter estimate(s)! If we apply this to our question concerning the proportion of vampires, we want statistics to help us quantify how certain we are about different proportions of vampires as the true proportion in the population.</p>
 <p>This brings us to our two first concepts from Bayesian analysis: priors and posteriors.</p>
 </div>
 <div id="priors-and-posteriors" class="section level1">
@@ -39,12 +41,12 @@ projects: []
 </blockquote>
 <p>Back to our example of vampires. A prior can quantify our prior knowledge on the probability that any possible proportion of vampires is the true proportion in Europe. Now, imagine that we do not have any clue before we start our research then each proportion has the same probability. The following plot shows our prior! Note that we have no data yet. So this graph visualizes our prior knowledge about the proportion of vampires.</p>
 <p><img src="/post/2019-07-03-how-to-understand-bayesian-analyses_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
-<p>Of course, in research we gather <strong>data</strong>. In our example we’re lucky that we have prof. dr. Van Helsing <a href="#fn2" class="footnoteRef" id="fnref2"><sup>2</sup></a>. He’s a famous professor who developed the ultimate <em>Vampire Test</em> that determines whether a person is a vampire or not. As a succesfull professor he was able to get research funding from the European Commission. In his step of the research he had the silly idea to gather data in a sample of n=1: he tested one random European citizen. And the result was that this random person is not a vampire. Now, given his data we can update our knowledge on our parameter. We now know that it is impossible that 100% of the Europeans are vampires. So we adapt our pior probability to what is called a posterior probability! The next plot shows what happens. The red area in the graph is our posterior distribution, demonstrating that we no longer assign any probability that the proportion of vampires is 100% and that the probabilities increase as the proportion of vampires decreases.</p>
+<p>Of course, in research we gather <strong>data</strong>. In our example we're lucky that we have prof. dr. Van Helsing <a href="#fn2" class="footnoteRef" id="fnref2"><sup>2</sup></a>. He's a famous professor who developed the ultimate <em>Vampire Test</em> that determines whether a person is a vampire or not. As a succesfull professor he was able to get research funding from the European Commission. In his step of the research he had the silly idea to gather data in a sample of n=1: he tested one random European citizen. And the result was that this random person is not a vampire. Now, given his data we can update our knowledge on our parameter. We now know that it is impossible that 100% of the Europeans are vampires. So we adapt our pior probability to what is called a posterior probability! The next plot shows what happens. The red area in the graph is our posterior distribution, demonstrating that we no longer assign any probability that the proportion of vampires is 100% and that the probabilities increase as the proportion of vampires decreases.</p>
 <p><img src="/post/2019-07-03-how-to-understand-bayesian-analyses_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
 <blockquote>
 <p>A posterior is a quantification of (un)certainty on parameter estimates that we have taking into account the information in the data that we gather.</p>
 </blockquote>
-<p>In work package 2 prof. dr. Van Helsing was able to draw a random sample of 200 Europeans and he applied his test. This resulted in data containing 21 vampires and 179 normal persons. This data can be used to update our knowledge on our parameter. The result is visualized in the next plot wher the curve (and area) plotted at line “n=200” is actually the posterior probability distribution for our parameter.</p>
+<p>In work package 2 prof. dr. Van Helsing was able to draw a random sample of 200 Europeans and he applied his test. This resulted in data containing 21 vampires and 179 normal persons. This data can be used to update our knowledge on our parameter. The result is visualized in the next plot wher the curve (and area) plotted at line &quot;n=200&quot; is actually the posterior probability distribution for our parameter.</p>
 <p><img src="/post/2019-07-03-how-to-understand-bayesian-analyses_files/figure-html/unnamed-chunk-4-1.png" width="672" /></p>
 <p>We can actually zoom in to our posterior distribution that looks like this:</p>
 <p><img src="/post/2019-07-03-how-to-understand-bayesian-analyses_files/figure-html/unnamed-chunk-5-1.png" width="672" /></p>
@@ -56,12 +58,12 @@ projects: []
 <blockquote>
 <p>An HPDI is an interval between two parameter values (limits) that contain the a predefined number of most plausible parameter values.</p>
 </blockquote>
-<p>This definition may sound a bit abstract, but if we apply it to our example it will hopefully become more clear. First, we have to define how large an interval we wish. For example, we could be interested in the 90% most plausible parameter estimates. So, we construct a 90% HPDI. Let’s apply this to our example:</p>
+<p>This definition may sound a bit abstract, but if we apply it to our example it will hopefully become more clear. First, we have to define how large an interval we wish. For example, we could be interested in the 90% most plausible parameter estimates. So, we construct a 90% HPDI. Let's apply this to our example:</p>
 <pre class="r"><code>quantile(Vamp_Posterior$Vamp_Posterior,c(0.05, 0.95))</code></pre>
 <pre><code>##         5%        95% 
 ## 0.07535876 0.14763525</code></pre>
 <p>Concerning the proportion of vampires our posterior learns us that the 90% most plausible proportions of vampires are situated between 7.5% and 14.7%. Notice that the 20% vampires in Europe, the number being mentioned in some rumours is not within this interval. As usual, do not always take rumours too seriously.</p>
-<p>Still one concept to go: MCMC. But before we can do this we should dive into the Bayesian Theorem as untill now we didn’t explain how we can update our priors to result in posteriors. The core of this proces is the Bayesian Theorem.</p>
+<p>Still one concept to go: MCMC. But before we can do this we should dive into the Bayesian Theorem as untill now we didn't explain how we can update our priors to result in posteriors. The core of this proces is the Bayesian Theorem.</p>
 </div>
 <div id="bayesian-theorem" class="section level1">
 <h1>Bayesian Theorem</h1>
@@ -69,9 +71,9 @@ projects: []
 <p><span class="math display">\[Pr(B|A) = \frac{Pr(A|B)*Pr(A)}{Pr(B)}\]</span></p>
 <p>That looks complex and is typical probability theory stuff. In textbooks on Bayesian analyses this theorem is explained into detail. But, in my opinion for now it is more interesting to show you how this theorem is applied on priors and posteriors. In Bayesian analysis we are interested in the probability of parameter values given the data, something we earlier on labeled as the posterior (probability). If we apply the Bayesian theorem to this probability then we can write it down like this:</p>
 <p><span class="math display">\[Pr(parameter|Data) = \frac{Pr(Data|parameter)*Pr(parameter)}{Pr(Data)}\]</span></p>
-<p>This formula states how we can calculate the posterior. If we replace some terms by more meaningful terms it can become more clear what’s happening:</p>
+<p>This formula states how we can calculate the posterior. If we replace some terms by more meaningful terms it can become more clear what's happening:</p>
 <p><span class="math display">\[Posterior = \frac{Pr(Data|parameter)*Prior}{Pr(Data)}\]</span></p>
-<p>How the other unknown terms are calculated <span class="math inline">\(Pr(Data|parameter)\)</span> and <span class="math inline">\(Pr(Data)\)</span> is something that can be learned in specific textbooks. More importantly I hope you get the idea! The only thing left to explain is how it works now. What does the estimation proces look like? Time to introduce MCMC…</p>
+<p>How the other unknown terms are calculated <span class="math inline">\(Pr(Data|parameter)\)</span> and <span class="math inline">\(Pr(Data)\)</span> is something that can be learned in specific textbooks. More importantly I hope you get the idea! The only thing left to explain is how it works now. What does the estimation proces look like? Time to introduce MCMC...</p>
 </div>
 <div id="mcmc" class="section level1">
 <h1>MCMC</h1>
@@ -84,11 +86,11 @@ projects: []
 </blockquote>
 <p>The take-away message is that this MCMC sampling is a more efficient way to sample combinations of parameter values. In Bayesian analysis this sampling technicque is applied and for each sample of parameter values the algorith calculates the posterior distribution. By repeating this sampling a large number of times we get enough information to build a completer picture of the posterior distribution for all parameter values.</p>
 </div>
-<div id="to-end" class="section level1">
-<h1>to end…</h1>
+<div id="to-end..." class="section level1">
+<h1>to end...</h1>
 <p>I hope you have some first impressions or ideas about the meaning of these key concepts in Bayesian analysis. Of course, it is way more complex than described in this blog. If you are triggered to learn more consider following sources (among the many out there).</p>
 <div id="some-urls" class="section level2">
-<h2>Some url’s</h2>
+<h2>Some url's</h2>
 <p><a href="https://rdrr.io/cran/brms/">https://rdrr.io/cran/brms/: info brms pakket</a></p>
 <p><a href="https://mjskay.github.io/tidybayes/index.html">https://mjskay.github.io/tidybayes/index.html: info tidybayes pakket</a></p>
 <p><a href="https://www.rensvandeschoot.com/bayesian-analysis-informed-priors/">https://www.rensvandeschoot.com/bayesian-analysis-informed-priors/: site van rens vandeschoot</a></p>
@@ -105,7 +107,7 @@ projects: []
 <hr />
 <ol>
 <li id="fn1"><p>Ok. We can have serious doubts about whether this is the best example to demonstrate how we <em>model reality</em><a href="#fnref1">↩</a></p></li>
-<li id="fn2"><p>Prof.dr. Van Helsing first appeared in the novel “Dracula”. He’s the vampire hunter.<a href="#fnref2">↩</a></p></li>
-<li id="fn3"><p>note that you still would have to decide how fine grained you want to do this (e.g. in steps of 1% each time resulting in 100 posterior probabilities or in steps of 0.0001% each time 1 000 000 posterior probabilities<a href="#fnref3">↩</a></p></li>
+<li id="fn2"><p>Prof.dr. Van Helsing first appeared in the novel &quot;Dracula&quot;. He's the vampire hunter.<a href="#fnref2">↩</a></p></li>
+<li id="fn3"><p>note that you still would have to decide how fine grained you want to do this (e.g. in steps of 1% each time resulting in 100 posterior probabilities or in steps of 0.0001% each time 1 000 000 posterior probabilities<a href="#fnref3">↩</a></p></li>
 </ol>
 </div>

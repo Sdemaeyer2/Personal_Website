@@ -18,23 +18,25 @@
       
       <guid>/post/compare-models/</guid>
       <description>
+&lt;link href=&#34;/rmarkdown-libs/anchor-sections/anchor-sections.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;/rmarkdown-libs/anchor-sections/anchor-sections.js&#34;&gt;&lt;/script&gt;
 
 
-&lt;p&gt;When researchers commonly apply statistical hypothesis testing they rely heavily on the fameous p-values. These p-values have the following meaning: &lt;em&gt;how big is the probability that I would encounter my data given that the null-hypothesis is true&lt;/em&gt; . So, actually, these statistical routines inform us on the null-hypothesis (which in most cases is simply the hypothesis that there is no effect or no difference at all). Many scholars have started to critizise this p-value oriented approach, discussing it’s risks and flaws. It has even brought the American Statistical Association to the point that they published a statement on p-values (&lt;a href=&#34;https://amstat.tandfonline.com/doi/full/10.1080/00031305.2016.1154108#.Xe5xppNKh26&#34;&gt;see article&lt;/a&gt;).&lt;/p&gt;
-&lt;p&gt;One critique that is expressed, refers to the goal of “good science”. According to &lt;span class=&#34;citation&#34;&gt;K. P. Burnham, Anderson, and Huyvaert (&lt;a href=&#34;#ref-Burnham_etal2010&#34;&gt;2011&lt;/a&gt;)&lt;/span&gt; good scientists “make a major effort to think hard about the science question and then define several plausible alternative hypotheses”. When we rely only on p-values we are actually defining two hypotheses: the null hypothesis (which in many cases doesn’t make sense anyway) and the alternative hypothesis. A better approach would be to formulate a set of alternative ‘working hypotheses’ and evaluate them.&lt;/p&gt;
+&lt;p&gt;When researchers commonly apply statistical hypothesis testing they rely heavily on the fameous p-values. These p-values have the following meaning: &lt;em&gt;how big is the probability that I would encounter my data given that the null-hypothesis is true&lt;/em&gt; . So, actually, these statistical routines inform us on the null-hypothesis (which in most cases is simply the hypothesis that there is no effect or no difference at all). Many scholars have started to critizise this p-value oriented approach, discussing it&#39;s risks and flaws. It has even brought the American Statistical Association to the point that they published a statement on p-values (&lt;a href=&#34;https://amstat.tandfonline.com/doi/full/10.1080/00031305.2016.1154108#.Xe5xppNKh26&#34;&gt;see article&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;One critique that is expressed, refers to the goal of &amp;quot;good science&amp;quot;. According to &lt;span class=&#34;citation&#34;&gt;K. P. Burnham, Anderson, and Huyvaert (&lt;a href=&#34;#ref-Burnham_etal2010&#34;&gt;2011&lt;/a&gt;)&lt;/span&gt; good scientists &amp;quot;make a major effort to think hard about the science question and then define several plausible alternative hypotheses&amp;quot;. When we rely only on p-values we are actually defining two hypotheses: the null hypothesis (which in many cases doesn&#39;t make sense anyway) and the alternative hypothesis. A better approach would be to formulate a set of alternative &#39;working hypotheses&#39; and evaluate them.&lt;/p&gt;
 &lt;p&gt;To criticize things is one thing. Providing solutions is something different. One of the upcoming alternatives is the idea of &lt;strong&gt;modelbased inference&lt;/strong&gt; or &lt;strong&gt;model selection&lt;/strong&gt;. The basic idea behind this approach is that a researcher translates alternative hypotheses in different statistical models. Based on measures coming from &lt;em&gt;information theory&lt;/em&gt; we then can express the probability of each of the different alternative models. Also, the evidence coming from different models can be combined to make inferences.&lt;/p&gt;
-&lt;p&gt;In this post we will give a short demo of how we can use such an approach. We will use this approach to inform us on who is right in a discussion that got out of hand…&lt;/p&gt;
+&lt;p&gt;In this post we will give a short demo of how we can use such an approach. We will use this approach to inform us on who is right in a discussion that got out of hand...&lt;/p&gt;
 &lt;hr /&gt;
 &lt;div id=&#34;the-story-of-kobe-bryant&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;The story of Kobe Bryant&lt;/h2&gt;
-&lt;p&gt;&lt;em&gt;The discussion was on basketball and it happened at the kitchen table of “a certain family”. More specifically, the discussion was on whether Kobe Bryant was one of the most consistent shotters ever in the NBA. One of the arguments was that his shotsucces was nearly influenced by any extraneous factor. But, which factors had an influence on Kobe Bryant’s shot succes? Let’s find out. Here we go with our &lt;/em&gt;statistical story&lt;em&gt;. We do our demonstration in R, making use of the &lt;code&gt;AICcmodavg&lt;/code&gt; package.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;The discussion was on basketball and it happened at the kitchen table of &amp;quot;a certain family&amp;quot;. More specifically, the discussion was on whether Kobe Bryant was one of the most consistent shotters ever in the NBA. One of the arguments was that his shotsucces was nearly influenced by any extraneous factor. But, which factors had an influence on Kobe Bryant&#39;s shot succes? Let&#39;s find out. Here we go with our &lt;/em&gt;statistical story&lt;em&gt;. We do our demonstration in R, making use of the &lt;code&gt;AICcmodavg&lt;/code&gt; package.&lt;/em&gt;&lt;/p&gt;
 &lt;div class=&#34;figure&#34;&gt;
 &lt;img src=&#34;/img/nba.jpg&#34; /&gt;
 
 &lt;/div&gt;
-&lt;p&gt;Data-analyses is big business in the NBA. In each team there is at least one data-analysist gathering data during games to make predictions. One of the things documented in datasets is the position from where a player takes a shot and whether the shot was a succes or not…&lt;/p&gt;
+&lt;p&gt;Data-analyses is big business in the NBA. In each team there is at least one data-analysist gathering data during games to make predictions. One of the things documented in datasets is the position from where a player takes a shot and whether the shot was a succes or not...&lt;/p&gt;
 &lt;p&gt;For our example we have data on each shot that Kobe Bryant took in his NBA-career. The data can be downloaded here (&lt;a href=&#34;/post/KobeBryant.RData&#34;&gt;download the data&lt;/a&gt;).&lt;/p&gt;
-&lt;p&gt;The variable &lt;strong&gt;‘Scored’&lt;/strong&gt; registers whether the shot was succesfull or not. A simple table shows the numbers…&lt;/p&gt;
+&lt;p&gt;The variable &lt;strong&gt;&#39;Scored&#39;&lt;/strong&gt; registers whether the shot was succesfull or not. A simple table shows the numbers...&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Scored (0 = missed, 1 = scored)
 table(KobeBryant$Scored)&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## 
@@ -42,10 +44,10 @@ table(KobeBryant$Scored)&lt;/code&gt;&lt;/pre&gt;
 ## 14232 11465&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Besides that variable, we also have the following variables:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;distance to the ring (&lt;strong&gt;‘Distance_in_m’&lt;/strong&gt;);&lt;/li&gt;
-&lt;li&gt;the quarter in which the shot was thrown (5 dummy variables: &lt;strong&gt;‘Q1’&lt;/strong&gt;, &lt;strong&gt;‘Q2’&lt;/strong&gt;, &lt;strong&gt;‘Q3’&lt;/strong&gt;, &lt;strong&gt;‘Q4’&lt;/strong&gt;, &lt;strong&gt;‘Extra’&lt;/strong&gt;);&lt;/li&gt;
-&lt;li&gt;the number of seconds on the shotclock (&lt;strong&gt;‘Shot_clock’&lt;/strong&gt;);&lt;/li&gt;
-&lt;li&gt;and a dummy variable for shots taken in the final 5 minutes of the game (&lt;strong&gt;‘Last_minutes’&lt;/strong&gt;).&lt;/li&gt;
+&lt;li&gt;distance to the ring (&lt;strong&gt;&#39;Distance_in_m&#39;&lt;/strong&gt;);&lt;/li&gt;
+&lt;li&gt;the quarter in which the shot was thrown (5 dummy variables: &lt;strong&gt;&#39;Q1&#39;&lt;/strong&gt;, &lt;strong&gt;&#39;Q2&#39;&lt;/strong&gt;, &lt;strong&gt;&#39;Q3&#39;&lt;/strong&gt;, &lt;strong&gt;&#39;Q4&#39;&lt;/strong&gt;, &lt;strong&gt;&#39;Extra&#39;&lt;/strong&gt;);&lt;/li&gt;
+&lt;li&gt;the number of seconds on the shotclock (&lt;strong&gt;&#39;Shot_clock&#39;&lt;/strong&gt;);&lt;/li&gt;
+&lt;li&gt;and a dummy variable for shots taken in the final 5 minutes of the game (&lt;strong&gt;&#39;Last_minutes&#39;&lt;/strong&gt;).&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;The structure of the data looks like this:&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;str(KobeBryant[, c(&amp;quot;Distance_in_m&amp;quot;,
@@ -64,17 +66,17 @@ table(KobeBryant$Scored)&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Which of these variables can predict shot accuracy?&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;the-experts-ideas&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;The experts’ ideas&lt;/h2&gt;
+&lt;h2&gt;The experts&#39; ideas&lt;/h2&gt;
 &lt;p&gt;We have 4 candidate explanatory variables.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;How to decide which variables to include in our model?&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Well, let’s consult the consultants (or the experts according to themselves), the two kids of the family and the mother.&lt;/p&gt;
+&lt;p&gt;Well, let&#39;s consult the consultants (or the experts according to themselves), the two kids of the family and the mother.&lt;/p&gt;
 &lt;p&gt;As one can expect, their opions are somewhat divergent:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;N. (‘basketball hater’) thinks that only distance to the ring is important.&lt;br /&gt;
+&lt;li&gt;N. (&#39;basketball hater&#39;) thinks that only distance to the ring is important.&lt;br /&gt;
 &lt;/li&gt;
-&lt;li&gt;T. (‘old school basketball playster’) thinks that besides distance to the ring also the number of seconds on the shot clock and the quarter in which the shot is fired, are important factors.&lt;br /&gt;
+&lt;li&gt;T. (&#39;old school basketball playster&#39;) thinks that besides distance to the ring also the number of seconds on the shot clock and the quarter in which the shot is fired, are important factors.&lt;br /&gt;
 &lt;/li&gt;
-&lt;li&gt;W. (‘Kobe Bryant-fan’) thinks that Kobe scores more in the final 5 minutes, no matter how far he is from the ring. Under stressfull situations Kobe was at his best, according to him.&lt;/li&gt;
+&lt;li&gt;W. (&#39;Kobe Bryant-fan&#39;) thinks that Kobe scores more in the final 5 minutes, no matter how far he is from the ring. Under stressfull situations Kobe was at his best, according to him.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;em&gt;These expert hypotheses can be translated in the following statistical models:&lt;/em&gt;&lt;/p&gt;
 &lt;hr /&gt;
@@ -107,7 +109,7 @@ table(KobeBryant$Scored)&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;em&gt;D = Distance_in_m ; SC = Shot_clock ; LM = Last_minutes&lt;/em&gt;&lt;/p&gt;
 &lt;hr /&gt;
 &lt;p&gt;These models are so-called &lt;em&gt;logistic models&lt;/em&gt; where we predict shotsucces (a categorical variable with two categories).&lt;/p&gt;
-&lt;p&gt;Let’s estimate each candidate model with &lt;code&gt;glm()&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Let&#39;s estimate each candidate model with &lt;code&gt;glm()&lt;/code&gt;.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;Model_N  &amp;lt;- glm(Scored ~ Distance_in_m, 
                    data = KobeBryant,  family=binomial())
 Model_T  &amp;lt;- glm(Scored ~ Distance_in_m + Q2 + Q3 + Q4 + Extra, 
@@ -121,9 +123,9 @@ Model_W &amp;lt;- glm(Scored ~ Distance_in_m + Last_minutes,
 &lt;p&gt;To evaluate the models, we can make use of different measures, but the most frequently used is the AIC. For our demo we rely on this AIC measure. But be aware that in certain situations AIC can be a sub-optimal choice (see &lt;span class=&#34;citation&#34;&gt;Symonds and Moussalli (&lt;a href=&#34;#ref-symonds2011brief&#34;&gt;2011&lt;/a&gt;)&lt;/span&gt;).&lt;/p&gt;
 &lt;p&gt;The AIC can be best defined as:&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;“… a numerical value by which to rank competing models in terms of information loss in approximating the unknowable truth” (&lt;span class=&#34;citation&#34;&gt;Symonds and Moussalli (&lt;a href=&#34;#ref-symonds2011brief&#34;&gt;2011&lt;/a&gt;)&lt;/span&gt;)&lt;/p&gt;
+&lt;p&gt;&amp;quot;... a numerical value by which to rank competing models in terms of information loss in approximating the unknowable truth&amp;quot; (&lt;span class=&#34;citation&#34;&gt;Symonds and Moussalli (&lt;a href=&#34;#ref-symonds2011brief&#34;&gt;2011&lt;/a&gt;)&lt;/span&gt;)&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;In R we can make use of the &lt;code&gt;aictab( )&lt;/code&gt; function from the &lt;code&gt;AICcmodavg&lt;/code&gt; package. The input for this function is a list of estimated models. Let’s apply it:&lt;/p&gt;
+&lt;p&gt;In R we can make use of the &lt;code&gt;aictab( )&lt;/code&gt; function from the &lt;code&gt;AICcmodavg&lt;/code&gt; package. The input for this function is a list of estimated models. Let&#39;s apply it:&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# install.packages(&amp;quot;AICcmodavg&amp;quot;, dependencies = T)
 
 library(AICcmodavg)
@@ -138,18 +140,18 @@ AICTAB&lt;/code&gt;&lt;/pre&gt;
 ## Model_W 3 34283.98      0.00  0.83   0.83 -17138.99
 ## Model_T 6 34287.17      3.19  0.17   1.00 -17137.58
 ## Model_N 2 34298.86     14.88  0.00   1.00 -17147.43&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;The table ranks the models from best to worst approximations of “the truth”. And the lower the AIC the better the model. So, in our case the Model of W (effect of &lt;strong&gt;Distance_in_m&lt;/strong&gt; and &lt;strong&gt;Last_minutes&lt;/strong&gt;) is ranked as best model. The second best model is the model of T (effect of &lt;strong&gt;Distance_in_m&lt;/strong&gt;, and the dummy-variables &lt;strong&gt;Q2&lt;/strong&gt; - &lt;strong&gt;Q4&lt;/strong&gt; &amp;amp; &lt;strong&gt;Extra&lt;/strong&gt;), a model that contains more predictors (see column &lt;code&gt;K&lt;/code&gt; in our table that prints the number of parameters including the intercept). Model N is ranked as poorest model.&lt;/p&gt;
-&lt;p&gt;The column &lt;code&gt;Delta_AIC&lt;/code&gt; gives us the distance in AIC between each model and the best ranked model respectively. So Model T’s AIC is 3.19 higher than Model W. The model of N results in an AIC that is 14.88 higher than the best ranked model (Model W).&lt;/p&gt;
+&lt;p&gt;The table ranks the models from best to worst approximations of &amp;quot;the truth&amp;quot;. And the lower the AIC the better the model. So, in our case the Model of W (effect of &lt;strong&gt;Distance_in_m&lt;/strong&gt; and &lt;strong&gt;Last_minutes&lt;/strong&gt;) is ranked as best model. The second best model is the model of T (effect of &lt;strong&gt;Distance_in_m&lt;/strong&gt;, and the dummy-variables &lt;strong&gt;Q2&lt;/strong&gt; - &lt;strong&gt;Q4&lt;/strong&gt; &amp;amp; &lt;strong&gt;Extra&lt;/strong&gt;), a model that contains more predictors (see column &lt;code&gt;K&lt;/code&gt; in our table that prints the number of parameters including the intercept). Model N is ranked as poorest model.&lt;/p&gt;
+&lt;p&gt;The column &lt;code&gt;Delta_AIC&lt;/code&gt; gives us the distance in AIC between each model and the best ranked model respectively. So Model T&#39;s AIC is 3.19 higher than Model W. The model of N results in an AIC that is 14.88 higher than the best ranked model (Model W).&lt;/p&gt;
 &lt;p&gt;If we look at the column &lt;code&gt;LL&lt;/code&gt; we get the &lt;em&gt;log-likelihoods&lt;/em&gt; for each model. Model T (the more complex model) has a higher LL than the model of W. This would favour the model of T. But, as Model W is more pasimonious it gets a lower AIC (where a correction is made on the number of parameters).&lt;/p&gt;
 &lt;p&gt;Another piece of information in our table is called the &lt;em&gt;Akaike Weight&lt;/em&gt; (column &lt;code&gt;AICwt&lt;/code&gt;). A simple interpretation of this weight is as follows. Model W, the best ranked model, has a &lt;code&gt;AICwt&lt;/code&gt; of 0.83. This indicates that this Model W has a 83% probability of being the best approximating model given the set of canditate models. Model T has a lower probability of being the best approximating model: only 16.8% (&lt;code&gt;AICwt&lt;/code&gt; = 0.168). The model of N has a very low probability of being the best approximating model (only 0.04%).&lt;/p&gt;
-&lt;p&gt;If we take all the information in our table into account, we could conclude that both models Model W and Model T are the two best models in our set of models, with Model W being the best approximating model. The evidence for a model that states that only distance to the ring is an important determinator for shot succes (Model N) is very low, so we can almast certainly conclude that distance isn’t all that matters.&lt;/p&gt;
+&lt;p&gt;If we take all the information in our table into account, we could conclude that both models Model W and Model T are the two best models in our set of models, with Model W being the best approximating model. The evidence for a model that states that only distance to the ring is an important determinator for shot succes (Model N) is very low, so we can almast certainly conclude that distance isn&#39;t all that matters.&lt;/p&gt;
 &lt;p&gt;But, can we really reject this model? Are there any guidelines? How to decide on which models to further use in our analyses to interpret the results? Should we choose one single model and continue our inferences based on that single model? There is no single answer to these questions, but, as &lt;span class=&#34;citation&#34;&gt;Symonds and Moussalli (&lt;a href=&#34;#ref-symonds2011brief&#34;&gt;2011&lt;/a&gt;)&lt;/span&gt; state:&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;“as a coarse guide, models with &lt;span class=&#34;math inline&#34;&gt;\(\Delta_i\)&lt;/span&gt; values less than 2 are considered to be essentially as good as the best model, and models with &lt;span class=&#34;math inline&#34;&gt;\(\Delta_i\)&lt;/span&gt; up to 6 should probably not be discounted (&lt;span class=&#34;citation&#34;&gt;Richards (&lt;a href=&#34;#ref-richards2005&#34;&gt;2005&lt;/a&gt;)&lt;/span&gt;). Above this, model rejection might be considered, and certainly models with &lt;span class=&#34;math inline&#34;&gt;\(\Delta_i\)&lt;/span&gt; values greater than 10 are sufficiently poorer than the best AIC model as to be considered implausible (&lt;span class=&#34;citation&#34;&gt;K. Burnham and Anderson (&lt;a href=&#34;#ref-burnham_anderson2002&#34;&gt;2002&lt;/a&gt;)&lt;/span&gt;).”&lt;/p&gt;
+&lt;p&gt;&amp;quot;as a coarse guide, models with &lt;span class=&#34;math inline&#34;&gt;\(\Delta_i\)&lt;/span&gt; values less than 2 are considered to be essentially as good as the best model, and models with &lt;span class=&#34;math inline&#34;&gt;\(\Delta_i\)&lt;/span&gt; up to 6 should probably not be discounted (&lt;span class=&#34;citation&#34;&gt;Richards (&lt;a href=&#34;#ref-richards2005&#34;&gt;2005&lt;/a&gt;)&lt;/span&gt;). Above this, model rejection might be considered, and certainly models with &lt;span class=&#34;math inline&#34;&gt;\(\Delta_i\)&lt;/span&gt; values greater than 10 are sufficiently poorer than the best AIC model as to be considered implausible (&lt;span class=&#34;citation&#34;&gt;K. Burnham and Anderson (&lt;a href=&#34;#ref-burnham_anderson2002&#34;&gt;2002&lt;/a&gt;)&lt;/span&gt;).&amp;quot;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;In this quote &lt;span class=&#34;math inline&#34;&gt;\(\Delta_i\)&lt;/span&gt; refers to the column &lt;code&gt;Delta_AIC&lt;/code&gt; in our table. Applying this coarse guide, we can conclude that we can only reject the model of N and that Model T should not be discounted.&lt;/p&gt;
-&lt;p&gt;Now that we know who’s expert at the kitchen table, we still do not know how e.g. distance influenced the shot succes of Kobe Bryant. It is a great thing that we have two possible models, but from which model do we need to extract our information to learn more about the influence of distance to the ring?&lt;/p&gt;
-&lt;p&gt;In the modelbased inference approach this is tackled by taking into account the relevant information from the different models. This is done by averaging the relevant parameter estimates, after weighting them according to Akaike’s weight for the models. Sounds a bit puzzling? In practice it is not that difficult. Here is the command we can use in R:&lt;/p&gt;
+&lt;p&gt;Now that we know who&#39;s expert at the kitchen table, we still do not know how e.g. distance influenced the shot succes of Kobe Bryant. It is a great thing that we have two possible models, but from which model do we need to extract our information to learn more about the influence of distance to the ring?&lt;/p&gt;
+&lt;p&gt;In the modelbased inference approach this is tackled by taking into account the relevant information from the different models. This is done by averaging the relevant parameter estimates, after weighting them according to Akaike&#39;s weight for the models. Sounds a bit puzzling? In practice it is not that difficult. Here is the command we can use in R:&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;modavg(cand.set = Candidate_models, second.ord = F, parm = &amp;quot;Distance_in_m&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## 
 ## Multimodel inference on &amp;quot;Distance_in_m&amp;quot; based on AIC
@@ -164,7 +166,7 @@ AICTAB&lt;/code&gt;&lt;/pre&gt;
 ## Model-averaged estimate: -0.14 
 ## Unconditional SE: 0 
 ## 95% Unconditional confidence interval: -0.15, -0.13&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;The column &lt;code&gt;Estimate&lt;/code&gt; contains the estimate of the effect of &lt;strong&gt;Distance_in_m&lt;/strong&gt; in each model where this variable is added. In each model the estimate is similar (-0.14). The &lt;code&gt;Model-averaged estimate&lt;/code&gt; is also -0.14. To calculate this average estimate, Model_W is given the highest weight (=0.83) and Model_N the lowest (&lt;span class=&#34;math inline&#34;&gt;\(\approx 0.00\)&lt;/span&gt;). The 95% confidence interval is also a ‘weighted version’, indicating in our case that we are pretty shure that distance towards the ring had a negative impact on the probability to succesfully throw the ball in the ring, even for a top-player like Kobe Bryant.&lt;/p&gt;
+&lt;p&gt;The column &lt;code&gt;Estimate&lt;/code&gt; contains the estimate of the effect of &lt;strong&gt;Distance_in_m&lt;/strong&gt; in each model where this variable is added. In each model the estimate is similar (-0.14). The &lt;code&gt;Model-averaged estimate&lt;/code&gt; is also -0.14. To calculate this average estimate, Model_W is given the highest weight (=0.83) and Model_N the lowest (&lt;span class=&#34;math inline&#34;&gt;\(\approx 0.00\)&lt;/span&gt;). The 95% confidence interval is also a &#39;weighted version&#39;, indicating in our case that we are pretty shure that distance towards the ring had a negative impact on the probability to succesfully throw the ball in the ring, even for a top-player like Kobe Bryant.&lt;/p&gt;
 &lt;p&gt;To get an idea of how shot succes is influenced by distance, we can plot our estimated model, making use of the &lt;code&gt;plot_model&lt;/code&gt; command from the package &lt;code&gt;sjPlot&lt;/code&gt;.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(sjPlot)
 Plot_probs &amp;lt;- plot_model(Model_W,
@@ -175,11 +177,11 @@ Plot_probs &amp;lt;- plot_model(Model_W,
 
 Plot_probs&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;img src=&#34;/post/2019-12-09-logisitscheregressie_files/figure-html/unnamed-chunk-7-1.png&#34; width=&#34;672&#34; height=&#34;80%&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;Seems that Kobe Bryant’s shots were quite accurate!&lt;/p&gt;
+&lt;p&gt;Seems that Kobe Bryant&#39;s shots were quite accurate!&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;to-conlcude&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;To conlcude&lt;/h2&gt;
-&lt;p&gt;The typical null-hypothesis significance testing is under pressure. One of the upcoming alternatives is making use of &lt;strong&gt;modelbased inference&lt;/strong&gt;. We hope you get a rough idea about how this approach can be applied. More in-depth reading is of course welcome. The references added in this post can help. A great read as well is Chapter 6 in THE book you must read on statistics: &lt;span class=&#34;citation&#34;&gt;McElreath (&lt;a href=&#34;#ref-mcelreath2018statistical&#34;&gt;2018&lt;/a&gt;)&lt;/span&gt;. This book is also nicely ‘recoded’ making use of modern packages in R in the following book: &lt;a href=&#34;https://bookdown.org/connect/#/apps/1850/access&#34;&gt;Statistical Rethinking Recoded&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The typical null-hypothesis significance testing is under pressure. One of the upcoming alternatives is making use of &lt;strong&gt;modelbased inference&lt;/strong&gt;. We hope you get a rough idea about how this approach can be applied. More in-depth reading is of course welcome. The references added in this post can help. A great read as well is Chapter 6 in THE book you must read on statistics: &lt;span class=&#34;citation&#34;&gt;McElreath (&lt;a href=&#34;#ref-mcelreath2018statistical&#34;&gt;2018&lt;/a&gt;)&lt;/span&gt;. This book is also nicely &#39;recoded&#39; making use of modern packages in R in the following book: &lt;a href=&#34;https://bookdown.org/connect/#/apps/1850/access&#34;&gt;Statistical Rethinking Recoded&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Have fun while leaRning!&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;references&#34; class=&#34;section level1 unnumbered&#34;&gt;
@@ -212,13 +214,15 @@ Plot_probs&lt;/code&gt;&lt;/pre&gt;
       
       <guid>/post/how-to-understand-bayesian-analyses/</guid>
       <description>
+&lt;link href=&#34;/rmarkdown-libs/anchor-sections/anchor-sections.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;/rmarkdown-libs/anchor-sections/anchor-sections.js&#34;&gt;&lt;/script&gt;
 
 
-&lt;p&gt;If you get confronted with colleagues that apply Bayesian analyses you’ll notice that they use a specific vocabulary: “prior distribution”, “posterior distribution”, “Highest Probability Density Intervals”, “MCMC”,… But what’s the meaning of these words? And how to make sense out of all these Bayesian mishmash? After some reading around (and learning of course) I started to get a first understanding of some key concepts. And now I want to share my insights with you.&lt;/p&gt;
-&lt;p&gt;In this post I’ll try to explain the basics and explain &lt;strong&gt;4 key concepts&lt;/strong&gt;. But before that, a short sidestep on the goal of stats (because sometimes we seem to forget).&lt;/p&gt;
+&lt;p&gt;If you get confronted with colleagues that apply Bayesian analyses you&#39;ll notice that they use a specific vocabulary: &amp;quot;prior distribution&amp;quot;, &amp;quot;posterior distribution&amp;quot;, &amp;quot;Highest Probability Density Intervals&amp;quot;, &amp;quot;MCMC&amp;quot;,... But what&#39;s the meaning of these words? And how to make sense out of all these Bayesian mishmash? After some reading around (and learning of course) I started to get a first understanding of some key concepts. And now I want to share my insights with you.&lt;/p&gt;
+&lt;p&gt;In this post I&#39;ll try to explain the basics and explain &lt;strong&gt;4 key concepts&lt;/strong&gt;. But before that, a short sidestep on the goal of stats (because sometimes we seem to forget).&lt;/p&gt;
 &lt;div id=&#34;stats-why&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Stats? Why?&lt;/h1&gt;
-&lt;p&gt;To put it simple: stats help us to model reality in numbers and assist us in getting better insight in the world. Let’s say we have a major concern on the rise of &lt;em&gt;vampires&lt;/em&gt; in Europe &lt;a href=&#34;#fn1&#34; class=&#34;footnoteRef&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;. Rumours are getting spread saying that the almost 20% of the Europeans is actually a vampire, but nobody really has a good idea on the number of vampires. The major question then is: how many vampires are out there? This is a statistical question that can be approached by a pretty simple &lt;em&gt;model&lt;/em&gt;: the proportion of vampires among the whole population of Europeans. This model only contains one unknown value: the actual proportion of vampires. This unknown value is what we often call &lt;em&gt;a parameter&lt;/em&gt;. We can calculate the exact proportion in the exceptional case that we can test every single one of the whole European population. But that’s utopia. In research most of the time we make use of samples (we test a random choosen number of European citizens) and we do not calculate the exact parameter value. We &lt;em&gt;estimate&lt;/em&gt; the parameter value. Statistics help us to estimate parameter values. But it does even more. Good statistics also &lt;em&gt;quantifies the (un)certainty&lt;/em&gt; on our parameter estimate(s)! If we apply this to our question concerning the proportion of vampires, we want statistics to help us quantify how certain we are about different proportions of vampires as the true proportion in the population.&lt;/p&gt;
+&lt;p&gt;To put it simple: stats help us to model reality in numbers and assist us in getting better insight in the world. Let&#39;s say we have a major concern on the rise of &lt;em&gt;vampires&lt;/em&gt; in Europe &lt;a href=&#34;#fn1&#34; class=&#34;footnoteRef&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;. Rumours are getting spread saying that the almost 20% of the Europeans is actually a vampire, but nobody really has a good idea on the number of vampires. The major question then is: how many vampires are out there? This is a statistical question that can be approached by a pretty simple &lt;em&gt;model&lt;/em&gt;: the proportion of vampires among the whole population of Europeans. This model only contains one unknown value: the actual proportion of vampires. This unknown value is what we often call &lt;em&gt;a parameter&lt;/em&gt;. We can calculate the exact proportion in the exceptional case that we can test every single one of the whole European population. But that&#39;s utopia. In research most of the time we make use of samples (we test a random choosen number of European citizens) and we do not calculate the exact parameter value. We &lt;em&gt;estimate&lt;/em&gt; the parameter value. Statistics help us to estimate parameter values. But it does even more. Good statistics also &lt;em&gt;quantifies the (un)certainty&lt;/em&gt; on our parameter estimate(s)! If we apply this to our question concerning the proportion of vampires, we want statistics to help us quantify how certain we are about different proportions of vampires as the true proportion in the population.&lt;/p&gt;
 &lt;p&gt;This brings us to our two first concepts from Bayesian analysis: priors and posteriors.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;priors-and-posteriors&#34; class=&#34;section level1&#34;&gt;
@@ -230,12 +234,12 @@ Plot_probs&lt;/code&gt;&lt;/pre&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Back to our example of vampires. A prior can quantify our prior knowledge on the probability that any possible proportion of vampires is the true proportion in Europe. Now, imagine that we do not have any clue before we start our research then each proportion has the same probability. The following plot shows our prior! Note that we have no data yet. So this graph visualizes our prior knowledge about the proportion of vampires.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/post/2019-07-03-how-to-understand-bayesian-analyses_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;Of course, in research we gather &lt;strong&gt;data&lt;/strong&gt;. In our example we’re lucky that we have prof. dr. Van Helsing &lt;a href=&#34;#fn2&#34; class=&#34;footnoteRef&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;. He’s a famous professor who developed the ultimate &lt;em&gt;Vampire Test&lt;/em&gt; that determines whether a person is a vampire or not. As a succesfull professor he was able to get research funding from the European Commission. In his step of the research he had the silly idea to gather data in a sample of n=1: he tested one random European citizen. And the result was that this random person is not a vampire. Now, given his data we can update our knowledge on our parameter. We now know that it is impossible that 100% of the Europeans are vampires. So we adapt our pior probability to what is called a posterior probability! The next plot shows what happens. The red area in the graph is our posterior distribution, demonstrating that we no longer assign any probability that the proportion of vampires is 100% and that the probabilities increase as the proportion of vampires decreases.&lt;/p&gt;
+&lt;p&gt;Of course, in research we gather &lt;strong&gt;data&lt;/strong&gt;. In our example we&#39;re lucky that we have prof. dr. Van Helsing &lt;a href=&#34;#fn2&#34; class=&#34;footnoteRef&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;. He&#39;s a famous professor who developed the ultimate &lt;em&gt;Vampire Test&lt;/em&gt; that determines whether a person is a vampire or not. As a succesfull professor he was able to get research funding from the European Commission. In his step of the research he had the silly idea to gather data in a sample of n=1: he tested one random European citizen. And the result was that this random person is not a vampire. Now, given his data we can update our knowledge on our parameter. We now know that it is impossible that 100% of the Europeans are vampires. So we adapt our pior probability to what is called a posterior probability! The next plot shows what happens. The red area in the graph is our posterior distribution, demonstrating that we no longer assign any probability that the proportion of vampires is 100% and that the probabilities increase as the proportion of vampires decreases.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/post/2019-07-03-how-to-understand-bayesian-analyses_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;A posterior is a quantification of (un)certainty on parameter estimates that we have taking into account the information in the data that we gather.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;In work package 2 prof. dr. Van Helsing was able to draw a random sample of 200 Europeans and he applied his test. This resulted in data containing 21 vampires and 179 normal persons. This data can be used to update our knowledge on our parameter. The result is visualized in the next plot wher the curve (and area) plotted at line “n=200” is actually the posterior probability distribution for our parameter.&lt;/p&gt;
+&lt;p&gt;In work package 2 prof. dr. Van Helsing was able to draw a random sample of 200 Europeans and he applied his test. This resulted in data containing 21 vampires and 179 normal persons. This data can be used to update our knowledge on our parameter. The result is visualized in the next plot wher the curve (and area) plotted at line &amp;quot;n=200&amp;quot; is actually the posterior probability distribution for our parameter.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/post/2019-07-03-how-to-understand-bayesian-analyses_files/figure-html/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;We can actually zoom in to our posterior distribution that looks like this:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/post/2019-07-03-how-to-understand-bayesian-analyses_files/figure-html/unnamed-chunk-5-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
@@ -247,12 +251,12 @@ Plot_probs&lt;/code&gt;&lt;/pre&gt;
 &lt;blockquote&gt;
 &lt;p&gt;An HPDI is an interval between two parameter values (limits) that contain the a predefined number of most plausible parameter values.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;This definition may sound a bit abstract, but if we apply it to our example it will hopefully become more clear. First, we have to define how large an interval we wish. For example, we could be interested in the 90% most plausible parameter estimates. So, we construct a 90% HPDI. Let’s apply this to our example:&lt;/p&gt;
+&lt;p&gt;This definition may sound a bit abstract, but if we apply it to our example it will hopefully become more clear. First, we have to define how large an interval we wish. For example, we could be interested in the 90% most plausible parameter estimates. So, we construct a 90% HPDI. Let&#39;s apply this to our example:&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;quantile(Vamp_Posterior$Vamp_Posterior,c(0.05, 0.95))&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;##         5%        95% 
 ## 0.07535876 0.14763525&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Concerning the proportion of vampires our posterior learns us that the 90% most plausible proportions of vampires are situated between 7.5% and 14.7%. Notice that the 20% vampires in Europe, the number being mentioned in some rumours is not within this interval. As usual, do not always take rumours too seriously.&lt;/p&gt;
-&lt;p&gt;Still one concept to go: MCMC. But before we can do this we should dive into the Bayesian Theorem as untill now we didn’t explain how we can update our priors to result in posteriors. The core of this proces is the Bayesian Theorem.&lt;/p&gt;
+&lt;p&gt;Still one concept to go: MCMC. But before we can do this we should dive into the Bayesian Theorem as untill now we didn&#39;t explain how we can update our priors to result in posteriors. The core of this proces is the Bayesian Theorem.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;bayesian-theorem&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Bayesian Theorem&lt;/h1&gt;
@@ -260,9 +264,9 @@ Plot_probs&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[Pr(B|A) = \frac{Pr(A|B)*Pr(A)}{Pr(B)}\]&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;That looks complex and is typical probability theory stuff. In textbooks on Bayesian analyses this theorem is explained into detail. But, in my opinion for now it is more interesting to show you how this theorem is applied on priors and posteriors. In Bayesian analysis we are interested in the probability of parameter values given the data, something we earlier on labeled as the posterior (probability). If we apply the Bayesian theorem to this probability then we can write it down like this:&lt;/p&gt;
 &lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[Pr(parameter|Data) = \frac{Pr(Data|parameter)*Pr(parameter)}{Pr(Data)}\]&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;This formula states how we can calculate the posterior. If we replace some terms by more meaningful terms it can become more clear what’s happening:&lt;/p&gt;
+&lt;p&gt;This formula states how we can calculate the posterior. If we replace some terms by more meaningful terms it can become more clear what&#39;s happening:&lt;/p&gt;
 &lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[Posterior = \frac{Pr(Data|parameter)*Prior}{Pr(Data)}\]&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;How the other unknown terms are calculated &lt;span class=&#34;math inline&#34;&gt;\(Pr(Data|parameter)\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(Pr(Data)\)&lt;/span&gt; is something that can be learned in specific textbooks. More importantly I hope you get the idea! The only thing left to explain is how it works now. What does the estimation proces look like? Time to introduce MCMC…&lt;/p&gt;
+&lt;p&gt;How the other unknown terms are calculated &lt;span class=&#34;math inline&#34;&gt;\(Pr(Data|parameter)\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(Pr(Data)\)&lt;/span&gt; is something that can be learned in specific textbooks. More importantly I hope you get the idea! The only thing left to explain is how it works now. What does the estimation proces look like? Time to introduce MCMC...&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;mcmc&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;MCMC&lt;/h1&gt;
@@ -275,11 +279,11 @@ Plot_probs&lt;/code&gt;&lt;/pre&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;The take-away message is that this MCMC sampling is a more efficient way to sample combinations of parameter values. In Bayesian analysis this sampling technicque is applied and for each sample of parameter values the algorith calculates the posterior distribution. By repeating this sampling a large number of times we get enough information to build a completer picture of the posterior distribution for all parameter values.&lt;/p&gt;
 &lt;/div&gt;
-&lt;div id=&#34;to-end&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;to end…&lt;/h1&gt;
+&lt;div id=&#34;to-end...&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;to end...&lt;/h1&gt;
 &lt;p&gt;I hope you have some first impressions or ideas about the meaning of these key concepts in Bayesian analysis. Of course, it is way more complex than described in this blog. If you are triggered to learn more consider following sources (among the many out there).&lt;/p&gt;
 &lt;div id=&#34;some-urls&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Some url’s&lt;/h2&gt;
+&lt;h2&gt;Some url&#39;s&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://rdrr.io/cran/brms/&#34;&gt;https://rdrr.io/cran/brms/: info brms pakket&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://mjskay.github.io/tidybayes/index.html&#34;&gt;https://mjskay.github.io/tidybayes/index.html: info tidybayes pakket&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.rensvandeschoot.com/bayesian-analysis-informed-priors/&#34;&gt;https://www.rensvandeschoot.com/bayesian-analysis-informed-priors/: site van rens vandeschoot&lt;/a&gt;&lt;/p&gt;
@@ -296,8 +300,8 @@ Plot_probs&lt;/code&gt;&lt;/pre&gt;
 &lt;hr /&gt;
 &lt;ol&gt;
 &lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;Ok. We can have serious doubts about whether this is the best example to demonstrate how we &lt;em&gt;model reality&lt;/em&gt;&lt;a href=&#34;#fnref1&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;Prof.dr. Van Helsing first appeared in the novel “Dracula”. He’s the vampire hunter.&lt;a href=&#34;#fnref2&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li id=&#34;fn3&#34;&gt;&lt;p&gt;note that you still would have to decide how fine grained you want to do this (e.g. in steps of 1% each time resulting in 100 posterior probabilities or in steps of 0.0001% each time 1 000 000 posterior probabilities&lt;a href=&#34;#fnref3&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;Prof.dr. Van Helsing first appeared in the novel &amp;quot;Dracula&amp;quot;. He&#39;s the vampire hunter.&lt;a href=&#34;#fnref2&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn3&#34;&gt;&lt;p&gt;note that you still would have to decide how fine grained you want to do this (e.g. in steps of 1% each time resulting in 100 posterior probabilities or in steps of 0.0001% each time 1 000 000 posterior probabilities&lt;a href=&#34;#fnref3&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
 </description>

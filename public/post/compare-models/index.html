@@ -28,7 +28,7 @@
   
     
   
-  <meta name="description" content="When researchers commonly apply statistical hypothesis testing they rely heavily on the fameous p-values. These p-values have the following meaning: how big is the probability that I would encounter my data given that the null-hypothesis is true . So, actually, these statistical routines inform us on the null-hypothesis (which in most cases is simply the hypothesis that there is no effect or no difference at all). Many scholars have started to critizise this p-value oriented approach, discussing it’s risks and flaws.">
+  <meta name="description" content="When researchers commonly apply statistical hypothesis testing they rely heavily on the fameous p-values. These p-values have the following meaning: how big is the probability that I would encounter my data given that the null-hypothesis is true . So, actually, these statistical routines inform us on the null-hypothesis (which in most cases is simply the hypothesis that there is no effect or no difference at all). Many scholars have started to critizise this p-value oriented approach, discussing it&#39;s risks and flaws.">
 
   
   <link rel="alternate" hreflang="en-us" href="/post/compare-models/">
@@ -127,7 +127,7 @@
   <meta property="og:site_name" content="Sven De Maeyer">
   <meta property="og:url" content="/post/compare-models/">
   <meta property="og:title" content="To model is to compare | Sven De Maeyer">
-  <meta property="og:description" content="When researchers commonly apply statistical hypothesis testing they rely heavily on the fameous p-values. These p-values have the following meaning: how big is the probability that I would encounter my data given that the null-hypothesis is true . So, actually, these statistical routines inform us on the null-hypothesis (which in most cases is simply the hypothesis that there is no effect or no difference at all). Many scholars have started to critizise this p-value oriented approach, discussing it’s risks and flaws."><meta property="og:image" content="/img/icon-192.png">
+  <meta property="og:description" content="When researchers commonly apply statistical hypothesis testing they rely heavily on the fameous p-values. These p-values have the following meaning: how big is the probability that I would encounter my data given that the null-hypothesis is true . So, actually, these statistical routines inform us on the null-hypothesis (which in most cases is simply the hypothesis that there is no effect or no difference at all). Many scholars have started to critizise this p-value oriented approach, discussing it&#39;s risks and flaws."><meta property="og:image" content="/img/icon-192.png">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2019-12-09T00:00:00&#43;00:00">
@@ -570,23 +570,25 @@
 
     <div class="article-style" itemprop="articleBody">
       
+<link href="/rmarkdown-libs/anchor-sections/anchor-sections.css" rel="stylesheet" />
+<script src="/rmarkdown-libs/anchor-sections/anchor-sections.js"></script>
 
 
-<p>When researchers commonly apply statistical hypothesis testing they rely heavily on the fameous p-values. These p-values have the following meaning: <em>how big is the probability that I would encounter my data given that the null-hypothesis is true</em> . So, actually, these statistical routines inform us on the null-hypothesis (which in most cases is simply the hypothesis that there is no effect or no difference at all). Many scholars have started to critizise this p-value oriented approach, discussing it’s risks and flaws. It has even brought the American Statistical Association to the point that they published a statement on p-values (<a href="https://amstat.tandfonline.com/doi/full/10.1080/00031305.2016.1154108#.Xe5xppNKh26">see article</a>).</p>
-<p>One critique that is expressed, refers to the goal of “good science”. According to <span class="citation">K. P. Burnham, Anderson, and Huyvaert (<a href="#ref-Burnham_etal2010">2011</a>)</span> good scientists “make a major effort to think hard about the science question and then define several plausible alternative hypotheses”. When we rely only on p-values we are actually defining two hypotheses: the null hypothesis (which in many cases doesn’t make sense anyway) and the alternative hypothesis. A better approach would be to formulate a set of alternative ‘working hypotheses’ and evaluate them.</p>
+<p>When researchers commonly apply statistical hypothesis testing they rely heavily on the fameous p-values. These p-values have the following meaning: <em>how big is the probability that I would encounter my data given that the null-hypothesis is true</em> . So, actually, these statistical routines inform us on the null-hypothesis (which in most cases is simply the hypothesis that there is no effect or no difference at all). Many scholars have started to critizise this p-value oriented approach, discussing it's risks and flaws. It has even brought the American Statistical Association to the point that they published a statement on p-values (<a href="https://amstat.tandfonline.com/doi/full/10.1080/00031305.2016.1154108#.Xe5xppNKh26">see article</a>).</p>
+<p>One critique that is expressed, refers to the goal of &quot;good science&quot;. According to <span class="citation">K. P. Burnham, Anderson, and Huyvaert (<a href="#ref-Burnham_etal2010">2011</a>)</span> good scientists &quot;make a major effort to think hard about the science question and then define several plausible alternative hypotheses&quot;. When we rely only on p-values we are actually defining two hypotheses: the null hypothesis (which in many cases doesn't make sense anyway) and the alternative hypothesis. A better approach would be to formulate a set of alternative 'working hypotheses' and evaluate them.</p>
 <p>To criticize things is one thing. Providing solutions is something different. One of the upcoming alternatives is the idea of <strong>modelbased inference</strong> or <strong>model selection</strong>. The basic idea behind this approach is that a researcher translates alternative hypotheses in different statistical models. Based on measures coming from <em>information theory</em> we then can express the probability of each of the different alternative models. Also, the evidence coming from different models can be combined to make inferences.</p>
-<p>In this post we will give a short demo of how we can use such an approach. We will use this approach to inform us on who is right in a discussion that got out of hand…</p>
+<p>In this post we will give a short demo of how we can use such an approach. We will use this approach to inform us on who is right in a discussion that got out of hand...</p>
 <hr />
 <div id="the-story-of-kobe-bryant" class="section level2">
 <h2>The story of Kobe Bryant</h2>
-<p><em>The discussion was on basketball and it happened at the kitchen table of “a certain family”. More specifically, the discussion was on whether Kobe Bryant was one of the most consistent shotters ever in the NBA. One of the arguments was that his shotsucces was nearly influenced by any extraneous factor. But, which factors had an influence on Kobe Bryant’s shot succes? Let’s find out. Here we go with our </em>statistical story<em>. We do our demonstration in R, making use of the <code>AICcmodavg</code> package.</em></p>
+<p><em>The discussion was on basketball and it happened at the kitchen table of &quot;a certain family&quot;. More specifically, the discussion was on whether Kobe Bryant was one of the most consistent shotters ever in the NBA. One of the arguments was that his shotsucces was nearly influenced by any extraneous factor. But, which factors had an influence on Kobe Bryant's shot succes? Let's find out. Here we go with our </em>statistical story<em>. We do our demonstration in R, making use of the <code>AICcmodavg</code> package.</em></p>
 <div class="figure">
 <img src="/img/nba.jpg" />
 
 </div>
-<p>Data-analyses is big business in the NBA. In each team there is at least one data-analysist gathering data during games to make predictions. One of the things documented in datasets is the position from where a player takes a shot and whether the shot was a succes or not…</p>
+<p>Data-analyses is big business in the NBA. In each team there is at least one data-analysist gathering data during games to make predictions. One of the things documented in datasets is the position from where a player takes a shot and whether the shot was a succes or not...</p>
 <p>For our example we have data on each shot that Kobe Bryant took in his NBA-career. The data can be downloaded here (<a href="/post/KobeBryant.RData">download the data</a>).</p>
-<p>The variable <strong>‘Scored’</strong> registers whether the shot was succesfull or not. A simple table shows the numbers…</p>
+<p>The variable <strong>'Scored'</strong> registers whether the shot was succesfull or not. A simple table shows the numbers...</p>
 <pre class="r"><code># Scored (0 = missed, 1 = scored)
 table(KobeBryant$Scored)</code></pre>
 <pre><code>## 
@@ -594,10 +596,10 @@ table(KobeBryant$Scored)</code></pre>
 ## 14232 11465</code></pre>
 <p>Besides that variable, we also have the following variables:</p>
 <ul>
-<li>distance to the ring (<strong>‘Distance_in_m’</strong>);</li>
-<li>the quarter in which the shot was thrown (5 dummy variables: <strong>‘Q1’</strong>, <strong>‘Q2’</strong>, <strong>‘Q3’</strong>, <strong>‘Q4’</strong>, <strong>‘Extra’</strong>);</li>
-<li>the number of seconds on the shotclock (<strong>‘Shot_clock’</strong>);</li>
-<li>and a dummy variable for shots taken in the final 5 minutes of the game (<strong>‘Last_minutes’</strong>).</li>
+<li>distance to the ring (<strong>'Distance_in_m'</strong>);</li>
+<li>the quarter in which the shot was thrown (5 dummy variables: <strong>'Q1'</strong>, <strong>'Q2'</strong>, <strong>'Q3'</strong>, <strong>'Q4'</strong>, <strong>'Extra'</strong>);</li>
+<li>the number of seconds on the shotclock (<strong>'Shot_clock'</strong>);</li>
+<li>and a dummy variable for shots taken in the final 5 minutes of the game (<strong>'Last_minutes'</strong>).</li>
 </ul>
 <p>The structure of the data looks like this:</p>
 <pre class="r"><code>str(KobeBryant[, c(&quot;Distance_in_m&quot;,
@@ -616,17 +618,17 @@ table(KobeBryant$Scored)</code></pre>
 <p>Which of these variables can predict shot accuracy?</p>
 </div>
 <div id="the-experts-ideas" class="section level2">
-<h2>The experts’ ideas</h2>
+<h2>The experts' ideas</h2>
 <p>We have 4 candidate explanatory variables.</p>
 <p><em>How to decide which variables to include in our model?</em></p>
-<p>Well, let’s consult the consultants (or the experts according to themselves), the two kids of the family and the mother.</p>
+<p>Well, let's consult the consultants (or the experts according to themselves), the two kids of the family and the mother.</p>
 <p>As one can expect, their opions are somewhat divergent:</p>
 <ul>
-<li>N. (‘basketball hater’) thinks that only distance to the ring is important.<br />
+<li>N. ('basketball hater') thinks that only distance to the ring is important.<br />
 </li>
-<li>T. (‘old school basketball playster’) thinks that besides distance to the ring also the number of seconds on the shot clock and the quarter in which the shot is fired, are important factors.<br />
+<li>T. ('old school basketball playster') thinks that besides distance to the ring also the number of seconds on the shot clock and the quarter in which the shot is fired, are important factors.<br />
 </li>
-<li>W. (‘Kobe Bryant-fan’) thinks that Kobe scores more in the final 5 minutes, no matter how far he is from the ring. Under stressfull situations Kobe was at his best, according to him.</li>
+<li>W. ('Kobe Bryant-fan') thinks that Kobe scores more in the final 5 minutes, no matter how far he is from the ring. Under stressfull situations Kobe was at his best, according to him.</li>
 </ul>
 <p><em>These expert hypotheses can be translated in the following statistical models:</em></p>
 <hr />
@@ -659,7 +661,7 @@ table(KobeBryant$Scored)</code></pre>
 <p><em>D = Distance_in_m ; SC = Shot_clock ; LM = Last_minutes</em></p>
 <hr />
 <p>These models are so-called <em>logistic models</em> where we predict shotsucces (a categorical variable with two categories).</p>
-<p>Let’s estimate each candidate model with <code>glm()</code>.</p>
+<p>Let's estimate each candidate model with <code>glm()</code>.</p>
 <pre class="r"><code>Model_N  &lt;- glm(Scored ~ Distance_in_m, 
                    data = KobeBryant,  family=binomial())
 Model_T  &lt;- glm(Scored ~ Distance_in_m + Q2 + Q3 + Q4 + Extra, 
@@ -673,9 +675,9 @@ Model_W &lt;- glm(Scored ~ Distance_in_m + Last_minutes,
 <p>To evaluate the models, we can make use of different measures, but the most frequently used is the AIC. For our demo we rely on this AIC measure. But be aware that in certain situations AIC can be a sub-optimal choice (see <span class="citation">Symonds and Moussalli (<a href="#ref-symonds2011brief">2011</a>)</span>).</p>
 <p>The AIC can be best defined as:</p>
 <blockquote>
-<p>“… a numerical value by which to rank competing models in terms of information loss in approximating the unknowable truth” (<span class="citation">Symonds and Moussalli (<a href="#ref-symonds2011brief">2011</a>)</span>)</p>
+<p>&quot;... a numerical value by which to rank competing models in terms of information loss in approximating the unknowable truth&quot; (<span class="citation">Symonds and Moussalli (<a href="#ref-symonds2011brief">2011</a>)</span>)</p>
 </blockquote>
-<p>In R we can make use of the <code>aictab( )</code> function from the <code>AICcmodavg</code> package. The input for this function is a list of estimated models. Let’s apply it:</p>
+<p>In R we can make use of the <code>aictab( )</code> function from the <code>AICcmodavg</code> package. The input for this function is a list of estimated models. Let's apply it:</p>
 <pre class="r"><code># install.packages(&quot;AICcmodavg&quot;, dependencies = T)
 
 library(AICcmodavg)
@@ -690,18 +692,18 @@ AICTAB</code></pre>
 ## Model_W 3 34283.98      0.00  0.83   0.83 -17138.99
 ## Model_T 6 34287.17      3.19  0.17   1.00 -17137.58
 ## Model_N 2 34298.86     14.88  0.00   1.00 -17147.43</code></pre>
-<p>The table ranks the models from best to worst approximations of “the truth”. And the lower the AIC the better the model. So, in our case the Model of W (effect of <strong>Distance_in_m</strong> and <strong>Last_minutes</strong>) is ranked as best model. The second best model is the model of T (effect of <strong>Distance_in_m</strong>, and the dummy-variables <strong>Q2</strong> - <strong>Q4</strong> &amp; <strong>Extra</strong>), a model that contains more predictors (see column <code>K</code> in our table that prints the number of parameters including the intercept). Model N is ranked as poorest model.</p>
-<p>The column <code>Delta_AIC</code> gives us the distance in AIC between each model and the best ranked model respectively. So Model T’s AIC is 3.19 higher than Model W. The model of N results in an AIC that is 14.88 higher than the best ranked model (Model W).</p>
+<p>The table ranks the models from best to worst approximations of &quot;the truth&quot;. And the lower the AIC the better the model. So, in our case the Model of W (effect of <strong>Distance_in_m</strong> and <strong>Last_minutes</strong>) is ranked as best model. The second best model is the model of T (effect of <strong>Distance_in_m</strong>, and the dummy-variables <strong>Q2</strong> - <strong>Q4</strong> &amp; <strong>Extra</strong>), a model that contains more predictors (see column <code>K</code> in our table that prints the number of parameters including the intercept). Model N is ranked as poorest model.</p>
+<p>The column <code>Delta_AIC</code> gives us the distance in AIC between each model and the best ranked model respectively. So Model T's AIC is 3.19 higher than Model W. The model of N results in an AIC that is 14.88 higher than the best ranked model (Model W).</p>
 <p>If we look at the column <code>LL</code> we get the <em>log-likelihoods</em> for each model. Model T (the more complex model) has a higher LL than the model of W. This would favour the model of T. But, as Model W is more pasimonious it gets a lower AIC (where a correction is made on the number of parameters).</p>
 <p>Another piece of information in our table is called the <em>Akaike Weight</em> (column <code>AICwt</code>). A simple interpretation of this weight is as follows. Model W, the best ranked model, has a <code>AICwt</code> of 0.83. This indicates that this Model W has a 83% probability of being the best approximating model given the set of canditate models. Model T has a lower probability of being the best approximating model: only 16.8% (<code>AICwt</code> = 0.168). The model of N has a very low probability of being the best approximating model (only 0.04%).</p>
-<p>If we take all the information in our table into account, we could conclude that both models Model W and Model T are the two best models in our set of models, with Model W being the best approximating model. The evidence for a model that states that only distance to the ring is an important determinator for shot succes (Model N) is very low, so we can almast certainly conclude that distance isn’t all that matters.</p>
+<p>If we take all the information in our table into account, we could conclude that both models Model W and Model T are the two best models in our set of models, with Model W being the best approximating model. The evidence for a model that states that only distance to the ring is an important determinator for shot succes (Model N) is very low, so we can almast certainly conclude that distance isn't all that matters.</p>
 <p>But, can we really reject this model? Are there any guidelines? How to decide on which models to further use in our analyses to interpret the results? Should we choose one single model and continue our inferences based on that single model? There is no single answer to these questions, but, as <span class="citation">Symonds and Moussalli (<a href="#ref-symonds2011brief">2011</a>)</span> state:</p>
 <blockquote>
-<p>“as a coarse guide, models with <span class="math inline">\(\Delta_i\)</span> values less than 2 are considered to be essentially as good as the best model, and models with <span class="math inline">\(\Delta_i\)</span> up to 6 should probably not be discounted (<span class="citation">Richards (<a href="#ref-richards2005">2005</a>)</span>). Above this, model rejection might be considered, and certainly models with <span class="math inline">\(\Delta_i\)</span> values greater than 10 are sufficiently poorer than the best AIC model as to be considered implausible (<span class="citation">K. Burnham and Anderson (<a href="#ref-burnham_anderson2002">2002</a>)</span>).”</p>
+<p>&quot;as a coarse guide, models with <span class="math inline">\(\Delta_i\)</span> values less than 2 are considered to be essentially as good as the best model, and models with <span class="math inline">\(\Delta_i\)</span> up to 6 should probably not be discounted (<span class="citation">Richards (<a href="#ref-richards2005">2005</a>)</span>). Above this, model rejection might be considered, and certainly models with <span class="math inline">\(\Delta_i\)</span> values greater than 10 are sufficiently poorer than the best AIC model as to be considered implausible (<span class="citation">K. Burnham and Anderson (<a href="#ref-burnham_anderson2002">2002</a>)</span>).&quot;</p>
 </blockquote>
 <p>In this quote <span class="math inline">\(\Delta_i\)</span> refers to the column <code>Delta_AIC</code> in our table. Applying this coarse guide, we can conclude that we can only reject the model of N and that Model T should not be discounted.</p>
-<p>Now that we know who’s expert at the kitchen table, we still do not know how e.g. distance influenced the shot succes of Kobe Bryant. It is a great thing that we have two possible models, but from which model do we need to extract our information to learn more about the influence of distance to the ring?</p>
-<p>In the modelbased inference approach this is tackled by taking into account the relevant information from the different models. This is done by averaging the relevant parameter estimates, after weighting them according to Akaike’s weight for the models. Sounds a bit puzzling? In practice it is not that difficult. Here is the command we can use in R:</p>
+<p>Now that we know who's expert at the kitchen table, we still do not know how e.g. distance influenced the shot succes of Kobe Bryant. It is a great thing that we have two possible models, but from which model do we need to extract our information to learn more about the influence of distance to the ring?</p>
+<p>In the modelbased inference approach this is tackled by taking into account the relevant information from the different models. This is done by averaging the relevant parameter estimates, after weighting them according to Akaike's weight for the models. Sounds a bit puzzling? In practice it is not that difficult. Here is the command we can use in R:</p>
 <pre class="r"><code>modavg(cand.set = Candidate_models, second.ord = F, parm = &quot;Distance_in_m&quot;)</code></pre>
 <pre><code>## 
 ## Multimodel inference on &quot;Distance_in_m&quot; based on AIC
@@ -716,7 +718,7 @@ AICTAB</code></pre>
 ## Model-averaged estimate: -0.14 
 ## Unconditional SE: 0 
 ## 95% Unconditional confidence interval: -0.15, -0.13</code></pre>
-<p>The column <code>Estimate</code> contains the estimate of the effect of <strong>Distance_in_m</strong> in each model where this variable is added. In each model the estimate is similar (-0.14). The <code>Model-averaged estimate</code> is also -0.14. To calculate this average estimate, Model_W is given the highest weight (=0.83) and Model_N the lowest (<span class="math inline">\(\approx 0.00\)</span>). The 95% confidence interval is also a ‘weighted version’, indicating in our case that we are pretty shure that distance towards the ring had a negative impact on the probability to succesfully throw the ball in the ring, even for a top-player like Kobe Bryant.</p>
+<p>The column <code>Estimate</code> contains the estimate of the effect of <strong>Distance_in_m</strong> in each model where this variable is added. In each model the estimate is similar (-0.14). The <code>Model-averaged estimate</code> is also -0.14. To calculate this average estimate, Model_W is given the highest weight (=0.83) and Model_N the lowest (<span class="math inline">\(\approx 0.00\)</span>). The 95% confidence interval is also a 'weighted version', indicating in our case that we are pretty shure that distance towards the ring had a negative impact on the probability to succesfully throw the ball in the ring, even for a top-player like Kobe Bryant.</p>
 <p>To get an idea of how shot succes is influenced by distance, we can plot our estimated model, making use of the <code>plot_model</code> command from the package <code>sjPlot</code>.</p>
 <pre class="r"><code>library(sjPlot)
 Plot_probs &lt;- plot_model(Model_W,
@@ -727,11 +729,11 @@ Plot_probs &lt;- plot_model(Model_W,
 
 Plot_probs</code></pre>
 <p><img src="/post/2019-12-09-logisitscheregressie_files/figure-html/unnamed-chunk-7-1.png" width="672" height="80%" /></p>
-<p>Seems that Kobe Bryant’s shots were quite accurate!</p>
+<p>Seems that Kobe Bryant's shots were quite accurate!</p>
 </div>
 <div id="to-conlcude" class="section level2">
 <h2>To conlcude</h2>
-<p>The typical null-hypothesis significance testing is under pressure. One of the upcoming alternatives is making use of <strong>modelbased inference</strong>. We hope you get a rough idea about how this approach can be applied. More in-depth reading is of course welcome. The references added in this post can help. A great read as well is Chapter 6 in THE book you must read on statistics: <span class="citation">McElreath (<a href="#ref-mcelreath2018statistical">2018</a>)</span>. This book is also nicely ‘recoded’ making use of modern packages in R in the following book: <a href="https://bookdown.org/connect/#/apps/1850/access">Statistical Rethinking Recoded</a>.</p>
+<p>The typical null-hypothesis significance testing is under pressure. One of the upcoming alternatives is making use of <strong>modelbased inference</strong>. We hope you get a rough idea about how this approach can be applied. More in-depth reading is of course welcome. The references added in this post can help. A great read as well is Chapter 6 in THE book you must read on statistics: <span class="citation">McElreath (<a href="#ref-mcelreath2018statistical">2018</a>)</span>. This book is also nicely 'recoded' making use of modern packages in R in the following book: <a href="https://bookdown.org/connect/#/apps/1850/access">Statistical Rethinking Recoded</a>.</p>
 <p>Have fun while leaRning!</p>
 </div>
 <div id="references" class="section level1 unnumbered">
@@ -920,10 +922,6 @@ Plot_probs</code></pre>
   
   <div class="container">
     <footer class="site-footer">
-  
-  <p class="powered-by">
-    <a href="/privacy/">Privacy Policy</a>
-  </p>
   
 
   <p class="powered-by">
