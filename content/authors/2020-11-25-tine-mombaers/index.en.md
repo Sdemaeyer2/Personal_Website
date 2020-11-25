@@ -11,7 +11,7 @@ organizations:
   url: "www.uantwerpen.be"
 role: phd Student
 interests:
-- Tine's phd project investigates the merits of learning by comparison in the context of argumentative writing. 
+- Tine's phd project investigates the merits of learning by comparison in the context of argumentative writing. [FWO Project](https://svendemaeyer.netlify.app/project/fwo_tine/)
 
 authors: []
 projects: [FWO_Tine]

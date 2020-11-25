@@ -17,5 +17,6 @@ superuser: false
 user_groups:
 - Researchers
 
+projects: [BofMarijn-project]
 ---
 
