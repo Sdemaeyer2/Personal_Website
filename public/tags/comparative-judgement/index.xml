@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Comparative Judgement on Sven De Maeyer</title>
+    <title>Comparative judgement on Sven De Maeyer</title>
     <link>/tags/comparative-judgement/</link>
-    <description>Recent content in Comparative Judgement on Sven De Maeyer</description>
+    <description>Recent content in Comparative judgement on Sven De Maeyer</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 24 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2020 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="/tags/comparative-judgement/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Learning by comparison: an effective instruction method for better writing education</title>
+      <link>/project/fwo_tine/</link>
+      <pubDate>Wed, 25 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/project/fwo_tine/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Modelling eye-tracking data in comparative judgement</title>
